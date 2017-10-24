@@ -1,0 +1,15 @@
+<template name="Health">
+	<view class="overflow">
+		<image src="http://www.allianz.cn/images/wxApplet/planinfo.png" class='fl big-icon'></image>
+		<text class="title fl">被保险人的健康声明</text>
+	</view>	
+	<view class="formGroup1">
+		<view class="item" wx:for="{{product.HealthList}}">
+			<text>{{item.text}}</text>
+			<view class="check">
+				<view class="{{healthStatement[~~index-1]?'active ' + themeColor:''}}" data-index="{{index}}" data-i="{{i}}" data-bool="1" bindtap="changeHealth">是</view>
+				<view class="{{!healthStatement[~~index-1]?'active ' + themeColor:''}}" data-index="{{index}}" data-i="{{i}}" data-bool="0" bindtap="changeHealth">否</view>
+			</view>
+		</view>
+	</view>
+</template>

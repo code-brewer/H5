@@ -1,0 +1,125 @@
+page {
+	height: 100%;
+}
+.container {
+	height: 100%;
+	background: #f2f2f2;
+	font-size: 14px;
+}
+.content {
+	padding: 10px;
+	background: white;
+}
+.head .title {
+	position: relative;
+}
+.head .title text {
+	color: white;
+	font-size: 14px;
+	line-height: 1.5;
+}
+.head .title .text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 83px;
+	padding: 20px;
+	padding-bottom: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.head .title .price {
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+}
+.personNum {
+	padding: 20px 10px 0;
+}
+.personNum .num {
+	line-height: 32px;
+	color: #f80;
+}
+.personNum .count {
+	float: right;
+}
+.personNum .count text {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #d6d6d6;
+	vertical-align: middle;
+}
+.personNum .count text:first-child {
+	border-right: 0;
+	border-radius: 5px 0 0 5px;
+}
+.personNum .count text:last-child {
+	border-left: 0;
+	border-radius: 0 5px 5px 0;
+}
+
+
+.form {
+	display: block;
+	margin-top: 20px;
+	padding: 0 10px;
+	background: white;
+}
+.form .row {
+	position: relative;
+	height: 40px;
+	padding: 5px 30px 5px 110px;
+}
+.form .row text {
+	position: absolute;
+	top: 5px;
+	left: 20px;
+	line-height: 40px;
+	color: #f80;
+}
+.form .row input {
+	display: block;
+	width: 100%;
+	border: 0;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background: white;
+}
+.footer .price {
+	padding-top: 5px;
+	padding-left: 10px;
+	font-size: 16px;
+	height: 18px;
+}
+.footer .price text text {
+	color: red;
+}
+.footer .save {
+	padding-top: 5px;
+	padding-left: 10px;
+	font-size: 12px;
+}
+.footer .btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100px;
+	line-height: 50px;
+	text-align: center;
+	color: white;
+	background: #f80;
+}

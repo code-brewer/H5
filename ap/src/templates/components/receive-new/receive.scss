@@ -1,0 +1,61 @@
+@import '../../../css/px2rem.scss';
+.view-receive {
+    .content {
+        text-align: center;
+        .prize-title {
+            padding: px2rem(70px) px2rem(10px) px2rem(60px);
+            p {
+                color: #fff;
+                font-size: px2rem(50px);
+            }
+            .prize-name {
+                color: #ffb81d;
+                font-size: px2rem(40px);
+                margin-top: px2rem(60px);
+            }
+        }
+        .phone-wrap {
+            text-align: center;
+            .input-phone {
+                width: px2rem(560px);
+                height: px2rem(90px);
+                font-size: px2rem(26px);
+                text-align: left;
+                padding: px2rem(15px);
+            }
+            .code {
+                margin-top: px2rem(10px);
+                display: inline-block;
+                font-size: 0;
+                .input-code {
+                    width: px2rem(290px);
+                    height: px2rem(90px);
+                    padding: px2rem(15px);
+                    font-size: px2rem(26px);
+                    text-align: left;
+                    vertical-align: top;
+                }
+                .zcode {
+                    width: px2rem(260px);
+                    margin-left: px2rem(10px);
+                    height: px2rem(90px);
+                }
+            }
+            .awardtip {
+                color: #fff;
+            }
+        }
+        .btn-wrap {
+            margin-top: px2rem(48px);
+            text-align: center;
+            .wap-button {
+                width: px2rem(260px);
+                height: px2rem(86px);
+                line-height: px2rem(86px);  
+                margin: 0 auto;
+                text-decoration: none;
+                display: inline-block;
+            }
+        }
+    }
+}

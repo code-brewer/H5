@@ -1,0 +1,40 @@
+<view class="container">
+	<view class="head content">
+		<view class="title">
+			<image src="http://116114.easier.cn/travel/images/bg-detail.jpg" mode="widthFix" class="full-img"></image>
+			<text class="text">{{data.description}}</text>
+			<text class="price">原价：￥{{data.originalCost}}/人</text>
+		</view>
+		<view class="personNum clearfix">
+			<text class="num">参与人数</text>
+			<view class="count">
+				<text bindtap="setNum" data-type="sub">-</text>
+				<text>{{buyNum}}</text>
+				<text bindtap="setNum" data-type="add">+</text>
+			</view>
+		</view>
+	</view>
+	<form class="form">
+		<view class="row">
+			<text>姓名</text>
+			<input type="text" placeholder="请输入参与人姓名" />
+		</view>
+		<view class="row">
+			<text>手机号码</text>
+			<input type="number" placeholder="请输入参与人手机号码" maxlength="11" />
+		</view>
+		<view class="row">
+			<text>身份证号</text>
+			<input type="idcard" placeholder="请输入参与人的身份证号" maxlength="18" />
+		</view>
+	</form>
+	<view class="footer">
+		<view class="price">
+			<text>订单金额：<text>￥{{allPrice}}</text></text>
+		</view>
+		<view class="save">
+			<text>已节省：-￥{{allSave}}</text>
+		</view>
+		<text class="btn" bindtap="submit">提交订单</text>
+	</view>
+</view>

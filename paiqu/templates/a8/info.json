@@ -1,0 +1,21 @@
+[{
+    "templateName": "a8",
+    "type": "无节操",
+    "count": "3",
+    "srcs": [{
+        "src": "templates/a8/action.js",
+        "id": "js"
+    }, {
+        "src": "templates/a8/images/bg.jpg",
+        "id": "bg"
+    }, {
+        "src": "templates/a8/images/bg1.jpg",
+        "id": "bg1"
+    }, {
+        "src": "templates/a8/images/Bitmap1.png",
+        "id": "Bitmap1"
+    }, {
+        "src": "templates/a8/images/Bitmap2.png",
+        "id": "Bitmap2"
+    }]
+}]

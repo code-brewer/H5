@@ -1,0 +1,145 @@
+@import '../../../css/px2rem.scss';
+.view-rank {
+    background-size: px2rem(640px);
+    width: px2rem(640px);
+    padding: 0 px2rem(20px);
+    > .inner-content {
+        height: 100%;
+        padding-top: 2.5rem;
+    }
+    .wap-btns {
+        display: flex;
+        margin-bottom: px2rem(60px);
+        justify-content: center;
+        > .wap-button {
+            display: block;
+            width: 80%;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+    }
+    .wap-rank-list {
+        color: #fff;
+        font-size: px2rem(28px);
+        padding: px2rem(20px);
+        height: px2rem(480px);
+        overflow: hidden;
+        .tab-head {
+            padding: 0 px2rem(15px);
+            margin-top: px2rem(18px);
+            text-align: center;
+            font-size: px2rem(26px);
+            .unselectdate {
+                color: #fff;
+            }
+            .active {
+                color: #ffb81d !important;
+            }
+            div.scroller {
+                overflow: scroll;
+                width: 49%;
+                text-align: right;
+                display: inline-block;
+                vertical-align: middle;
+            }
+            .total {
+                display: inline-block;
+                width: 20%;
+                vertical-align: middle;
+                text-align: right;
+                color: #fff;
+                text-align: left;
+                font-weight: 700;
+                font-size: px2rem(32px);
+            }
+            ul {
+                color: #ffb81d;
+                display: inline-block;
+                margin: 0;
+                padding: 0;
+                font-size: px2rem(32px);
+                white-space: nowrap;
+                li {
+                    list-style: none;
+                    display: inline-block;
+                    letter-spacing: px2rem(-8px);
+                    position: relative;
+                    &::after {
+                        content: '|';
+                        width: 1px;
+                        position: absolute;
+                        display: block;
+                        right: 3px;
+                        top: -2px;
+                    }
+                    p {
+                        border-radius: px2rem(16px);
+                        color: #ffb81d;
+                        font-size: px2rem(32px);
+                        font-weight: bolder;
+                        letter-spacing: px2rem(3px);
+                        margin: 0 px2rem(5px) 0 px2rem(17px);
+                        text-align: center;
+                        height: px2rem(38px);
+                        line-height: px2rem(38px);
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+        .sorts {
+            padding: px2rem(10px);
+            margin-top: 0;
+            margin-left: px2rem(22px);
+            margin-right: px2rem(32px);
+            color: #fff;
+            height: px2rem(410px);
+            overflow: auto;
+            min-height: px2rem(400px);
+            font-size: px2rem(36px);
+            .sortitem {
+                padding-top: px2rem(18px);
+                padding-bottom: 2px;
+                text-align: left;
+                font-size: 0;
+            }
+            div {
+                .sorticon {
+                    width: px2rem(60px);
+                    height: px2rem(60px);
+                    border-radius: px2rem(30px);
+                    display: inline-block;
+                }
+                .sortnick-panel {
+                    width: 85%;
+                    display: inline-block;
+                    border-bottom: 1px solid #d9d9d9;
+                    .sortnick {
+                        width: px2rem(250px);
+                        display: inline-block;
+                        text-align: left;
+                        font-size: px2rem(26px);
+                        padding-left: px2rem(10px);
+                        p {
+                            line-height: px2rem(26px);
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                            color: #fff;
+                        }
+                    }
+                    .sortrank {
+                        width: px2rem(125px);
+                        line-height: px2rem(60px);
+                        vertical-align: top;
+                        float: right;
+                        text-align: right;
+                        font-size: px2rem(36px);
+                        color: #fff;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

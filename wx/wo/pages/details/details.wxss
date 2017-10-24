@@ -1,0 +1,158 @@
+page {
+	background: #f2f2f2;
+}
+.content {
+	padding: 10px;
+	font-size: 14px;
+	line-height: 1.5;
+	background: white;
+}
+.originalCost, .saveCost {
+	text-align: right;
+}
+.originalCost {
+	padding-top: 10px;
+	font-size: 14px;
+	color: #666;
+}
+.originalCost text text {
+	text-decoration: line-through;
+}
+.saveCost {
+	font-size: 18px;
+	color: red;
+}
+.personNum {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	font-size: 12px;
+	color: #666;
+}
+.personNum text {
+	color: red;
+}
+
+.con {
+	margin-top: 15px;
+}
+
+.tab view {
+	float: left;
+	width: 50%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 700;
+	color: #333;
+	border-bottom: 2px solid #edf7fb;
+	background: #edf7fb;
+}
+.tab .active {
+	color: #008acb;
+	border-bottom-color: #00bacb;
+	background: white;
+}
+
+.proDetails text {
+	display: block;
+	padding: 5px 0;
+	line-height: 1.5;
+	color: #4d4d4d;
+	font-size: 14px;
+}
+.proDetails .section {
+	padding: 10px 0;
+}
+.proDetails .title {
+	padding-left: 20px;
+	line-height: 30px;
+	background: url(https://mtrip.csair.com/waptuan/images/coupon/xz_x.jpg) left center / 14px 14px no-repeat;
+}
+.proDetails image {
+	display: block;
+	width: 100%;
+}
+
+.buyDetails .item {
+	font-size: 14px;
+	background: white;
+}
+.buyDetails text {
+	display: block;
+}
+.buyDetails .title {
+	position: relative;
+	height: 45px;
+	line-height: 45px;
+	padding-left: 40px;
+	border-top: 1px solid #d6d6d6;
+	z-index: 2;
+	background: white url(https://mtrip.csair.com/waptuan/images/coupon/xz_sm.jpg) 15px center / 14px 14px no-repeat;
+}
+.buyDetails .item:first-child .title {
+	border: 0;
+}
+.buyDetails .title:after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	width: 6px;
+	height: 6px;
+	border: 1px solid transparent;
+	border-top-color: #d6d6d6;
+	border-right-color: #d6d6d6;
+	-webkit-transform: rotate(45deg) translate(0, -50%);
+	-moz-transform: rotate(45deg) translate(0, -50%);
+	transform: rotate(45deg) translate(0, -50%);
+	-webkit-transition: all 1s linear;
+	-moz-transition: all 1s linear;
+	transition: all .1s linear;
+}
+.buyDetails .down:after {
+	-webkit-transform: rotate(135deg) translate(-100%, 20%);
+	-moz-transform: rotate(135deg) translate(-100%, 20%);
+	transform: rotate(135deg) translate(-100%, 20%);
+}
+.buyDetails .item-con {
+	position: relative;
+	padding: 10px;
+	border-top: 1px solid #d6d6d6;
+	line-height: 1.5;
+	-webkit-transform: translate(0, -20%);
+	-moz-transform: translate(0, -20%);
+	transform: translate(0, -20%);
+	z-index: 1;
+	background: white;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	border-top: 1px solid #d6d6d6;
+	background: white;
+	z-index: 10;
+}
+.footer .price {
+	line-height: 50px;
+	padding-left: 10px;
+	font-size: 18px;
+}
+.footer .price text text {
+	color: red;
+}
+.footer .btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100px;
+	line-height: 50px;
+	text-align: center;
+	color: white;
+	background: #f80;
+}

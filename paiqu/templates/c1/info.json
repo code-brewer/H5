@@ -1,0 +1,15 @@
+[{
+    "templateName": "c1",
+    "type": "贺年",
+    "count": "2",
+    "srcs": [{
+        "src": "templates/c1/action.js",
+        "id": "js"
+    }, {
+        "src": "templates/c1/images/_1buy.png",
+        "id": "_1buy"
+    }, {
+        "src": "templates/c1/images/_2buy.png",
+        "id": "_2buy"
+    }]
+}]

@@ -1,0 +1,169 @@
+@import '../../../../css/px2rem.scss';
+@import '../../../../css/bootstrap/_mixins.scss';
+.app-view {
+    background: #333;
+    width: px2rem(640px);
+    height: px2rem(1096px);
+}
+.app-wrap {
+    height: 100%;
+}
+.wap-button {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    height: px2rem(82px);
+    line-height: px2rem(82px);
+    font-size: px2rem(32px);
+    text-decoration: none;
+    text-align: center;
+    // font-size: px2rem(40px);
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+    &:hover {
+        background: lightent(#000, 6.5%);
+    }
+}
+
+.wap-button-view {
+    position: absolute;
+    width: 100%;
+    top: px2rem(840px);
+}
+.wap-rule-modal {
+    text-align: left;
+}
+
+.app-view {
+    background: url("http://211.147.242.132:9008/fsd/ap/20160829/88_e9833a5b_0f41_446a_90d7_bbcb2381ae59.jpg");
+    background-size: 100%;
+    width: px2rem(640px);
+    height: px2rem(1029px);
+}
+.app-view.view-home {
+    background: url("http://211.147.242.132:9008/fsd/ap/20160829/88_8340904a_6bd0_489f_b182_b055e40a494a.png");
+    background-size: 100%;
+    width: px2rem(640px);
+    height: px2rem(1029px);
+    text-align: center;
+    .wap-button {
+        padding: 0 2rem;
+    }
+    .wap-remaining-number-of-prizes {
+        position: absolute;
+        width: 100%;
+        top: px2rem(650px);
+        text-align: center;
+        font-size: px2rem(30px);
+        left: 0;
+        p.number-countent {
+            font-size: px2rem(26px);
+            color: #402a3b;
+        }
+        span.count {
+            font-size: px2rem(41px);
+            color: #ffd200;
+        }
+    }
+    .wap-number-of-participants {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        font-size: px2rem(30px);
+        p.number-countent {
+            font-size: px2rem(26px);
+            color: #402a3b;
+        }
+        span.count {
+            font-size: px2rem(41px);
+            color: #ffd200;
+        }
+    }
+    .wap-button {
+        //margin-top: px2rem(140px);
+    }
+
+    .wap-rule-link {
+        position: absolute;
+        left: 0;
+        bottom: px2rem(10px);
+        text-align: center;
+        margin-bottom: px2rem(20px);
+        width: 100%;
+        a {
+            color: #fff;
+            font-size: px2rem(30px);
+            text-decoration: underline;
+            font-weight: bold;
+        }
+    }
+
+}
+
+.app-view.view-activity {
+    text-align: center;
+    .wap-topbar {
+        margin: px2rem(132px) auto px2rem(10px);
+        overflow: hidden;
+        width: px2rem(600px);
+        > div {
+            font-size: px2rem(36px);
+            word-spacing: px2rem(-18px);
+            &:first-child {
+                float: left;
+            }
+            &:last-child {
+                float: right;
+            }
+
+            div,
+            p,
+            span {
+                display: inline-block;
+            }
+
+            p.min::after {
+                content: ':';
+            }
+        }
+    }
+
+}
+
+.wap-find-color {
+    width: px2rem(600px);
+    height: px2rem(600px);
+    margin: auto;
+    background: #d9cbcb;
+    -webkit-border-radius: px2rem(16px);
+    -moz-border-radius: px2rem(16px);
+    border-radius: px2rem(16px);
+    padding: px2rem(10px);
+    > div {
+        float: left;
+        padding: px2rem(2px);
+
+        span {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+.wap-number-of-participants {
+    width: 100%;
+    text-align: center !important;
+    position: absolute;
+    left: 0;
+    top: px2rem(730px);
+    color: #402a3b;
+    display: inline-block;
+    font-size: px2rem(30px);
+    .count {
+        font-size: px2rem(30px);
+        color: #f1cd26;
+        text-decoration: none;
+    }
+}

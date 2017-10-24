@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="container">
+  <view><image src="http://116114.easier.cn/wzmnh/images/banner.png" class="full-img" mode="widthFix"></image></view>
+  <view class="title">
+  	<text>特惠美食经济游</text>
+  </view>
+  <view class="content clearfix">
+    <image wx:for="{{[2,3,4,5,6,7]}}" wx:key="*this" class="item" src="http://116114.easier.cn/wzmnh/images/0{{item}}.png" mode="widthFix" bindtap="toDetails" data-index="{{item}}"></image>
+  </view>
+  <view class="title">
+  	<text>周末任性游</text>
+  </view>
+  <view class="content clearfix">
+    <image wx:for="{{[26, 27, 28, 29, 30, 31]}}" wx:key="*this" class="item" src="http://116114.easier.cn/wzmnh/images/{{item}}.png" mode="widthFix" bindtap="toDetails" data-index="{{item}}"></image>
+  </view>
+  <view class="title">
+  	<text>周末轻奢游</text>
+  </view>
+  <view class="content clearfix">
+    <image wx:for="{{[32, 33, 34, 35]}}" wx:key="*this" class="item" src="http://116114.easier.cn/wzmnh/images/{{item}}.png" mode="widthFix" bindtap="toDetails" data-index="{{item}}"></image>
+  </view>
+</view>

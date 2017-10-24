@@ -1,0 +1,5 @@
+@function des2devrem($px) {
+	$return: #{(($px*640/750))};
+
+	@return $return;
+}

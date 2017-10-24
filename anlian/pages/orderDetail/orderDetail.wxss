@@ -1,0 +1,40 @@
+page {
+    min-height: 100%;
+    font-size: 14px;
+    background: #e9ebf0;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.content .top{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.content .top text{
+    color: #666;
+    font-size: 13px
+}
+.content .ros{
+    padding: 10px 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column
+}
+.content .ros text{
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.43;
+}
+.content .ros .row {
+    position: relative;
+    padding-left: 85px;
+    min-height: 21px;
+}
+.content .ros .row text {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

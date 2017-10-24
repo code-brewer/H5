@@ -1,0 +1,69 @@
+<ion-view hide-back-button="false" hide-nav-bar="false" class="build-text-page">
+    <ion-nav-buttons side="left">
+        <button class="button button-icon">
+            <i class="icon icon-arrow-left"></i>
+        </button>
+        <!-- <button class="button back-button button-icon icon icon-close" ng-click="$ionicGoBack($event)"></button> -->
+    </ion-nav-buttons>
+    <ion-nav-buttons side="right">
+        <button class="button button-icon">
+            从相册选择
+            <input type="file" class="build-text-page-fileInput">
+        </button>
+    </ion-nav-buttons>
+    <div class="top-section has-header" id="has-header">
+       <!--  <img src="img/1_fdipzone.jpg" style="opacity:.6;position:absolute;width:500px; height:500px; left:0px; top:0px;" />
+        <canvas id="myCanvas" imgsrc='img/1_fdipzone.jpg' width="500" height="500" style='position:absolute;width:500px; height:500px; left:0px; top:0px;background: transparent;'></canvas> -->
+        <canvas id="build-c"></canvas>
+    </div>
+    <div class="bottom-section">
+        <div class="top-nav">
+            <ul>
+                <li ng-repeat="value in types track by $index" ng-class="{active: value.text==currType}" ng-click="changeType(value.handle)">
+                    {{value.text}}
+                </li>
+            </ul>
+        </div>
+        <div class="panel-content">
+            <ul>
+                <li ng-repeat="list in templates | filter: currType" ng-class="{active: tplName==list.name}" ng-click="changeTemp(list.name)">
+                    <img ng-src="templates/{{list.name}}/thumb.jpg">
+                </li>
+            </ul>
+            <div class="success" ng-show="showSuccess">
+                <img src="img/build-text-success.png" ng-click="build()">
+            </div>
+        </div>
+        <div class="label" ng-show="isLabel">
+            <input type="text" maxlength="6" />
+            <label ng-click="labelClick()">确定</label>
+        </div>
+        <div class="text" ng-show="isText">
+            <input type="text" maxlength="20" />
+            <label ng-click="textClick()">确定</label>
+        </div>
+    </div>
+    <div class="bottom-section emoji" ng-show="selectEmoji">
+        <ul>
+            <li ng-repeat="(key, value) in emoji" ng-click="obj.addEmoji(value)">
+                <img ng-src="{{value}}" />
+            </li>
+        </ul>
+        <a href="javascript:;" class="btn" ng-click="selectEmoji = !selectEmoji">完成</a>
+    </div>
+    <div class="bottom-section font" ng-show="selectFont">
+        <div class="colorBar">
+            <div class="srs-bubble" style="display: block;" ng-show="colorShow"><span style="position: relative;"><span class="viewColor" id="viewColor"></span></span>
+            </div>
+            <input id="you" type="range" name="points" min="1" max="27" step="1" value="1" on-touch="colorShow=true" on-release="colorShow=false" />
+            <a href="javascript:;" class="btn" ng-click="selectFont = !selectFont">完成</a>
+        </div>
+        <ul>
+            <li class="tabFonts" ng-repeat="(key, value) in fonticon" ng-click="obj.change(value)">
+                <img ng-src="{{value}}" />
+            </li>
+        </ul>
+    </div>
+    <div class="mask" ng-show="isLabel"></div>
+    <div class="mask" ng-show="isText"></div>
+</ion-view>

@@ -1,0 +1,39 @@
+		@font-face {
+		    font-family: 'DFPSHAONVW5';
+		    src: local('DFPSHAONVW5'), local('DFPSHAONVW5'), url('./DFPSHAONVW5-GB_0.TTF') format('truetype');
+		}
+		
+		@font-face {
+		    font-family: 'FZMWFONT_0';
+		    src: local('FZMWFONT_0'), local('FZMWFONT_0'), url('./FZMWFONT_0.TTF') format('truetype');
+		}
+		
+		@font-face {
+		    font-family: 'FZKTH';
+		    src: local('FZKTH'), local('FZKTH'), url('./FZKTH.TTF') format('truetype');
+		}
+		
+		@font-face {
+		    font-family: 'HKWWT';
+		    src: local('HKWWT'), local('HKWWT'), url('./HKWWT.TTF') format('truetype');
+		}
+		
+		@font-face {
+		    font-family: 'MNJCQ';
+		    src: local('MNJCQ'), local('MNJCQ'), url('./MNJCQ.TTF') format('truetype');
+		}
+		
+		@font-face {
+		    font-family: 'MNJKT';
+		    src: local('MNJKT'), local('MNJKT'), url('./MNJKT.TTF') format('truetype');
+		}
+		
+		@font-face {
+		    font-family: 'SSZHJT';
+		    src: local('SSZHJT'), local('SSZHJT'), url('./SSZHJT.TTF') format('truetype');
+		}
+		
+		@font-face {
+		    font-family: 'ZZGF';
+		    src: local('ZZGF'), local('ZZGF'), url('./ZZGF.TTF') format('truetype');
+		}

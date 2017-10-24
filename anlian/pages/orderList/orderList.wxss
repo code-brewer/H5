@@ -1,0 +1,153 @@
+page{
+    background: #eeeeee;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #003680;
+    z-index: 102;
+}
+.header text{
+    display: block;
+    float: left;
+    color: #fff;
+    font-size: 13px;
+    width: 50%;
+}
+.header .active{
+    color: #003680;
+    background: white;
+}
+.content{
+    margin-top: 80px;
+    padding: 10px 0;
+}
+.content .relief {
+    position: fixed; 
+    top: 40px; 
+    left: 0; 
+    z-index: 1000; 
+    background: #eee; 
+    width: 90%; 
+    height: 40px;
+    padding: 5px 5%; 
+    font-size: 8px; 
+    line-height: 14px;
+    text-align: center;
+}
+.content .relief:before {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    vertical-align: middle;
+}
+.content .relief text {
+    display: inline-block;
+    vertical-align: middle;
+}
+.section {
+    margin-bottom: 20px;
+    background: white;
+}
+.content .top{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    line-height: 30px;
+    color: #666;
+    padding: 10px 50px;
+    font-size: 15px;
+}
+.content .top .anlian{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+}
+.content .top .text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.content .top .status{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    line-height: 30px;
+    font-size:12px;
+}
+.content .middle{
+    position: relative;
+    min-height: 90px;
+    flex-direction: row;
+    padding: 10px;
+    padding-left: 100px;
+    background-color: #f8faf9;
+}
+.content .middle .image {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.content .middle .rightText{
+    padding-left: 10px;
+}
+.rightText .item {
+    position: relative;
+    padding-left: 53px;
+}
+.rightText .item text {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.content .middle .rightText text {
+    display: block;
+}
+.content .middle .rightText .first{
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.43;
+}
+.content .middle .rightText .color{
+    color: #666;
+    padding-bottom: 5px;
+    font-size:12px;
+    line-height: 16px;
+    word-break: break-all;
+}
+.content .bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    font-size: 12px;
+    padding: 10px;
+}
+.content .bottom text{
+    padding-right: 10px;
+    line-height: 26px;
+}
+.content .notice {
+    padding: 0 10px 10px;
+}
+.content .notice .text {
+    display: block;
+    font-size: 12px;
+    color: red; 
+    font-weight: 700;
+}
+.content .bottom .payAgain {
+    height: 28px;
+    padding: 0 5px;
+    border-radius: 5px;
+    color: white;
+    background: orange;
+}

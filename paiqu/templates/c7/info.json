@@ -1,0 +1,24 @@
+[{
+    "templateName": "c7",
+    "type": "贺年",
+    "count": "2",
+    "srcs": [{
+        "src": "templates/c7/action.js",
+        "id": "js"
+    }, {
+        "src": "templates/c7/images/_1.png",
+        "id": "_1"
+    }, {
+        "src": "templates/c7/images/_2.png",
+        "id": "_2"
+    }, {
+        "src": "templates/c7/images/_3.png",
+        "id": "_3"
+    }, {
+        "src": "templates/c7/images/_4.png",
+        "id": "_4"
+    }, {
+        "src": "templates/c7/images/bg.jpg",
+        "id": "bg"
+    }]
+}]

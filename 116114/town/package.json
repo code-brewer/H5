@@ -1,0 +1,41 @@
+{
+  "name": "Woyinyue",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot --quiet",
+    "build": "webpack -p",
+    "watch": "webpack --config webpack.config.js --watch",
+    "watchmin": "webpack --config webpack.min.config.js --watch"
+  },
+  "author": "ChinaWoMusic",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.1.2",
+    "babel-loader": "^6.1.0",
+    "babel-plugin-transform-runtime": "^6.1.2",
+    "babel-preset-es2015": "^6.1.2",
+    "babel-runtime": "^6.0.14",
+    "css-loader": "^0.21.0",
+    "file-loader": "^0.9.0",
+    "jquery": "^1.12.4",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "vue-hot-reload-api": "^1.2.1",
+    "vue-html-loader": "^1.0.0",
+    "vue-loader": "^7.0.1",
+    "vue-style-loader": "^1.0.0",
+    "webpack": "^1.12.3",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "dependencies": {
+    "url-loader": "^0.5.7",
+    "node-sass": "^3.4.2",
+    "vue": "^1.0.7",
+    "vue-resource": "^0.1.17",
+    "vue-router": "^0.7.5",
+    "vuejs-datepicker": "^0.2.10"
+  }
+}

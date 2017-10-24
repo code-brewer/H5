@@ -1,0 +1,18 @@
+[{
+    "templateName": "a7",
+    "type": "无节操",
+    "count": "4",
+    "srcs": [{
+        "src": "templates/a7/action.js",
+        "id": "js"
+    }, {
+        "src": "templates/a7/images/bg.jpg",
+        "id": "bg"
+    }, {
+        "src": "templates/a7/images/bg1.jpg",
+        "id": "bg1"
+    }, {
+        "src": "templates/a7/images/Bitmap1.png",
+        "id": "Bitmap1"
+    }]
+}]

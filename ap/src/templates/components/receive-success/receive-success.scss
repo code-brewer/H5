@@ -1,0 +1,41 @@
+@import '../../../css/px2rem.scss';
+.view-receive-success {
+    background-size: 100%;
+    height: 100%;
+    .content {
+        text-align: center;
+        color: #fff;
+        .success-title {
+            font-size: px2rem(50px);
+            margin: px2rem(70px) 0;
+        }
+        .prize-code-title {
+            font-size: px2rem(30px);
+        }
+        .prize-code {
+            font-size: px2rem(40px);
+        }
+        .long-qcode {
+            margin: px2rem(20px) 0;
+            font-size: px2rem(28px);
+        }
+        .qcode {
+            width: px2rem(300px);
+            height: px2rem(300px);
+            background-repeat: no-repeat;
+            margin: 0 auto;
+            background-size: 100%;
+        }
+        .btn-wrap {
+            text-align: center;
+            .wap-button {
+                width: px2rem(260px);
+                height: px2rem(86px);
+                line-height: px2rem(86px);
+                margin: 0 auto;
+                text-decoration: none;
+                display: inline-block;
+            }
+        }
+    }
+}

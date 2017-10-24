@@ -1,0 +1,171 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-size: 12px; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fddb82; }
+
+ul, li {
+  list-style-type: none;
+  padding: 0; }
+
+p {
+  margin: 0;
+  font-size: 1rem; }
+
+.app-view {
+  background: #fddb82 url("../images/bg.png") 0 0 no-repeat;
+  background-size: 26.66667rem;
+  width: 26.66667rem;
+  height: 42rem;
+  margin: auto;
+  overflow: hidden; }
+  .app-view div.times-bar {
+    width: 13.16667rem;
+    height: 3.70833rem;
+    background: url("../images/top-1.png") 0 0 no-repeat;
+    background-size: 100%;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+    position: relative;
+    color: #fff;
+    line-height: 4rem;
+    padding-left: 3rem;
+    text-align: center; }
+    .app-view div.times-bar strong {
+      font-size: 2rem;
+      color: #ffb148; }
+  .app-view div.marquee-game {
+    background: url("../images/marquee-bg.png") 0 0 no-repeat;
+    background-size: 100%;
+    width: 23.33333rem;
+    height: 21.16667rem;
+    margin: auto;
+    padding: 1.08333rem 1.08333rem 1.58333rem; }
+    .app-view div.marquee-game table {
+      width: 100%;
+      height: 100%; }
+      .app-view div.marquee-game table td.prize {
+        background: #ffeeee;
+        -webkit-border-radius: 1rem;
+        -moz-border-radius: 1rem;
+        border-radius: 1rem;
+        width: 25%;
+        height: 25%;
+        border-bottom: 0.625rem solid #fdbfc0;
+        text-align: center;
+        padding: 0 0.20833rem; }
+        .app-view div.marquee-game table td.prize.color {
+          color: #e0286e; }
+        .app-view div.marquee-game table td.prize.active {
+          opacity: .7; }
+      .app-view div.marquee-game table td.start {
+        padding: 0.41667rem; }
+        .app-view div.marquee-game table td.start .btn-start {
+          display: block;
+          background: #c0054c url("../images/text-start.png") center center no-repeat;
+          background-size: 4.20833rem;
+          width: 100%;
+          height: 100%;
+          -webkit-border-radius: 3rem;
+          -moz-border-radius: 3rem;
+          border-radius: 3rem; }
+          .app-view div.marquee-game table td.start .btn-start.disabled {
+            background-color: #9e9e9e !important; }
+  .app-view .music-handler {
+    display: inline-block;
+    position: absolute;
+    top: 1.04167rem;
+    right: 1.04167rem;
+    background: url("../images/music.png") 0 0 no-repeat;
+    background-size: 100%;
+    width: 2.875rem;
+    height: 2.70833rem; }
+    .app-view .music-handler.close-sound {
+      background: url("../images/ico_nomusic.png") 0 0 no-repeat;
+      background-size: 100%; }
+
+.modal.app-modal .modal-content {
+  min-height: 19.16667rem;
+  -webkit-border-radius: 0.41667rem;
+  -moz-border-radius: 0.41667rem;
+  border-radius: 0.41667rem;
+  background: #e2f2ff url("../images/modal-bg.png") 0 0 no-repeat;
+  background-size: 100%;
+  text-align: center;
+  padding-top: 3.33333rem;
+  font-family: 微软雅黑; }
+  .modal.app-modal .modal-content h1, .modal.app-modal .modal-content h3 {
+    font-weight: normal; }
+  .modal.app-modal .modal-content h1 {
+    font-size: 2.5rem;
+    margin: 0; }
+  .modal.app-modal .modal-content h3 {
+    font-size: 2rem;
+    margin-top: 1.66667rem;
+    margin-bottom: 2.5rem; }
+.modal.app-modal .outter-bottom {
+  text-align: center;
+  padding-top: 1.66667rem; }
+  .modal.app-modal .outter-bottom .close-circle {
+    background: url("../images/icon-close.png") 0 0 no-repeat;
+    background-size: 100%;
+    width: 2.29167rem;
+    height: 2.29167rem;
+    display: inline-block; }
+.modal.app-modal.login-modal form {
+  padding: 0 0.83333rem; }
+  .modal.app-modal.login-modal form label, .modal.app-modal.login-modal form .label {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    align-items: center;
+    margin-bottom: 1.45833rem; }
+    .modal.app-modal.login-modal form label input, .modal.app-modal.login-modal form label > span.left, .modal.app-modal.login-modal form label .button-ripple, .modal.app-modal.login-modal form .label input, .modal.app-modal.login-modal form .label > span.left, .modal.app-modal.login-modal form .label .button-ripple {
+      height: 2.91667rem;
+      line-height: 2.91667rem; }
+    .modal.app-modal.login-modal form label > span.left, .modal.app-modal.login-modal form .label > span.left {
+      min-width: 5rem;
+      display: inline-block;
+      text-align: left; }
+    .modal.app-modal.login-modal form label input, .modal.app-modal.login-modal form .label input {
+      width: 100%;
+      border: 1px solid #dcdcdc;
+      -webkit-border-radius: 0.41667rem;
+      -moz-border-radius: 0.41667rem;
+      border-radius: 0.41667rem;
+      outline: none;
+      padding: 0 0.41667rem; }
+    .modal.app-modal.login-modal form label .button-ripple, .modal.app-modal.login-modal form .label .button-ripple {
+      margin-left: 0.41667rem;
+      min-width: 7.5rem;
+      color: #333; }
+  .modal.app-modal.login-modal form p.tip {
+    color: #fa7c33;
+    padding-top: 0.41667rem; }
+
+.button-primary {
+  width: 14.16667rem;
+  height: 2.91667rem;
+  -webkit-border-radius: 2.91667rem;
+  -moz-border-radius: 2.91667rem;
+  border-radius: 2.91667rem;
+  display: inline-block; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,229 @@
+@import '../../../../css/px2rem.scss';
+@import '../../../../css/bootstrap/_mixins.scss';
+.wap-body .app-wrap {
+    position: absolute;
+}
+.app-view {
+    width: px2rem(640px);
+    height: px2rem(1096px);
+    background-color: #de2a2a;
+    background-image: url("http://www.soyu.cn/fsd/ap/20161109/88_6eb5d5d3_6d71_487e_8cfe_45b770f6a0ca.jpg");
+    background-size: 100% 100%;
+    .wap-activity-date > p,
+    .wap-remaining-number-of-prizes,.wap-number-of-participants > p {
+        font-size: px2rem(30px);
+        text-shadow: 0 0 2px #ffff06;
+        font-weight: bold;
+    }
+}
+.wap-button {
+    display: inline-block;
+    line-height: 3.58333rem;
+    background: #ffd100;
+    background: -moz-linear-gradient(top, #ffd100 0%, #ffbc00 100%);
+    background: -webkit-linear-gradient(top, #ffd100 0%,#ffbc00 100%);
+    background: linear-gradient(to bottom, #ffd100 0%,#ffbc00 100%);
+    text-align: center;
+    color: #9c100c;
+    a {
+        color: #9c100c;
+        font-size: px2rem(32px);
+        text-decoration: none;
+    }
+}
+.wap-rule-modal {
+    text-align: left;
+}
+.app-view {
+    width: px2rem(640px);
+    height: px2rem(1029px);
+}
+.app-view.view-home {
+    background-image: url("http://www.soyu.cn/fsd/ap/20161109/88_cff8815f_b4de_4cc0_8acf_8dfcdd487e93.jpg");
+    background-size: 100%;
+    text-align: center;
+    .wap-activity-date {
+        position: absolute;
+        top: px2rem(468px);
+        left: 0;
+        right: 0;
+    }
+    .wap-remaining-number-of-prizes {
+        position: absolute;
+        top: px2rem(520px);
+        left: 0;
+        width: 100%;
+        text-align: center;
+        color: #000000;
+        display: inline-block;
+        font-size: px2rem(30px);
+        .count {
+            font-size: px2rem(30px);
+            color: #000000;
+            text-decoration: none;
+        }
+    }
+    .wap-number-of-participants {
+        position: absolute;
+        left: 0;
+        top: px2rem(650px);
+        width: 100%;
+        text-align: center;
+        color: #000000;
+        display: inline-block;
+        font-size: px2rem(30px);
+        .count {
+            font-size: px2rem(30px);
+            color: #000000;
+            text-decoration: none;
+        }
+    }
+    .wap-button-view {
+        position: absolute;
+        top: px2rem(790px);
+        left: 0;
+        right: 0;
+        .wap-button {
+            margin: auto;
+            background: url("http://www.soyu.cn/fsd/ap/20161109/88_f4a00594_ca65_448f_819a_d601e5ffdea9.png") 0 0 no-repeat;
+            background-size: 100%;
+            width: px2rem(286px);
+            height: px2rem(110px);
+            a {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .wap-rank-link {
+        left: px2rem(50px);
+        bottom: px2rem(20px);
+    }
+    .wap-rule-link {
+        right: px2rem(50px);
+        bottom: px2rem(20px);
+    }
+    .wap-rank-link,
+    .wap-rule-link {
+        position: absolute;
+        display: inline-block;
+        font-size: px2rem(30px);
+        text-decoration: underline;
+        color: #ffd521;
+        a {
+            color: #ffd521;
+        }
+    }
+}
+.app-view.view-activity {
+    text-align: center;
+    background-image: url("http://www.soyu.cn/fsd/ap/20161110/88_8eddadb4_43c6_4d2b_b0c7_1c44d568be2a.jpg");
+    background-size: 100%;
+    .moneys {
+        position: absolute;
+        top: px2rem(316px);
+        left: 0;
+        right: 0;
+         > .money,
+        > .money-bg {
+            position: absolute;
+        }
+        > .money-bg {
+            background-image: url("http://www.soyu.cn/fsd/ap/20161109/88_48617b92_64b3_4687_939d_0c08eaaeb67d.png");
+            background-size: 100%;
+            width: px2rem(347px);
+            height: px2rem(805px);
+            // bottom: px2rem(-71px);
+            left: 50%;
+            margin-left: px2rem(-347px/2);
+            z-index: 0;
+        }
+        > .money {
+            // bottom: 0;
+            left: 49%;
+            background-image: url("http://www.soyu.cn/fsd/ap/20161109/88_783e2b0c_5ecd_427c_a244_d54a81f31bb8.png");
+            background-size: 100%;
+            width: px2rem(334px);
+            height: px2rem(734px);
+            margin-left: px2rem(-334px/2);
+            z-index: 2;
+            &:nth-child(2) {
+                z-index: 4;
+            }
+        }
+        .swipe-up-transition {
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -ms-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+            -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+            -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            &.swipe-up-leave {
+                -webkit-transform: translate3d(0, -150%, 0);
+                -moz-transform: translate3d(0, -150%, 0);
+                -ms-transform: translate3d(0, -150%, 0);
+                -o-transform: translate3d(0, -150%, 0);
+                transform: translate3d(0, -150%, 0);
+                z-index: 5;
+            }
+        }
+    }
+    .wap-timer-number {
+        position: absolute;
+        top: px2rem(10px);
+        right: px2rem(10px);
+        background: url("http://www.soyu.cn/fsd/ap/20161110/88_da8525d4_254d_40ef_b2d4_7e0c45406c44.png");
+        background-size: 100%;
+        width: px2rem(144px);
+        height: px2rem(140px);
+        line-height: px2rem(140px);
+        text-align: center;
+        font-size: px2rem(50px);
+        color: #fff;
+        > p {
+            display: inline-block;
+            margin-left: px2rem(20px);
+        }
+        > p::after {
+            content: '”';
+        }
+        span {
+            float: left;
+        }
+    }
+    .wap-score {
+        position: absolute;
+        top: px2rem(130px);
+        left: 50%;
+        font-size: px2rem(60px);
+        color: #fff;
+        font-weight: bold;
+        background: url("http://www.soyu.cn/fsd/ap/20161110/88_49ee929a_1194_45a7_b4a7_70db0003bf2e.png");
+        background-size: 100%;
+        width: px2rem(343px);
+        height: px2rem(106px);
+        line-height: px2rem(90px);
+        margin-left: px2rem(-343px/2);
+        text-align: center;
+    }
+    .arrow-up {
+        position: absolute;
+        top: px2rem(240px);
+        left: 47%;
+        background: url("http://www.soyu.cn/fsd/ap/20161110/88_f44e3dcc_ae1a_4d0b_addc_fe1991d77f75.png") 0 0 no-repeat;
+        background-size: 100%;
+        width: px2rem(46px);
+        height: px2rem(69px);
+        margin-left: -px2rem(-46px/2);
+    }
+}
+.game-result {
+    .wap-get-score-only {
+        padding-top: px2rem(150px);
+    }
+}

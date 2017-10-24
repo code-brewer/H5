@@ -1,0 +1,36 @@
+[{
+    "templateName": "c8",
+    "type": "贺年",
+    "count": "4",
+    "srcs": [{
+        "src": "templates/c8/action.js",
+        "id": "js"
+    }, {
+        "src": "templates/c8/images/_5.png",
+        "id": "_5"
+    }, {
+        "src": "templates/c8/images/_6.png",
+        "id": "_6"
+    }, {
+        "src": "templates/c8/images/_7.png",
+        "id": "_7"
+    }, {
+        "src": "templates/c8/images/_8.png",
+        "id": "_8"
+    }, {
+        "src": "templates/c8/images/_9.png",
+        "id": "_9"
+    }, {
+        "src": "templates/c8/images/_10.png",
+        "id": "_10"
+    },{
+        "src": "templates/c8/images/_9pngcopy.png",
+        "id": "_9pngcopy"
+    },{
+        "src": "templates/c8/images/pngg.png",
+        "id": "pngg"
+    },{
+        "src": "templates/c8/images/bg.jpg",
+        "id": "bg"
+    }]
+}]

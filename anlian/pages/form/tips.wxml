@@ -1,0 +1,6 @@
+<template name="tips">
+	<view class="tipsBg overflow">
+        <image src="http://www.allianz.cn/images/wxApplet/no_smile.png" class="tips"></image>
+        <text class="tips-text">{{tipsText}}</text>
+    </view>
+</template>

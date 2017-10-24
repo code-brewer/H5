@@ -1,0 +1,87 @@
+@import '../../../css/px2rem.scss';
+.music__wrapper {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 0;
+  &:hover {
+    .btn-delete {
+      display: block;
+    }
+  }
+  .btn-delete {
+    display: none;
+    position: absolute;
+    right: 40px;
+    top: 0;
+    padding: 0;
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    z-index: 1000;
+    text-decoration: none!important;
+  }
+  .modal-content {
+    .content {
+      font-size: inherit !important;
+      label {
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
+
+.music__component {
+  padding: 4px 20px 2px;
+  overflow: hidden;
+  cursor: move;
+  cursor: -webkit-grab;
+  background: #2a2a2a;
+  border-radius: 15px;
+  .music__title {
+    color: #fff;
+    line-height: px2rem(36px);
+    font-size: px2rem(24px);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 120px;
+    display: inline-block;
+    overflow: hidden;
+  }
+  .music__btn {
+    position: relative;
+    float: right;
+    margin-left: 15px;
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1;
+    .icon {
+      display: inline-block;
+      width: px2rem(36px);
+      height: px2rem(36px);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      &.icon-play {
+        background-image: url(./images/icon-play.png);
+      }
+      &.icon-pause {
+        background-image: url(./images/icon-pause.png);
+      }
+      &.icon-bell {
+        background-image: url(./images/icon-bell.png);
+      }
+    }
+  }
+}
+
+.music-options__lists {
+  padding-top: 15px;
+  li {
+    padding-top: 10px;
+    font-size: 14px !important;
+  }
+}

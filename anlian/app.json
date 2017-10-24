@@ -1,0 +1,17 @@
+{
+    "pages": [
+    
+        "pages/main/main",
+        "pages/form/form",
+        "pages/index/index",
+        "pages/detail/detail",
+        "pages/orderDetail/orderDetail",
+        "pages/success/success",
+        "pages/orderList/orderList"
+    ],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#eeeeee",
+        "backgroundTextStyle": "light"
+    }
+}

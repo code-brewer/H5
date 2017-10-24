@@ -1,0 +1,160 @@
+@import '../../../../css/px2rem.scss';
+@import '../../../../css/bootstrap/_mixins.scss';
+.wap-button {
+    background: #f21c00;
+    height: px2rem(82px);
+    line-height: px2rem(82px);
+    width: auto;
+    font-size: px2rem(32px);
+    text-align: center;
+    color: #fff;
+    -webkit-border-radius: px2rem(41px);
+    -moz-border-radius: px2rem(41px);
+    border-radius: px2rem(41px);
+    a {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+    }
+    &.disabled {
+        opacity: 0.5;
+        pointer-events: none !important;
+    }
+}
+.game-btn {
+    position: relative;
+    background-color: rgba(255, 184, 29, 0);
+    background-image: url("../images/btn.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    line-height: px2rem(90px);
+    width: px2rem(235px);
+    height: px2rem(90px);
+    font-size: px2rem(34px);
+    text-align: center;
+    color: #000000;
+    margin: px2rem(63px) auto 0;
+}
+.guess-bg {
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-image: url("../images/game-bg.jpg");
+    background-repeat: no-repeat;
+}
+.app-view.view-home {
+    padding-left: px2rem(20px);
+    padding-right: px2rem(20px);
+    background-image: url("../images/bg.jpg");
+    .wap-button-view {
+        top: px2rem(780px);
+        left: 50%;
+        position: absolute;
+        .wap-button {
+            transform: translateX(-50%);
+            background-color: rgba(255, 204, 0, 0);
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-size: auto 100%;
+            background-image: url("../images/btn.png");
+            line-height: px2rem(74px);
+            width: px2rem(286px);
+            height: px2rem(88px);
+            font-size: px2rem(48px);
+            text-align: center;
+            color: #ffffff;
+            text-shadow: 1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e;
+            a {
+                display: block;
+                color: #fff;
+                text-decoration: none;
+            }
+            &.disabled {
+                opacity: 0.5;
+                // background: #ccc !important;
+                // color: #333 !important;
+                pointer-events: none !important;
+            }
+        }
+    }
+    .wap-activity-box {
+        height: px2rem(62px);
+        width: px2rem(62px);
+        right: px2rem(34px);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .wap-static-banner {
+        position: absolute;
+        top: px2rem(150px);
+        height: 100%;
+        width: 95%;
+        margin-left: 2.5%;
+        left: 0;
+        background-image: url("../images/banner.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .wap-remaining-number-of-prizes {
+        top: px2rem(570px);
+        width: 100%;
+        text-align: center;
+        left: 0;
+        color: #ffffff;
+        display: inline-block;
+        font-size: px2rem(30px);
+        position: absolute;
+        // text-shadow: 1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e;
+        .count {
+            font-size: px2rem(30px);
+            color: #ffffff;
+            text-decoration: none;
+        }
+    }
+    .wap-number-of-participants {
+        top: px2rem(650px);
+        left:0;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        color: #ffffff;
+        display: inline-block;
+        font-size: px2rem(30px);
+        // text-shadow: 1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e;
+        .count {
+            font-size: px2rem(30px);
+            color: #ffffff;
+            text-decoration: none;
+        }
+    }
+    .wap-rule-link {
+        position: absolute;
+        bottom: px2rem(40px);
+        width: 100%;
+        left: 0;
+        text-align: center;
+        text-shadow: 1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e;
+        a {
+            color: #ffffff;
+            font-size: px2rem(30px);
+            text-decoration: underline;
+            font-weight: bold;
+        }
+    }
+    .wap-logo {
+        left: px2rem(50px);
+        width: px2rem(188px);
+        .logo {
+            background-repeat: no-repeat;
+            background-image: url("../images/logo.png");
+            background-size: 100%;
+        }
+    }
+}
+.app-view {
+    height: 100%;
+    background-color: rgb(251, 229, 192);
+    background-size: px2rem(640px);
+    background: url("../images/game-bg.jpg")0 0 no-repeat;
+    .game-result {}
+}

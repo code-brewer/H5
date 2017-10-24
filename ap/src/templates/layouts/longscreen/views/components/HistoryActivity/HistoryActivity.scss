@@ -1,0 +1,34 @@
+.history__wrapper {
+  position: relative;
+
+  .modal-panel .content .spane .nr .col {
+      padding: 0 !important;
+  }
+}
+
+.history__container {
+  padding: 5px;
+  .history__title {
+    color: #2b2a2a;
+    font-size: px2rem(26px);
+    border-bottom: 1px solid #000;
+    a {
+      color: #2b2a2a;
+      font-size: px2rem(20px);
+      text-decoration: none;
+    }
+  }
+  .history__row {
+    overflow: hidden;
+    .history__item {
+      float: left;
+      display: block;
+      width: 50%;
+      padding: 10px;
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+}

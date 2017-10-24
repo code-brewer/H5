@@ -1,0 +1,191 @@
+@import '../../../../css/px2rem.scss';
+@import '../../../../css/bootstrap/_mixins.scss';
+.wap-button {
+    display: block;
+    position: relative;
+    background-color: rgba(255, 192, 1, 1); //          background-image: url("http://www.soyu.cn/fsd/ap/20160929/88_82f7dd6a_c248_4c2a_a6c5_8458cc90ca51.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: auto 100%;
+    line-height: px2rem(82px);
+    width: px2rem(325px);
+    height: px2rem(82px);
+    font-size: px2rem(32px);
+    text-align: center;
+    color: #5d371f;
+    margin: px2rem(25px) auto 0;
+    border-radius: px2rem(41px);
+    a {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+    }
+    &.disabled {
+        opacity: 0.5;
+        pointer-events: none !important;
+    }
+}
+.game-btn-select {
+    position: relative;
+    background-color: rgba(255, 184, 29, 0);
+    background-image: url("../images/selected.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    line-height: px2rem(90px);
+    width: px2rem(235px);
+    height: px2rem(90px);
+    font-size: px2rem(34px);
+    text-align: center;
+    color: #000000;
+    margin: px2rem(63px) auto 0;
+}
+.game-btn {
+    position: relative;
+    background-color: rgba(255, 184, 29, 0);
+    background-image: url("../images/btn.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    line-height: px2rem(90px);
+    width: px2rem(235px);
+    height: px2rem(90px);
+    font-size: px2rem(34px);
+    text-align: center;
+    color: #000000;
+    margin: px2rem(63px) auto 0;
+}
+.setlike-bg {
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-image: url("../images/bg.jpg");
+}
+.app-view.view-home {
+    padding-left: px2rem(100px);
+    padding-right: px2rem(100px);
+    background-image: url("../images/bg.jpg");
+    .wap-button-view {
+        top: px2rem(750px);
+        left: 50%;
+        position: absolute;
+        .wap-button {
+            transform: translateX(-50%);
+            border-radius: px2rem(41px);
+            position: relative;
+            background-color: rgba(255, 192, 1, 1); //          background-image: url("http://www.soyu.cn/fsd/ap/20160929/88_82f7dd6a_c248_4c2a_a6c5_8458cc90ca51.png");
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-size: auto 100%;
+            line-height: px2rem(82px);
+            width: px2rem(325px);
+            height: px2rem(82px);
+            font-size: px2rem(32px);
+            text-align: center;
+            color: #5d371f;
+            a {
+                display: block;
+                color: inherit;
+                text-decoration: none;
+            }
+            &.disabled {
+                opacity: 0.5;
+                // background: #ccc !important;
+                // color: #333 !important;
+                pointer-events: none !important;
+            }
+        }
+    }
+    .wap-activity-box {
+        height: px2rem(62px);
+        width: px2rem(62px);
+        right: px2rem(35px);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .wap-static-banner {
+        position: absolute;
+        top: px2rem(80px);
+        height: 100%;
+        width: 72%;
+        margin-left: 14%;
+        left: 0;
+        background-repeat: no-repeat;
+        background-image: url("../images/banner.png");
+        background-size: 100%;
+    }
+    .wap-remaining-number-of-prizes {
+        position: absolute;
+        left: 0;
+        top: px2rem(600px);
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        font-size: px2rem(28px);
+        .count {
+            font-size: px2rem(36px);
+            color: #fff600;
+            text-decoration: underline;
+        }
+    }
+    .wap-number-of-participants {
+        position: absolute;
+        left: 0;
+        top: px2rem(680px);
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        display: inline-block;
+        font-size: px2rem(28px);
+        .count {
+            font-size: px2rem(36px);
+            color: #fff600;
+            text-decoration: underline;
+        }
+    }
+    .wap-rule-link {
+        position: absolute;
+        bottom: px2rem(30px);
+        width: 100%;
+        left: 0;
+        text-align: center;
+        a {
+            color: #fff600;
+            font-size: px2rem(28px);
+            text-decoration: underline;
+            font-weight: bold;
+        }
+    }
+    .wap-rank-link {
+        position: absolute;
+        bottom: px2rem(40px);
+        right: px2rem(100px);
+        a {
+            color: #000000;
+            font-size: px2rem(30px);
+            text-decoration: underline;
+            font-weight: bold;
+        }
+    }
+    .wap-logo {
+        left: px2rem(50px);
+        .logo {
+            background-repeat: no-repeat;
+            background-image: url("../images/logo.png");
+            background-size: 100%;
+        }
+    }
+}
+.app-view {
+    height: 100%;
+    background-color: rgb(251, 229, 192);
+    background-size: px2rem(640px);
+    background: url("../images/common-bg.jpg")0 0 no-repeat;
+}
+
+.app-view.view-home div.modal-panel {
+  text-shadow: none;
+}
+.app-view.view-home div.wap-rule-link {
+  width: 100%;
+  left: 0;
+  margin-left: 0;
+}

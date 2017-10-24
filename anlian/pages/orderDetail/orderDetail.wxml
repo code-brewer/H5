@@ -1,0 +1,45 @@
+<view class="details">
+    <view class="content">
+        <view class="top">
+            <image style="padding-right:10px;width:20px;height:20px" src="../images/one.png"></image>
+            <text>保险计划</text>
+        </view>
+        <view class="ros">
+            <text class="row"><text>保险计划：</text>{{details.policyJson.body.policy.planName}}</text>
+            <text>生效日期：{{details.policyJson.body.policy.effectiveDate}}</text>
+            <text>到期日期：{{details.policyJson.body.policy.expireDate}}</text>
+        </view>
+    </view>
+
+    <view class="content">
+        <view class="top">
+            <image style="padding-right:10px;width:20px;height:20px" src="../images/two.png"></image>
+            <text>投保人信息</text>
+        </view>
+        <view class="ros">
+            <text>姓名：{{details.policyJson.body.policyHolder.policyHolderName}}</text>
+            <text>手机号码：{{details.policyJson.body.policyHolder.pHTelephone}}</text>
+            <text>证件类型：{{details.policyJson.body.policyHolder.pHIdType}}</text>
+            <text>证件号码：{{details.policyJson.body.policyHolder.pHIdNumber}}</text>
+            <text>出生日期：{{details.policyJson.body.policyHolder.pHBirthDate}}</text>
+        </view>
+    </view>
+    <view class="content" wx:for="{{details.policyJson.body.insuredList.Insured}}" wx:for-index="idx" wx:for-item="itemName">
+        <view class="top">
+            <image style="padding-right:10px;width:20px;height:20px" src="../images/two.png"></image>
+            <text>被投保人信息</text>
+        </view>
+        <view class="ros">
+            <text>与投保人关系：{{itemName.policyholderInsuredRelation}}</text>
+            <text>姓名：{{itemName.insuredName}}</text>
+            <text>手机号码：{{itemName.mobile}}</text>
+            <text>证件类型：{{itemName.idType}}</text>
+            <text>证件号码：{{itemName.idNumber}}</text>
+            <text>出生日期：{{itemName.birthDate}}</text>
+            <text>性别：{{itemName.gender}}</text>
+        </view>
+    </view>
+    <view class="footer">
+        <text>©安联财险 2017.版权所有</text>
+      </view>
+</view>

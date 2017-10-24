@@ -1,0 +1,16 @@
+/**app.wxss**/
+.container {
+  width: 100%;
+}
+.full-img {
+	display: block;
+	width: 100%;
+}
+.relative {
+	position: relative;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}

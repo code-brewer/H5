@@ -1,0 +1,93 @@
+<import src="tips.wxml" />
+<import src="Insured.wxml" />
+<import src="PolicyHolder.wxml" />
+<import src="../form/JcModule/JcModule.wxml" />
+<import src="../form/industrySelect/industrySelect.wxml" />
+<import src="../form/Health/Health.wxml" />
+<template is="tips" data="{{tipsText:tipsText}}" wx:if="{{tips}}"/>	
+
+<view class="container">
+	<view class="overflow line">
+		<image src="http://www.allianz.cn/images/wxApplet/planinfo.png" class='fl big-icon'></image>
+		<text class="title fl">选择保险计划</text>
+		<text class="{{'fr title revamp ' + themeColor}}" wx:if="{{planRevamp}}" bindtap="planRevampchange">修改</text>
+	</view>	
+	<view class="formGroup" wx:if="{{plan}}">
+		<picker range="{{product.Plans}}" range-key="PlanName" value="{{insureMessage.plan.PlanName}}" bindchange="changePlans">
+			<view class="li select">
+				<image style="width:15px;height:15px;margin-right:5px;vertical-align: middle;" src="http://www.allianz.cn/images/wxApplet/plan.png"></image>
+				<text style="vertical-align: middle;">保险计划</text>
+				<text class="{{themeColor}}">{{insureMessage.plan.PlanName}}</text>
+			</view>
+		</picker>
+		<picker range="{{insureMessage.TimeArr}}" range-key="value" disabled="{{insureMessage.TimeDisabled}}" value="{{insureMessage.Time}}" bindchange="changeTime" wx:if="{{insuranceTime}}">
+			<view class="li select">
+			<image style="width:15px;height:15px;margin-right:5px;vertical-align: middle;" src="http://www.allianz.cn/images/wxApplet/plan.png"></image>
+				<text style="vertical-align: middle;">保险期间</text>
+				<text class="{{themeColor}}" style="{{insureMessage.TimeDisabled ? 'color: #666' : ''}}">{{insureMessage.Time}}</text>
+			</view>
+		</picker>
+		<picker mode="date" value="{{insureMessage.EffectiveDate}}" start="1940-01-01" end="2030-12-30" bindchange="startDate">
+			<view class="li select">
+				<image style="width:15px;height:15px;margin-right:5px;vertical-align: middle;" src="http://www.allianz.cn/images/wxApplet/start.png"></image>
+				<text style="vertical-align: middle;">起保时间</text>
+				<text class="{{themeColor}}">{{insureMessage.EffectiveDate}}</text>
+			</view>
+		</picker>
+		<picker mode="date" value="{{insureMessage.ExpireDate}}" disabled="{{insureMessage.ExpireDateDisabled}}" start="1940-01-01" end="2030-12-30" bindchange="endDate">
+			<view class="li select last">
+			<image style="width:15px;height:15px;margin-right:5px;vertical-align: middle;" src="http://www.allianz.cn/images/wxApplet/end.png"></image>
+				<text style="vertical-align: middle;">终保时间</text>
+				<text class="{{themeColor}}" style="{{insureMessage.ExpireDateDisabled ? 'color: #666' : ''}}">{{insureMessage.ExpireDate}}</text>
+			</view>
+		</picker>
+	</view>
+	<template is="JcModule" data="{{propertyMessage, themeColor}}" wx:if="{{plan && isJc}}"/>
+
+	<!-- 投保人信息 -->
+	<view class="overflow line" wx:if="{{applicantTop}}">
+		<image src="http://www.allianz.cn/images/wxApplet/phinfo.png" class='fl big-icon' wx:if="{{applicantTop}}"></image><text class="title fl" wx:if="{{applicantTop}}">填写投保人信息</text>
+		<text class="{{'fr title revamp ' + themeColor}}" wx:if="{{applicantTopRevamp}}" bindtap="applicantTopRevampChange">修改</text>
+	</view>
+	<template is="PolicyHolder" data="{{applicantMessage,endDateRange,themeColor, sendCodeTime, sendCodeTimer, plan: insureMessage.plan}}" wx:if="{{applicant}}"/>
+	<view class="overflow line" wx:if="{{applicant && other[0].industrySelect}}">
+		<image src="http://www.allianz.cn/images/wxApplet/planinfo.png" class='fl big-icon'></image>
+		<text class="title fl">被保险人的职业</text>
+	</view>	
+	<template is="industrySelect" data="{{message:other[0], index: 0, themeColor}}" wx:if="{{applicant && other[0].industrySelect}}" />
+	<template is="Health" data="{{healthStatement:other[0].healthStatement, i: 0, themeColor, product}}" wx:if="{{applicant && other[0].isHealth}}" />
+	<view class="message-text" wx:if="{{applicant && applicantMessage.same}}">
+		<text class="text">受益人：<text class="{{themeColor}}">法定</text></text>
+		<text class="text">总价：<text class="{{themeColor}}">￥{{totalPremium}}</text></text>
+	</view>
+	<!-- /投保人信息 -->
+
+	<!-- 被保人信息 -->
+	<view wx:if="{{bool}}" class="overflow">
+		<view class="overflow">
+			<image src="http://www.allianz.cn/images/wxApplet/insinfo.png" class='fl big-icon'></image>
+			<text class="title fl">填写被保人信息</text>
+		</view>
+		<block wx:for="{{other}}" wx:key="id">
+			<template is="Insured" data="{{recognizeeMessage:other[index],endDateRange:endDateRange,themeColor, plan: insureMessage.plan}}"/>
+			<template is="industrySelect" data="{{message:other[index], index: index, themeColor}}" wx:if="{{bool && other[index].industrySelect}}" />
+			<template is="Health" data="{{healthStatement:other[index].healthStatement, i: index, themeColor, product}}" wx:if="{{bool && other[index].isHealth}}" />
+			<view class="fl overflow mg-bottom" hidden="{{product.TypeEn === 'jc'}}">
+		        <button class="btn" bindtap="del" data-id="{{other[index].id}}"> <image src="../images/del.jpg"></image><text>删除</text></button>
+		    </view>
+		</block>
+		<template is="add" wx:if="{{other.length < (product.groupSize ? product.groupSize : 30)}}" data="{{product, themeColor}}"/>
+		<view class="message-text">
+			<text class="text">受益人：<text class="{{themeColor}}">法定</text></text>
+			<text class="text">总价：<text class="{{themeColor}}">￥{{totalPremium}}</text></text>
+		</view>
+	</view>
+	<!-- /被保人信息 -->
+	
+	<button class="{{'button overflow ' + themeColor}}" bindtap="nextStep">{{nextOrSuccesss}}</button>
+	<loading hidden="{{isLoading}}">{{loadText}}</loading>
+	<view class="mask" wx:if="{{isMask}}"></view>
+</view>
+<view class="footer">
+  	<text>©安联财险 2017.版权所有</text>
+</view>

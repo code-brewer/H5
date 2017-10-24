@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html
+<head>
+
+ <meta charset="utf-8">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" /> -->
+        <meta name="apple-mobile-web-app-capable" content="yes" /><!-- 删除苹果默认的工具栏和菜单栏 -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" /><!-- 设置苹果工具栏颜色 -->
+        <meta name="format-detection" content="telphone=no, email=no" /><!-- 忽略页面中的数字识别为电话，忽略email识别 -->
+        <!-- 启用360浏览器的极速模式(webkit) -->
+        <meta name="renderer" content="webkit">
+        <!-- 避免IE使用兼容模式 -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- uc强制竖屏 -->
+        <meta name="screen-orientation" content="portrait">
+        <!-- QQ强制竖屏 -->
+        <meta name="x5-orientation" content="portrait">
+        <!-- UC强制全屏 -->
+        <meta name="full-screen" content="yes">
+        <!-- QQ强制全屏 -->
+        <meta name="x5-fullscreen" content="true">
+        <!-- UC应用模式 -->
+        <meta name="browsermode" content="application">
+        <!-- QQ应用模式 -->
+        <meta name="x5-page-mode" content="app">
+        <!-- windows phone 点击无高光 -->
+        <meta name="msapplication-tap-highlight" content="no">
+</head>
+<link rel="stylesheet" type="text/css" href="css/global.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 640;
+        var ua = navigator.userAgent;
+        if (/Android (\d+\.\d+)/.test(ua)) {
+            var version = parseFloat(RegExp.$1);
+            if (version > 2.3) {
+                document.write('<meta name="viewport" content="width=640, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+            } else {
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, maximum-scale=1">');
+        }
+      </script>
+
+<body>
+<section class="title">
+  <a class="l-jiantou" href="#"></a>
+  <h1 class="logo">贝壳币商城</h1>
+  <a class="share" href="#"></a>
+</section>
+<section class="shop-banner">
+<a href="AutoReply.html">
+<img src="images/shop-banner.jpg" class="">
+</a>
+</section>
+
+<section class="shop-btn">
+        <a class="shop-btn-l" href="AutoReply.html">
+              <div class="shop-btn-L">
+              <h5 class="l-btn">我的贝壳币</h5> <h5 class="num">999个</h5>
+              </div> 
+        </a>
+        <a class="shop-btn-r" href="AutoReply.html">
+                <div class="shop-btn-R"><span class="r-btn"></span><h5 class="record">我的兑换记录</h5></div>
+        </a>
+</section>
+
+<section class="shop-bg">
+
+<div class="winPresent">
+        <div class="winPresent-l">
+        <a href="shop-close.html">
+        <img src="images/font.png" alt="" />
+        </a>
+          
+        </div>
+        <div class="zhuanpan">
+             <!-- <img src="images/thanks.png" alt="" class="thanks1" />
+              <img src="images/thanks.png" alt="" class="thanks2" />
+              <img src="images/thanks.png" alt="" class="thanks3" />
+              <img src="images/ye.png" alt="" class="tu1"/>
+              <img src="images/child.png" alt="" class="tu2"/>
+              <img src="images/duck.png" alt="" class="tu3"/>  -->
+        </div>
+  </div>
+       
+              <div class="lipin">   
+               <img src="images/liwu.png" alt="" />
+              </div>
+              
+
+ <div class="jiangpin">
+      <ul>
+              <li>
+              <a href="AutoReply.html">
+                 <img src="images/duck.png">
+              <div class="font">
+                   <h5>满趣健White Hot充气安全澡盆-鸭子造型</h5>  
+              </div>
+              <div class="btn-duijiang">
+                  <a href="#" class="btn1">900贝壳币</a>   
+                 <a href="#" class="btn2">10贝壳币试运气</a>     
+              </div>
+                </a>  
+              </li>
+              <li>
+              <a href="AutoReply.html">
+            
+                 <img src="images/child.png">
+              
+              <div class="font">
+                  <h5>长颈鹿脚踏车</h5> 
+              </div>
+              <div class="btn-duijiang">
+                  <a href="#" class="btn1">900贝壳币</a>   
+                 <a href="#" class="btn2">10贝壳币试运气</a>    
+              </div>
+                 </a>       
+              </li>
+              <li>
+              <a href="AutoReply.html">
+              
+                 <img src="images/ye.png" class="ye">
+              
+              <div class="font">
+                     <h5>施巴婴儿200ml泡泡浴露</h5>
+              </div>
+              <div class="btn-duijiang">
+                  <a href="#" class="btn1">900贝壳币</a>   
+                 <a href="#" class="btn2">10贝壳币试运气</a>    
+              </div>
+                 </a>      
+              </li>
+      </ul>
+  </div>
+  <div class="attation">
+    <a href="#" class="more"> 
+    </a>
+  </div>
+
+
+
+  
+
+        
+</section>
+
+
+</body>
+</html>

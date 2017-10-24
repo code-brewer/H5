@@ -1,0 +1,182 @@
+@import '../../../../css/px2rem.scss';
+@import '../../../../css/bootstrap/_mixins.scss';
+.app-view {
+    width: px2rem(640px);
+    height: px2rem(1096px);
+    background-image: url("http://www.soyu.cn/fsd/ap/20161109/88_b00d5649_5abf_47c8_89f0_58326fc44a00.png");
+    p {
+        font-size: px2rem(26px);
+    }
+}
+.wap-button {
+    display: inline-block;
+    line-height: 3.58333rem;
+    background: #ffd200;
+    text-align: center;
+    color: #000;
+    // font-size: px2rem(40px);
+    a {
+        color: #000;
+        font-size: px2rem(40px);
+        text-decoration: none;
+    }
+}
+.wap-rule-modal {
+    text-align: left;
+}
+.app-view {
+    width: px2rem(640px);
+    height: px2rem(1029px);
+}
+.app-view.view-home {
+    background: url('http://www.soyu.cn/fsd/ap/20161107/88_8e15363a_9230_486c_acf4_000efde9d2f2.jpg');
+    background-size: 100%;
+    text-align: center;
+    .wap-activity-date {
+        position: relative;
+        color: #ffd200;
+        display: inline-block;
+        left: 0;
+        top: px2rem(530px);
+        width: 100%;
+        text-align: center;
+        font-size: px2rem(30px);
+    }
+
+    .wap-remaining-number-of-prizes {
+        position: absolute;
+        top: px2rem(580px);
+        width: 100%;
+        text-align: center;
+         font-size: px2rem(30px);
+        color: #ffd200;
+        left: 0;
+        .count {
+            font-size: px2rem(25px);
+            text-decoration: underline;
+        }
+    }
+
+    .wap-number-of-participants {
+        position: absolute;
+        left: 0;
+        top: px2rem(650px);
+        width: 100%;
+        text-align: center;
+        color: #ffd200;
+        display: inline-block;
+        font-size: px2rem(30px);
+        .count {
+            font-size: px2rem(30px);
+            color: #f1cd26;
+            text-decoration: none;
+        }
+    }
+    .wap-logo {
+        left: px2rem(50px);
+        width: px2rem(188px);
+        .logo {
+            background-repeat: no-repeat;
+            background-image: url("../../bargain/images/logo.png");
+            background-size: 100%;
+        }
+    }
+    .wap-button-view {
+        top: px2rem(744px);
+        left: 50%;
+        position: absolute;
+        .wap-button {
+            width: px2rem(250px);
+            transform: translateX(-50%);
+        }
+    }
+    .wap-activity-box {
+        position: absolute;
+        height: px2rem(62px);
+        width: px2rem(62px);
+        right: px2rem(34px);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .wap-rule-link {
+        position: absolute;
+        bottom: px2rem(40px);
+        left: 0;
+        width: 100%;
+        text-align: center;        a {
+            color: #ffd200;
+            font-size: px2rem(30px);
+            text-decoration: underline;
+            font-weight: bold;
+        }
+    }
+}
+.app-view.view-activity {
+    text-align: center;
+    .wap-timer-number {
+        position: absolute;
+        top: px2rem(15px);
+        right: px2rem(15px);
+        background: url('http://www.soyu.cn/fsd/ap/20161108/88_a0f736ba_f3c9_4bfc_9b09_725350fc3bcd.jpg');
+        background-size: 100%;
+        width: px2rem(171px);
+        height: px2rem(60px);
+        text-align: center;
+        > p {
+            display: inline-block;
+            color: #fff;
+            font-size: px2rem(53px);
+            text-shadow: 0 0 20px rgba(#40b5ff, .75);
+            vertical-align: middle;
+            > span {
+                float: left;
+                display: inline-block;
+            }
+        }
+        p.min::after {
+            content: ':';
+            display: inline-block;
+            margin-left: px2rem(5px);
+        }
+    }
+    .wap-score {
+        position: absolute;
+        top: px2rem(110px);
+        left: 0;
+        right: 0;
+        font-size: px2rem(42px);
+        color: #e21e1e;
+        font-weight: bold;
+    }
+    .wap-black-white-block {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 0;
+        background: #fff;
+        .td {
+            background: #fff;
+            border: px2rem(1px) solid #bbb;
+            &.active {
+                background: #000;
+                color: #fff;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                span {
+                    font-size: px2rem(71px);
+                }
+            }
+        }
+    }
+    .wap-topbar {
+        position: relative;
+        z-index: 3;
+    }
+}
+.game-result {
+    .wap-get-score-only {
+        padding-top: px2rem(150px);
+    }
+}

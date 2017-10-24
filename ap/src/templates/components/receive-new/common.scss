@@ -1,0 +1,50 @@
+@import '../../../css/px2rem.scss';
+.view-receive {
+  &.app-view {
+    height: 100% !important;
+    background-size: cover;
+    background-image: url(./images/game-bg.jpg);
+
+    .view-receive__content {
+        padding: px2rem(68px);
+        margin: px2rem(50px) px2rem(68px);
+        background: #eb7021;
+        border-radius: 6px;
+        box-shadow: 0 0 10px rgba(#000, .3);
+
+        .phone-wrap {
+            input {
+                display: block;
+                width: 100%;
+                margin: px2rem(24px) 0;
+                padding: 5px;
+                height: 36px;
+                background: #efb159;
+                border-radius: 6px;
+                line-height: 36px;
+                border: 0;
+                color: #fff;
+                font-size: 14px;
+
+                &::-webkit-input-placeholder  {
+                    color: #fff;
+                }
+            }
+        }
+
+        .awardtip {
+            color: #fff;
+        }
+    }
+  }
+}
+.view-receive__tips {
+    display: block;
+    margin: 0 auto;
+    width: px2rem(609px);
+}
+.view-receive-tips{
+    font-size: px2rem(25px);
+    text-align: center;
+    color: #ff1e13;
+}

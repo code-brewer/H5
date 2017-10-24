@@ -1,0 +1,14 @@
+
+/home/wusz/qb_tomcat/webapps
+
+93
+
+wusz/Wusz#93*!
+
+
+http://116114.easier.cn/hn114/wo/getarea
+
+http://localhost/hn114/wo/getarea
+
+
+/home/wusz/tomcat7_116114/webapps

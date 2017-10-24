@@ -1,0 +1,58 @@
+.app-view.view-home {
+    background-size: px2rem(640px);
+    width: px2rem(640px);
+    height: px2rem(1027px);
+    .modal-panel {
+        color: #000;
+        //text-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+        .content {
+            width: 100%;
+            font-size: 0;
+            padding: 30px 10px 10px;
+            .spane {
+                margin-bottom: 20px;
+                .label {
+                    font-size: 14px;
+                    color: #000!important;
+                    width: 30%;
+                    text-align: right;
+                    display: inline-block;
+                    vertical-align: top;
+                }
+                .nr {
+                    font-size: 14px;
+                    width: 70%;
+                    display: inline-block;
+                    text-align: left;
+                    padding-left: 40px;
+                    position: relative;
+                    .check-box {
+                        margin-bottom: 30px;
+                    }
+                    .components-wrap {
+                        position: absolute;
+                        left: 130px;
+                        width: 220px;
+                        z-index: 9;
+                    }
+                    .col {
+                        height: 40px;
+                        span {
+                            color: #000;
+                            text-decoration: inherit;
+                            float: left;
+                        }
+                        i {
+                            height: 20px;
+                            display: inline-block;
+                            width: 40px;
+                            vertical-align: middle;
+                            margin-left: 26px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

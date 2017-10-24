@@ -1,0 +1,462 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.view-wrap.open {
+  overflow: hidden; }
+
+.view {
+  max-width: 640px;
+  margin: auto;
+  position: relative; }
+
+.w {
+  max-width: 750px;
+  min-width: 320px;
+  margin: 0 auto; }
+
+.top-line {
+  height: 20px;
+  line-height: 20px;
+  padding: 0 20px;
+  background: #fff; }
+  .top-line strong {
+    float: left;
+    color: #000;
+    font-size: 0.88rem;
+    margin-top: 5px; }
+  .top-line a {
+    width: 48px;
+    float: right;
+    color: #000;
+    font-size: 0.88rem; }
+    .top-line a i {
+      background: url("../images/jiantou.png") 0 0 no-repeat;
+      -webkit-background-size: 100%;
+      background-size: 100%;
+      display: inline-block;
+      width: 9px;
+      height: 13px;
+      margin-left: 5px; }
+    .top-line a i, .top-line a span {
+      vertical-align: middle; }
+
+.LifeCheck {
+  padding: 0 34px;
+  height: auto;
+  background: #fff;
+  /*border-bottom: 1px solid #e5e5e5;*/
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 100%; }
+
+.banner {
+  width: 100%;
+  height: 10rem;
+  background: url(../images/0_r2_c1.gif) no-repeat;
+  position: relative;
+  background-size: 100% 100%; }
+  .banner h2 {
+    margin: 0 auto;
+    font-size: 1.04rem;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px; }
+
+.LifeCheck li {
+  width: 25%;
+  /*height: 120px;*/
+  float: left;
+  margin: 5px 0; }
+  .LifeCheck li img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto; }
+  .LifeCheck li p {
+    text-align: center;
+    color: #000;
+    font-size: 0.64rem; }
+
+.more {
+  width: 60%;
+  height: 1.92rem;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  line-height: 1.92rem;
+  text-align: center;
+  margin: 0 auto;
+  background: #f8f8f8;
+  display: block; }
+
+.text-suo {
+  width: 16rem;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  margin: 0 auto;
+  position: relative;
+  top: 68px;
+  border-radius: 35px;
+  padding-left: 30px;
+  display: block;
+  background: #f0f0f0 url(../images/sousuo.png) 10px center no-repeat;
+  -webkit-background-size: 14px;
+  background-size: 14px;
+  outline: none; }
+
+/*美食模块*/
+.title {
+  width: 100%;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: #fff;
+  background: #ffcc1d;
+  text-align: center;
+  position: relative; }
+  .title a {
+    width: 1.16rem;
+    height: 1.92rem;
+    background: url(../images/left-jiantou.png) no-repeat;
+    background-size: 50% 50%;
+    position: absolute;
+    left: 0.4rem;
+    top: 70%;
+    transform: translateY(-50%);
+    cursor: pointer; }
+
+/*.title i{
+  width:29px;
+  height: 48px;
+  display: inline-block;
+  background: url(../images/left-jiantou.png no-repeat);
+}*/
+.food-list li {
+  width: 100%;
+  height: 4rem;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 40px 10px 28px 40px;
+  background: #fff; }
+
+/* 搜索结果模块*/
+.no-result {
+  width: 50%;
+  height: 50%;
+  margin: 20px auto;
+  display: block; }
+
+.no-text {
+  text-align: center;
+  line-height: 20px;
+  font-size: 1rem; }
+
+/* 全部分类模块*/
+.fenlei {
+  width: 100%;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  padding-left: 20px;
+  font-size: 16px;
+  color: #000; }
+
+.fenlei-list {
+  width: 100%; }
+  .fenlei-list li {
+    height: 4rem;
+    line-height: 4rem;
+    border-bottom: 1px solid #ebebec;
+    padding-left: 20px;
+    padding-right: 1.2rem; }
+
+.food-fenlei-list > li {
+  overflow: hidden; }
+  .food-fenlei-list > li a {
+    color: #000;
+    font-size: 0.8rem;
+    display: block;
+    overflow: hidden;
+    padding: 0 20px;
+    height: 4rem;
+    line-height: 4rem;
+    border-bottom: 1px solid #ebebec;
+    position: relative; }
+    .food-fenlei-list > li a img.icon {
+      position: absolute;
+      left: 20px;
+      top: 20px;
+      width: 30px;
+      height: 30px; }
+  .food-fenlei-list > li > a {
+    padding-left: 60px; }
+  .food-fenlei-list > li i {
+    width: 0.48rem;
+    height: 0.8rem;
+    background: url(../images/right-jiangtou.png) no-repeat;
+    float: right;
+    background-size: contain;
+    margin-top: 24px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 20px; }
+  .food-fenlei-list > li .sub-list {
+    overflow: hidden;
+    padding-left: 40px; }
+    .food-fenlei-list > li .sub-list li {
+      height: 4rem;
+      line-height: 4rem;
+      border-bottom: 1px solid #ebebec;
+      background: #fff; }
+      .food-fenlei-list > li .sub-list li a {
+        overflow: hidden;
+        display: block; }
+
+/*.fenlei-list-icon{
+  width:40px;
+  height:auto;
+  float:left;
+}*/
+.fenlei-list li i {
+  width: 0.48rem;
+  height: 0.8rem;
+  background: url(../images/right-jiangtou.png) no-repeat;
+  float: right;
+  background-size: contain;
+  margin-top: 24px; }
+
+/*美食列表*/
+.food-list-text {
+  color: #000;
+  line-height: 4rem;
+  float: left;
+  font-size: 0.8rem;
+  padding-left: 5px; }
+  .food-list-text:before {
+    width: 1rem;
+    height: 0.48rem;
+    display: block;
+    content: "";
+    background: url(../images/yuandian.png) no-repeat;
+    float: left;
+    background-size: contain;
+    margin-top: 28px;
+    padding-right: 5px; }
+
+/*美食详情*/
+.food-detail li {
+  border-bottom: 1px solid #ebebec;
+  padding: 0.8rem 0.4rem 0.8rem 0.8rem;
+  background: #fff;
+  overflow: hidden; }
+  .food-detail li .detail-l {
+    width: 83%;
+    float: left; }
+    .food-detail li .detail-l p {
+      line-height: 20px;
+      font-size: 0.64rem;
+      color: #a6a6a6; }
+      .food-detail li .detail-l p:nth-of-type(2) {
+        line-height: 16px;
+        font-size: 0.72rem;
+        color: #a6a6a6; }
+      .food-detail li .detail-l p a {
+        color: #000;
+        font-size: 1rem;
+        vertical-align: middle; }
+      .food-detail li .detail-l p i {
+        vertical-align: middle;
+        display: inline-block; }
+        .food-detail li .detail-l p i:nth-of-type(1) {
+          width: 0.96rem;
+          height: 1rem;
+          background: url(../images/v.png) no-repeat;
+          display: inline-block;
+          -webkit-background-size: contain;
+          background-size: contain;
+          margin-left: .5rem; }
+        .food-detail li .detail-l p i:nth-of-type(2) {
+          width: 0.96rem;
+          height: 1rem;
+          background: url(../images/hui.png) no-repeat;
+          display: inline-block;
+          -webkit-background-size: contain;
+          background-size: contain;
+          margin-left: 0.2rem; }
+      .food-detail li .detail-l p.stars em {
+        width: 0.96rem;
+        height: 1rem;
+        background: url(../images/star.png) no-repeat;
+        display: inline-block;
+        -webkit-background-size: contain;
+        background-size: contain;
+        margin-left: 1px;
+        vertical-align: middle; }
+      .food-detail li .detail-l p.stars span {
+        vertical-align: middle; }
+      .food-detail li .detail-l p.address {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+  .food-detail li .detail-r {
+    width: 15%;
+    float: right;
+    margin-top: 25px; }
+
+/* 呼叫号码*/
+.motai {
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  filter: alpha(opacity=50);
+  /*支持 IE 浏览器*/
+  -moz-opacity: 0.50;
+  /*支持 FireFox 浏览器*/
+  opacity: 0.40;
+  /*支持 Chrome, Opera, Safari 等浏览器*/ }
+
+.modal-dialog {
+  margin: auto;
+  margin-top: 20%; }
+
+.modal-content {
+  width: 60%;
+  height: 6rem;
+  background: #fff;
+  position: absolute;
+  left: 20%;
+  margin: 0 auto;
+  z-index: 999;
+  border-radius: 10px; }
+
+.call-top {
+  width: 100%;
+  height: 4rem;
+  line-height: 4rem;
+  margin: 0 auto;
+  border-bottom: 1px solid #999;
+  text-align: center;
+  color: #000; }
+
+.call-bottom {
+  width: 100%;
+  height: 2rem;
+  line-height: 2rem; }
+  .call-bottom .del {
+    width: 50%;
+    height: 2rem;
+    line-height: 2rem;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #999;
+    box-sizing: border-box;
+    color: #007AFF; }
+  .call-bottom .calling {
+    width: 50%;
+    height: 2rem;
+    line-height: 2rem;
+    float: left;
+    text-align: center;
+    color: #007AFF; }
+
+.phone-w {
+  position: relative; }
+
+.slide-transition {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+.right-left .slide-transition.slide-enter, .right-left .slide-transition.slide-leave, .left-right .slide-transition.slide-enter, .left-right .slide-transition.slide-leave {
+  position: absolute !important;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+.right-left .slide-enter {
+  -webkit-transform: translate3d(100%, 0, 0);
+  -moz-transform: translate3d(100%, 0, 0);
+  -ms-transform: translate3d(100%, 0, 0);
+  -o-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0); }
+.right-left .slide-leave {
+  -webkit-transform: translate3d(-100%, 0, 0);
+  -moz-transform: translate3d(-100%, 0, 0);
+  -ms-transform: translate3d(-100%, 0, 0);
+  -o-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0); }
+
+.left-right .slide-enter {
+  -webkit-transform: translate3d(-100%, 0, 0);
+  -moz-transform: translate3d(-100%, 0, 0);
+  -ms-transform: translate3d(-100%, 0, 0);
+  -o-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0); }
+.left-right .slide-leave {
+  -webkit-transform: translate3d(100%, 0, 0);
+  -moz-transform: translate3d(100%, 0, 0);
+  -ms-transform: translate3d(100%, 0, 0);
+  -o-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0); }
+
+.location-wrap {
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  height: 21px; }
+  .location-wrap img, .location-wrap span {
+    vertical-align: middle; }
+  .location-wrap img {
+    height: 100%;
+    width: 15px; }
+  .location-wrap span {
+    font-size: 14px;
+    color: #fff;
+    margin-left: 5px; }
+
+.location-content {
+  background: #f5f5f9;
+  padding: 30px 0; }
+  .location-content .l-title {
+    font-size: 13px;
+    color: #000;
+    padding-left: 15px;
+    padding-bottom: 5px; }
+  .location-content .list-wrap {
+    background: #fff;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc; }
+    .location-content .list-wrap ul {
+      width: 100%;
+      overflow: hidden;
+      padding: 10px 15px; }
+      .location-content .list-wrap ul, .location-content .list-wrap ul li {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; }
+      .location-content .list-wrap ul li {
+        float: left;
+        width: 33.3%;
+        padding: 5px; }
+        .location-content .list-wrap ul li a {
+          display: block;
+          height: 35px;
+          line-height: 35px;
+          border: 1px solid #ccc;
+          text-align: center;
+          color: #000; }
+        .location-content .list-wrap ul li.active a {
+          background: #ffda44;
+          border-color: #000; }
+
+/*# sourceMappingURL=main.css.map */

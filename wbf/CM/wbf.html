@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="ssd"></meta>
+  <title>沃百富</title>
+  <script type="text/javascript" src="./src/js/md5.js"></script>
+  <script type="text/javascript" src="./src/js/base64.js"></script>
+  <script type="text/javascript" src="./src/js/wbfJB.js"></script>
+  <script type="text/javascript">
+  function getArgsFromUrl(sArgName) {
+        var sHref = window.location.search;
+        var args = sHref.split("?");
+        var retval = "";
+        if(args[0] == sHref)
+        {
+            return retval;
+        }
+        var str = args[1];
+        args = str.split("&");
+        for(var i = 0; i < args.length; i++ )
+        {
+            str = args[i];
+            var arg = str.split("=");
+            if(arg.length <= 1) continue;
+            if(arg[0] == sArgName) retval = arg[1];
+        }
+        return retval;
+　　}
+    var serverPath = "http://112.96.28.36:8006";
+    var basePath = location.href.split('wbf.html')[0];
+    function init(){
+      var m = getArgsFromUrl("mbl_no");
+      var at = getArgsFromUrl("auth_token");
+      if(typeof(at) != "undefined"){
+        window.auttok = at;
+      }
+    }
+     function sdget(url,callback){
+    var xmlhttp=new XMLHttpRequest();
+    xmlhttp.onreadystatechange=function(){
+        if (xmlhttp.readyState==4){
+            if(xmlhttp.status==200){
+                alert(xmlhttp.responseText);
+                if(callback){
+                    callback(JSON.parse(xmlhttp.responseText));
+                }
+            }
+            else{
+                if(callback){
+                    callback({"msgCode":"500","msgInfo":"网络错误"},xmlhttp.readyState+"|"+xmlhttp.status);
+                }
+            }
+        }
+    }
+    xmlhttp.open("GET",serverPath + url,true);
+    xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+    xmlhttp.send(null);
+}
+function qryUserInfo(fun){
+        var p = "auth_token="+window.auttok+"&10000100";
+        var np = p+"&sign="+hex_md5(p);
+        var b = new Base64();
+        sdget("/mkm/third/qryUserInfo?channel_id=yijie&req_data="+b.encode(np),fun);
+    }
+  </script>
+</head>
+
+<body onload="init()">
+	<div>
+   <input id="su" type="text" style="width: 200px;height: 50px;font-size: 30px;">
+   <button onclick="go()" style="width: 200px;height: 50px;font-size: 30px;">ok</button>
+   <button onclick="login()" style="width: 200px;height: 50px;font-size: 30px;display: block;">跳转到登录</button>
+   <button onclick="geturl()" style="width: 300px;height: 50px;font-size: 30px;display: block;">获取当前页面链接</button>
+   <button onclick="getm()" style="width: 200px;height: 50px;font-size: 30px;display: block;">跳转到数钱</button>
+  </div>
+  <script>
+
+  var go = function(){
+    location.href = document.getElementById("su").value+location.search;
+  }
+  var login = function(){
+    if(typeof(window.auttok) == "undefined"){
+      init();
+    }
+    // var serverPath = "http://112.96.28.36:8006";
+    // var url=serverPath+"/rest/login";
+    // wbfJB.loadUrl(5,url);
+    var url=serverPath+"/mkm/third/login?url="+encodeURIComponent(basePath+"wbf.html"+"?a=1&auth_token="+window.auttok)+"&auth_token="+window.auttok;
+    // var url=serverPath+"/mkm/third/login?url="+encodeURIComponent(basePath+"wbf.html"+"?a=1")+"&auth_token="+window.auttok;
+    // wbfJB.loadUrl(5,url);
+    alert(url);
+    window.location.href = url;
+  }
+  var geturl = function(){
+    alert(location.href);
+  }
+  var getm = function(){
+    wbfJB.loadUrl(5,"http://gioc.easier.cn/wbf/CM.html"+location.search);
+//     qryUserInfo(function(back){
+// alert(back);
+//     });
+  }
+ 
+  </script>
+</body>
+
+</html>

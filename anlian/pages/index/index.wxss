@@ -1,0 +1,281 @@
+page {
+	padding-bottom: 100px;
+	background: #e9ebf0;
+}
+.header {
+	position: relative;
+	height: 50px;
+	background: #003680;
+}
+.header .img {
+	position: absolute;
+	top: 10px;
+	width: 237px;
+	margin-left: 10px;
+}
+.header .tel {
+	position: absolute;
+	top: 13px;
+	right: 10px;
+	width: 22px;
+}
+
+.pro {
+	position: relative;
+	margin: 5px 0;
+	padding: 10px 10px 10px 125px;
+	border: solid #d6d6d6;
+	border-width: 1px 0;
+	background: white;
+}
+.pro image {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 105px;
+	height: 105px;
+}
+.pro .con .text1 {
+	padding-bottom: 5px;
+	color: #fc4e36;
+	font-size: 16px;
+	line-height: 20px;
+	border-bottom: 1px dashed #d6d6d6;
+}
+.pro .con .text2 {
+	height: 30px;
+	padding: 8px 0 12px 0;
+	color: #666;
+	vertical-align: middle;
+	font-size: 14px;
+	line-height: 18px;
+	border-bottom: 1px dashed #d6d6d6;
+}
+/*.pro .con .text2:before {
+	content: "";
+	display: inline-block;
+	width: 0;
+	height: 100%;
+	vertical-align: middle;
+}*/
+.pro .con .text2 text {
+	display: inline-block;
+	vertical-align: middle;
+}
+.pro .con .price {
+	padding-top: 8px;
+	color: #fc4e36;
+}
+.pro .con .price text {
+	font-size: 12px;
+	color: #666;
+	margin-left: 6px;
+}
+.pro .con .buy-btn {
+	position: absolute;
+	right: 10px;
+	bottom: 6px;
+	padding: 5px;
+	color: #8c989c;
+	font-size: 12px;
+	border: 1px solid #d8dade;
+	border-radius: 5px;
+	background: white;
+}
+
+.pro .con .orange {
+	color: #ff8200;
+}
+.pro .con .yellow {
+	color: #f8b300;
+}
+.pro .con .pink {
+	color: #f57eb6;
+}
+.pro .con .green {
+	color: #64a70b;
+}
+
+.detail.detail1, .tese {
+	padding: 12px;
+	padding-bottom: 0;
+	background: white;
+}
+.detail .con {
+	padding: 8px 15px;
+	padding-bottom: 0;
+	background: white;
+}
+.detail .con .title {
+	padding-bottom: 8px;
+	line-height: 30px;
+	height: 30px;
+	font-size: 16px;
+	border-bottom: 1px solid #d5d8dd;
+	color: #004c98;
+}
+.detail .con .title text {
+	padding-left: 10px;
+	border-left: 2px solid #fc4e36;
+}
+.detail .con .title .orange {
+	border-color: #ff8200;
+}
+.detail .con .title .yellow {
+	border-color: #f8b300;
+}
+.detail .con .title .pink {
+	border-color: #f57eb6;
+}
+.detail .con .title .green {
+	border-color: #64a70b;
+}
+.detail .con .section {
+	position: relative;
+	margin-left: 45px;
+	padding: 10px 0;
+	color: #666;
+	border-bottom: 1px dashed #d6d6d6;
+}
+.detail .con .section:last-child {
+	border: 0;
+}
+.detail .con .section .table {
+	display: table;
+	min-height: 40px;
+}
+.detail .con .section image {
+	position: absolute;
+	top: 50%;
+	left: -45px;
+	width: 45px;
+	height: 54px;
+	margin-top: -27px;
+}
+.detail .con .section .text {
+	display: table-cell;
+	vertical-align: middle;
+}
+.detail .con .section .text text {
+	display: inline;
+}
+.detail .con .section text {
+	font-size: 14px;
+	line-height: 18px;
+}
+.detail .con .section .blue {
+	color: #004c98;
+}
+.detail .con .section .small {
+	color: #8c989c;
+	font-size: 12px;
+}
+
+.two-code {
+	padding: 20px 0;
+	color: #8c989c;
+	font-size: 14px;
+	line-height: 1.5;
+	text-align: center;
+}
+.two-code image {
+	display: block;
+	margin: 6px auto;
+	width: 100%;
+}
+.footer {
+	bottom: 50px;
+}
+
+
+.tab {
+	background: white;
+}
+.tab text {
+	float: left;
+	width: 33.3%;
+	height: 45px;
+	line-height: 45px;
+	font-size: 14px;
+	text-align: center;
+	color: #7b7f81;
+	border-bottom: 1px solid #d6d6d6;
+	box-sizing: border-box;
+}
+.tab text:first-child {
+	border-right: 1px solid #d6d6d6;
+}
+.tab text:nth-child(2) {
+	border-right: 1px solid #d6d6d6;
+}
+.tab .active {
+	font-weight: 700;
+	border-bottom: 1px solid transparent;
+}
+.tab .active.orange {
+	color: #ff8200;
+}
+.tab .active.yellow {
+	color: #f8b300;
+}
+.tab .active.pink {
+	color: #f57eb6
+;
+}
+.tab .active.green {
+	color: #64a70b;
+}
+
+
+.tese .li text.orange {
+	color: #ff8200;
+}
+.tese .li text.yellow {
+	color: #f8b300;
+}
+.tese .li text.pink {
+	color: #f57eb6
+;
+}
+.tese .li text.green {
+	color: #64a70b;
+}
+
+.tese .li {
+	position: relative;
+	display: table;
+	padding: 10px 0 10px 70px;
+	min-height: 56px;
+	color: black;
+	font-size: 12px;
+	border-bottom: 1px dashed #d6d6d6;
+	vertical-align: middle;
+}
+.tese .li:last-child {
+	border-bottom: 0;
+}
+.tese .li .tImg{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 53px;
+	height: 53px;
+	margin-top: -27px;
+	line-height:42px;
+	vertical-align:middle;
+	margin-right: 15px;
+}
+.tese .li text {
+	display: table-cell;
+	line-height: 22px;
+	font-size: 16px;
+	vertical-align: middle;
+	font-weight: 700;
+}
+.tese .li:before {
+	content: "";
+	display: inline-block;
+	width: 0;
+	height: 100%;
+	vertical-align: middle;
+}

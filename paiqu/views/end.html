@@ -1,0 +1,11 @@
+<ion-view title="动态图分享" hide-back-button="false" hide-nav-bar="false" class="end-page">
+	<ion-nav-buttons side="right">
+        <a class="button button-icon" href="#/home" ng-if="isShared">
+            我也要制作<i class="icon icon-arrow-right"></i>
+        </a>
+        <a class="button button-icon" href="#/home" ng-if="!isShared">
+            重做<i class="icon icon-arrow-right"></i>
+        </a>
+    </ion-nav-buttons>
+	<img ng-src="{{gifSrc}}" id="image">
+</ion-view>

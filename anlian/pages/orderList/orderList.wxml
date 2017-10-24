@@ -1,0 +1,45 @@
+<import src="../form/tips.wxml" />
+<template is="tips" data="{{tipsText:tipsText}}" wx:if="{{tips}}"/> 
+<view class="body">
+    <view class="header clearfix">
+        <text bindtap="tabChange" class="{{current === 'all' ? 'active' : ''}}" data-testId="all">全部</text>
+        <text bindtap="tabChange" class="{{current === 'wait' ? 'active' : ''}}" data-testId="wait">未付款</text>
+        <!-- <text bindtap="click" class="{{current === 'already' ? 'active' : ''}}" data-testId="already">已付款</text> -->
+    </view>
+    <view class="content">
+        <view wx:if="{{list.length}}" class="relief"><text>本人确认保单信息真实无误，同意保单信息和保险责任以保险公司签发的保单及保险条款为准，如保单载明与保险条款内容不一致的，以保单载明为准。</text></view>
+        <view class="section" wx:for="{{list}}">
+            <view class="top">
+                <image class="anlian" mode="aspectFit"  src="{{item.policyJson.body.policy.smallPic}}"></image>
+                <text class="tx text">{{item.policyJson.body.policy.planName}}</text>
+                <text class="tx status">{{item.statusText}}</text>
+            </view>
+            <view class="middle" bindtap="link" data-index="{{index}}">
+                <view class="image">
+                    <image style="width:90px;height:90px" src="{{item.policyJson.body.policy.smallPic}}"></image>
+                </view>
+                <view class="rightText">
+                    <text class="first">被保险人：{{item.policyJson.body.insuredList.Insured[0].insuredName}}{{item.policyJson.body.insuredList.Insured.length > 1 ? '等' + item.policyJson.body.insuredList.Insured.length + '人' : ''}}</text>
+                    <text class="color" wx:if="{{item.totalMoney}}">保费: ￥{{item.totalMoney}}</text>
+                    <text class="color">保单号：{{item.policyRef}}</text>
+                    <text class="color">起保时间：{{item.policyJson.body.policy.effectiveDate}}</text>
+                    <text class="color" wx:if="{{item.stauts !== 1}}">终保时间：{{item.policyJson.body.policy.expireDate}}</text>
+                    <text class="color" wx:if="{{item.payTime}}">支付时间：{{item.payTime}}</text>
+                </view>
+            </view>
+            <view class="bottom">
+                <text>数量：<text style="color:orange">{{item.size}}</text></text>
+                <text wx:if="{{item.totalMoney}}">{{item.stauts === 1 ? '价格' : '实付'}}:<text style="color:orange" class="orange">￥{{item.totalMoney}}</text></text>
+                <text wx:if="{{item.stauts === 1}}" class="payAgain" style="{{item.payDisabled ? 'background: #999' : ''}}" bindtap="pay" data-index="{{index}}">继续支付</text>
+            </view>
+            <view class="notice" wx:if="{{item.stauts === 1}}">
+                <text class="text">系统提示：请务必在起保时间前成功支付，否则订单作废</text>
+            </view>
+        </view>
+    </view>
+    <view class="nav">
+        <view class="index" bindtap="linkIndex">首页</view>
+        <view class="own active">我的</view>
+    </view>
+    <loading hidden="{{isLoading}}">{{loadText}}</loading>
+</view>

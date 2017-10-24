@@ -1,0 +1,20 @@
+.cd-player__container {
+    &.playing {
+
+        .cd-player__cd {
+            .cd {
+                animation: rotating 3s linear 0s infinite;
+            }
+        }
+    }
+}
+
+@keyframes rotating {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}

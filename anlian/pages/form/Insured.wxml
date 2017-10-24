@@ -1,0 +1,51 @@
+
+<template name="add">
+    <view class="fr" hidden="{{product.TypeEn === 'jc'}}">
+        <!-- <button class="btn add_btn {{themeColor}}" bindtap="add"> <image src="../images/{{product.TypeEn}}_add.jpg"></image><text>添加</text></button> -->
+        <button class="btn add_btn {{themeColor}}" bindtap="add"> <image src="../images/add.png"></image><text>添加</text></button>
+    </view>
+</template>
+<template name="Insured">
+    <view class="message message2">
+		<view class="formGroup overflow w">
+			<picker mode="selector" range="{{recognizeeMessage.relationArr}}" bindchange="relationChange" data-id="{{recognizeeMessage.id}}">
+				<view class="li select no-icon">
+					<text>与投保人的关系</text>
+					<text class="{{themeColor}}">{{recognizeeMessage.relation}}</text>
+				</view>
+			</picker>
+			<view class="li input no-icon">
+				<text>被保人姓名</text>
+				<input type="text" placeholder="请输入被保人姓名" bindinput="recognizeeNameInput" value="{{recognizeeMessage.recognizeeName}}" data-id="{{recognizeeMessage.id}}" placeholder-class="{{themeColor}}" class="{{themeColor}}"/>
+			</view>
+			<picker mode="selector" range="{{recognizeeMessage.cardArr}}" bindchange="recognizeeCard" data-id="{{recognizeeMessage.id}}">
+				<view class="li select no-icon">
+					<text>证件类型</text>
+					<text class="{{themeColor}}">{{recognizeeMessage.card}}</text>
+				</view>
+			</picker>
+			<view class="li input no-icon">
+				<text>证件号码</text>
+				<input type="text" placeholder="请输入证件号码" bindinput="rCardNumberInput" value="{{recognizeeMessage.cardNumber}}" bindblur="rCardNumberBlur" placeholder-class="{{themeColor}}" data-id="{{recognizeeMessage.id}}" class="{{themeColor}}"/>
+			</view>
+			<picker mode="date" bindchange="recognizeeBirthdayChange" start="1910-01-01" end="2030-12-30" value="{{recognizeeMessage.birthday}}" data-id="{{recognizeeMessage.id}}">
+				<view class="li select no-icon">
+					<text>出生日期</text>
+					<text class="{{themeColor}}">{{recognizeeMessage.birthday}}</text>
+				</view>
+			</picker>
+			<view class="li no-icon">
+				<text>性别</text>
+				<view class="check" style="right: 20px;">
+					<view class="{{recognizeeMessage.recognizeeGender?'active ' + themeColor:''}}" style="{{plan.Sex === 'F' && 'color: white; border: 1px solid #999; border-right: 0; background: #999'}}" data-disabled="{{plan.Sex || ''}}"  bindtap="changeGenderBoy2" data-id="{{recognizeeMessage.id}}">男</view>
+					<view class="{{!recognizeeMessage.recognizeeGender?'active ' + themeColor:''}}" style="{{plan.Sex === 'M' && 'color: white; border: 1px solid #999; border-left: 0; background: #999'}}" data-disabled="{{plan.Sex || ''}}"  bindtap="changeGenderGirl2" data-id="{{recognizeeMessage.id}}">女</view>
+				</view>
+			</view>
+			<view class="li input last no-icon">
+				<text>手机</text>
+				<input type="number" placeholder="请输入手机号码" maxlength="11" bindinput="recognizeeNumberInput" value="{{recognizeeMessage.phone}}" placeholder-class="{{themeColor}}" data-id="{{recognizeeMessage.id}}" class="{{themeColor}}"/>
+			</view>
+		</view>
+	    
+	</view>
+</template>

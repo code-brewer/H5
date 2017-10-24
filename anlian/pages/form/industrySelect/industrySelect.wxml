@@ -1,0 +1,23 @@
+<template name="industrySelect">
+	<view class="formGroup">
+		<picker range="{{message.industryArr}}" range-key="industry" value="{{message.professional}}" bindchange="changeProfessional" data-type="Professional" data-i="{{index}}">
+			<view class="li select no-icon">
+				<text>行业</text>
+				<text class="{{themeColor}}">{{message.industry}}</text>
+			</view>
+		</picker>
+		<picker range="{{message.classesArr}}" value="{{message.classes}}" bindchange="changeClasses" data-type="Classes" data-i="{{index}}">
+			<view class="li select no-icon">
+				<text>职业类别</text>
+				<text class="{{themeColor}}">{{message.classes}}</text>
+			</view>
+		</picker>
+		
+		<picker range="{{message.professionArr}}" range-key="jobName" value="{{message.profession}}" bindchange="changeProfession" data-type="Profession" data-i="{{index}}">
+			<view class="li select no-icon last">
+				<text>职业名称</text>
+				<text class="{{themeColor}}">{{message.profession}}</text>
+			</view>
+		</picker>
+	</view>
+</template>

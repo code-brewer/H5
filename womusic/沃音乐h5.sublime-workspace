@@ -1,0 +1,2572 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hide",
+				"hideLoading"
+			],
+			[
+				"tip",
+				"tipModal2"
+			],
+			[
+				"produ",
+				"product_id"
+			],
+			[
+				"tipM",
+				"tipModal"
+			],
+			[
+				"char",
+				"charTimer"
+			],
+			[
+				"code",
+				"codeMsg"
+			],
+			[
+				"reset",
+				"resetCodeMsg"
+			],
+			[
+				"form",
+				"formData"
+			],
+			[
+				"tran",
+				"translate3d"
+			],
+			[
+				"ani",
+				"anim-	animation: ${1:name} ${2:duration} ${3:timing-function} ${4:delay} ${5:iteration-count} ${6:direction} ${7:fill-mode};"
+			],
+			[
+				"b",
+				"b	bottom"
+			],
+			[
+				"ovy",
+				"ovy:h	overflow-y:hidden"
+			],
+			[
+				"jsp",
+				"jspath"
+			],
+			[
+				"comp",
+				"computed	(App.vue)"
+			],
+			[
+				"deco",
+				"text-decoration"
+			],
+			[
+				"color",
+				"colseColor"
+			],
+			[
+				"cur",
+				"currSelectColor"
+			],
+			[
+				"del",
+				"del-btn"
+			],
+			[
+				"button-style-",
+				"button-style-circle"
+			],
+			[
+				"timer",
+				"timerState"
+			],
+			[
+				"locat",
+				"localStorage	(activity.vue)"
+			],
+			[
+				"start",
+				"startbtn"
+			],
+			[
+				"coin",
+				"coinB"
+			],
+			[
+				"disp",
+				"dispatch	(loading.vue)"
+			],
+			[
+				"last",
+				"last_grid"
+			],
+			[
+				"format",
+				"formatDate	(index.js)"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"ovh",
+				"ovx-h	overflow-x: hidden;"
+			],
+			[
+				"java",
+				"javascript	(activity.jsp)"
+			],
+			[
+				"ac",
+				"activity	(Activity.vue)"
+			],
+			[
+				"rep",
+				"repBody"
+			],
+			[
+				"sq",
+				"square	(condition.vue)"
+			],
+			[
+				"curr",
+				"currLevel"
+			],
+			[
+				"imp",
+				"imgPointer"
+			],
+			[
+				"acc",
+				"activityConfig	(Activity.vue)"
+			],
+			[
+				"bott",
+				"bootstrap	(Activity.vue)"
+			],
+			[
+				"compo",
+				"components	(Activity.vue)"
+			],
+			[
+				"accon",
+				"activityConfig"
+			],
+			[
+				"ser",
+				"service	(activity.jsp)"
+			],
+			[
+				"els",
+				"elsArr"
+			],
+			[
+				"touch",
+				"touchstart	(Game.vue)"
+			],
+			[
+				"padd",
+				"paddingBottom"
+			],
+			[
+				"head",
+				"headArr"
+			],
+			[
+				"sec",
+				"seconds	(Game.vue)"
+			],
+			[
+				"config",
+				"configData	(activity.jsp)"
+			],
+			[
+				"rule",
+				"ruleText"
+			],
+			[
+				"templ",
+				"templates"
+			],
+			[
+				"webkit",
+				"webkitFlex"
+			],
+			[
+				"rad",
+				"radios"
+			],
+			[
+				"curren",
+				"currentView	(phone-handler.vue)"
+			],
+			[
+				"upda",
+				"updateInterface"
+			],
+			[
+				"selec",
+				"selection"
+			],
+			[
+				"select",
+				"selection	(jquery.imagecrop.js)"
+			],
+			[
+				"resize",
+				"resizeable"
+			],
+			[
+				"obj",
+				"object"
+			],
+			[
+				"resi",
+				"resizeable	(App.vue)"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"query",
+				"querySelector"
+			],
+			[
+				"even",
+				"events	(style.scss)"
+			],
+			[
+				"tar",
+				"ta:r	text-align:right"
+			],
+			[
+				"addEv",
+				"addEventListener	(accordion.vue)"
+			],
+			[
+				"temp",
+				"template"
+			],
+			[
+				"tem",
+				"template"
+			],
+			[
+				"expr",
+				"exports	(webpack.base.conf.js)"
+			],
+			[
+				"addEven",
+				"addEventListener	(configs.vue)"
+			],
+			[
+				"mw",
+				"max-width"
+			],
+			[
+				"before",
+				"beforeReplace"
+			],
+			[
+				"v-e",
+				"v-else	<div v-else>"
+			],
+			[
+				"chec",
+				"checked"
+			],
+			[
+				"che",
+				"checked"
+			],
+			[
+				"CON",
+				"Constant"
+			],
+			[
+				"IS",
+				"IS_FOCUSED"
+			],
+			[
+				"dis",
+				"disabled"
+			],
+			[
+				"db",
+				"d:b	display:block"
+			],
+			[
+				"act",
+				"active	(Home.vue)"
+			],
+			[
+				"ov",
+				"ov:h	overflow:hidden"
+			],
+			[
+				"por",
+				"pos:r	position:relative"
+			],
+			[
+				"ovx",
+				"ovx:h	overflow-x:hidden"
+			],
+			[
+				"am",
+				"ams_v2_userinfo	(App.vue)"
+			],
+			[
+				"loca",
+				"localStorage	(App.vue)"
+			],
+			[
+				"local",
+				"localStorage	(login-modal.vue)"
+			],
+			[
+				"ams",
+				"ams_v2	(index.js)"
+			],
+			[
+				"jus",
+				"justify-content"
+			],
+			[
+				"getC",
+				"getBoundingClientRect	(button-ripple.vue)"
+			],
+			[
+				"button",
+				"buttonRipple	(header-bar.vue)"
+			],
+			[
+				"out",
+				"outline	(menu-clip.vue)"
+			],
+			[
+				"compoen",
+				"components	(login-modal.vue)"
+			],
+			[
+				"VUEr",
+				"VueRouter"
+			],
+			[
+				"ele",
+				"element"
+			],
+			[
+				"paren",
+				"parentElement"
+			],
+			[
+				"men",
+				"menu-outline"
+			],
+			[
+				"phone",
+				"phoneModal"
+			],
+			[
+				"compon",
+				"components	(App.vue)"
+			],
+			[
+				"def",
+				"defaultHeight"
+			],
+			[
+				"inner",
+				"innerHeight	.innerHeight()"
+			],
+			[
+				"nor",
+				"nowrap	(style.scss)"
+			],
+			[
+				"type",
+				"typesLogo"
+			],
+			[
+				"que",
+				"queryWord"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"curl",
+				"curl_init"
+			],
+			[
+				"Vue",
+				"VueRouter"
+			],
+			[
+				"alert",
+				"alertModal"
+			],
+			[
+				"dp",
+				"dispatch	(vue.file-upload.js)"
+			],
+			[
+				"contain",
+				"container"
+			],
+			[
+				"contai",
+				"container"
+			],
+			[
+				"mouse",
+				"mousemove	.mousemove()"
+			],
+			[
+				"bann",
+				"bannerSlider"
+			],
+			[
+				"slid",
+				"slides"
+			],
+			[
+				"repl",
+				"replace"
+			],
+			[
+				"replace",
+				"replaceAll	.replaceAll()"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"auto",
+				"autoplay"
+			],
+			[
+				"tra",
+				"transform	(package.json)"
+			],
+			[
+				"conta",
+				"container"
+			],
+			[
+				"com",
+				"component	(index.js)"
+			],
+			[
+				"Sw",
+				"SwipeItem"
+			],
+			[
+				"compone",
+				"components	(_variables.scss)"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"off",
+				"offsetY"
+			],
+			[
+				"addE",
+				"addEventListener	(lazyload.js)"
+			],
+			[
+				"boot",
+				"bootstrap/_variables	(login-register.scss)"
+			],
+			[
+				"h",
+				"height	Attr"
+			],
+			[
+				"import",
+				"@import	@import url(${0});"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"ass",
+				"asset	(_variables.scss)"
+			],
+			[
+				"YYYY",
+				"YYYY-MM-DD"
+			],
+			[
+				"pop",
+				"popHeight"
+			],
+			[
+				"trans",
+				"transform"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "webpack.config.js",
+			"settings":
+			{
+				"buffer_size": 1141,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/workspace_eclipse/wmpo/WebContent/index.jsp",
+			"settings":
+			{
+				"buffer_size": 2641,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/workspace_eclipse/wmpo/WebContent/vip.jsp",
+			"settings":
+			{
+				"buffer_size": 2698,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/workspace_eclipse/aus_v2.0/WebContent/login.jsp",
+			"settings":
+			{
+				"buffer_size": 3091,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1675,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/Home.vue",
+			"settings":
+			{
+				"buffer_size": 3998,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/Vip.vue",
+			"settings":
+			{
+				"buffer_size": 7165,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "components/loading.vue",
+			"settings":
+			{
+				"buffer_size": 6702,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "api/index.js",
+			"settings":
+			{
+				"buffer_size": 866,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "vip.js",
+			"settings":
+			{
+				"buffer_size": 204,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "components/modal.vue",
+			"settings":
+			{
+				"buffer_size": 4753,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/workspace_eclipse/wmpo/WebContent/css/main.scss",
+			"settings":
+			{
+				"buffer_size": 11169,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instll",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"diasa",
+				"Package Control: Disable Package"
+			],
+			[
+				"pac",
+				"Package Control: Disable Package"
+			],
+			[
+				"EMBER	",
+				"Snippet: Ember.Application.create()"
+			],
+			[
+				"EMB",
+				"Snippet: Ember.Observable"
+			],
+			[
+				"desa",
+				"Package Control: Disable Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pacin	",
+				"Package Control: Install Package"
+			],
+			[
+				"packe",
+				"Package Control: Enable Package"
+			],
+			[
+				"packgei",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"pare",
+				"Package Control: Remove Package"
+			],
+			[
+				"paci",
+				"Package Control: Install Package"
+			],
+			[
+				"packi	",
+				"Package Control: Install Package"
+			],
+			[
+				"scss",
+				"SCSS Expander: Expand Cursor Scope"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"PAck",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"inst	",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: In ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: In",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: In	",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: <a>",
+				"Snippet: <?php foreach (…) … <?php endforeach ?>"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"import  urllib.request,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler()));open(os.path.join(ipp,pf),'wb').write(urllib.request.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print 'Please restart Sublime Text to finish installation'",
+			"\"format_on_save\":false",
+			"format_on_save:false",
+			"import urllib2,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"Package Control.sublime-package"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/xampp/htdocs/vue_dev/womusic/index.js",
+		"/D/xampp/htdocs/vue_dev/womusic/css/_mixins.scss",
+		"/D/xampp/htdocs/vue_dev/womusic/css/main.scss",
+		"/D/xampp/htdocs/vue_dev/src/components/Loading.vue",
+		"/D/xampp/htdocs/vue_dev/womusic/vip.js",
+		"/H/库/css/animate.css-master/animate.css",
+		"/D/xampp/htdocs/vue_dev/womusic/components/modal.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/css/px2rem.scss",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/_mixins.scss",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/components/modal/modal.vue",
+		"/D/xampp/htdocs/vue_dev/meadJohnson/components/Modal.vue",
+		"/D/xampp/htdocs/vue_dev/src/components/Modal.vue",
+		"/D/xampp/htdocs/vue_dev/womusic/vip.html",
+		"/D/xampp/htdocs/vue_dev/womusic/css/main.css",
+		"/D/xampp/htdocs/vue_dev/womusic/css/px2rem.scss",
+		"/D/workspace_eclipse/aus_v2.0/WebContent/activity.jsp",
+		"/D/xampp/htdocs/vue_dev/meadJohnson/index.html",
+		"/D/xampp/htdocs/vue_dev/package.json",
+		"/D/xampp/htdocs/vue_dev/womusic/css/global.css",
+		"/D/xampp/htdocs/vue_dev/womusic/views/App.vue",
+		"/C/Windows/System32/drivers/etc/HOSTS",
+		"/D/xampp/htdocs/vue_dev/activity/src/api/index.js",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/components/rank-list/rank-list.config.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/components/web/prize-config.vue",
+		"/D/workspace_eclipse/ams_v2.0/WebContent/activity.jsp",
+		"/D/xampp/htdocs/vue_dev/activity/src/components/web/model-list-view.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/find-color/views/activity.config.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/components/find-color/find-color.config.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/components/web/activity/phone-handler.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/_base_config.scss",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/_base.scss",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/slider-puzzle/App.config.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/slider-puzzle/index.js",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/slider-puzzle/route.js",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/slider-puzzle/app.js",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/find-color/app.js",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/slider-puzzle/config.js",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/find-color/config.js",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/components/game-result/game-result.scss",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/find-color/route.js",
+		"/D/xampp/htdocs/vue_dev/activity/src/Activity.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/find-color/views/activity.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/find-color/css/style.scss",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/slider-puzzle/css/style.scss",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/slider-puzzle/views/receive.vue",
+		"/D/xampp/htdocs/vue_dev/activity/build/webpack.wapconfig.conf.js",
+		"/D/xampp/htdocs/vue_dev/activity/build/webpack.wap.conf.js",
+		"/D/workspace_eclipse/aus_v2.0/WebContent/logintest.jsp",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/find-color/condition.vue",
+		"/D/xampp/htdocs/ePi/www/css/style.scss",
+		"/D/xampp/htdocs/ePi/www/views/home.html",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/find-color/views/home.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/components/bootstrap/utils/getScrollBarWidth.js",
+		"/D/xampp/htdocs/vue_dev/activity/src/components/bootstrap/utils/EventListener.js",
+		"/D/xampp/htdocs/vue_dev/activity/src/components/bootstrap/Modal2.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/components/bootstrap/Modal.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/find-color/extbody.js",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/components/find-color/find-color.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/find-color/App.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/find-color/App.config.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/components/button/start-button.config.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/components/button/button.config.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/slider-puzzle/views/home.config.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/find-color/views/home.config.vue",
+		"/D/xampp/htdocs/ePi/www/index.html",
+		"/D/xampp/htdocs/vue_dev/activity/package.json",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/slider-puzzle/extbody.js",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/slider-puzzle/App.vue",
+		"/D/xampp/htdocs/ePi/www/js/controllers.js",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/slider-puzzle/views/receive.config.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/slider-puzzle/views/fail.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/components/web/activity/configs.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/components/share-btn/share-btn.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/utils/wx.js",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/slider-puzzle/views/receive-success.config.vue",
+		"/D/xampp/htdocs/ePi/www/templates/c4/action.js",
+		"/D/xampp/htdocs/vue_dev/activity/config/index.js",
+		"/D/xampp/htdocs/ePi/www/templates/c8/action.js",
+		"/D/xampp/htdocs/ePi/www/templates/c8/info.json",
+		"/D/xampp/htdocs/ePi/appidodck6i3qa4/app/templates/c8/info.json",
+		"/D/xampp/htdocs/ePi/www/templates/c6/action.js",
+		"/D/xampp/htdocs/ePi/www/templates/c6/info.json",
+		"/D/xampp/htdocs/ePi/www/templates/b6/info.json",
+		"/D/xampp/htdocs/vue_dev/activity/微活动2.sublime-project",
+		"/D/xampp/htdocs/ePi/www/templates/a5/action.js",
+		"/D/xampp/htdocs/ePi/www/templates/b2/action.js",
+		"/D/xampp/htdocs/ePi/www/templates/b2/info.json",
+		"/D/xampp/htdocs/ePi/www/templates/a5/info.json",
+		"/D/Program Files/Sublime Text/Data/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/D/xampp/htdocs/pixi/pixi.min.js",
+		"/C/Users/Administrator/Desktop/pixi.js-master/package.json",
+		"/C/Users/Administrator/Desktop/pixi.js-master/src/loaders/loader.js",
+		"/C/Users/Administrator/Desktop/send.js",
+		"/C/Users/Administrator/Desktop/hosts",
+		"/C/Windows/System32/drivers/etc/services",
+		"/C/Windows/System32/drivers/etc/hosts.ics",
+		"/D/workspace_eclipse/aus/WebContent/activity/src/utils/wx.js",
+		"/D/xampp/htdocs/vue_dev/activity/src/components/web/button-style-panel.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/components/web-base/checkbox.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/global.js",
+		"/D/xampp/htdocs/vue_dev/activity/src/components/web-base/question.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/components/web-base/slider.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/service/index.js",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/slider-puzzle/views/rank.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/slider-puzzle/views/activity.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/layouts/slider-puzzle/views/home.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/views/Activity.vue",
+		"/C/Users/Administrator/Documents/Mount&Blade Warband/Characters/Sine.txt",
+		"/C/Users/Administrator/Documents/Mount&Blade Warband Savegames/ACOK 2.2/sg00.sav",
+		"/H/库/frameworks/vue-ionic-master/resources/assets/js/utils/tap.js",
+		"/H/库/frameworks/vue-ionic-master/resources/assets/js/utils/activator.js",
+		"/H/库/frameworks/vue-ionic-master/resources/assets/js/utils/events.js",
+		"/D/xampp/htdocs/vue_dev/activity/src/components/web-base/radio.vue",
+		"/D/workspace_eclipse/aus/WebContent/activity/SP2/src/Ranking.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/components/button/receive-button.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/components/rule-link/rule-link.config.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/components/rule-link/rule-link.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/components/button/button.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/components/remaining-number-of-prizes/remaining-number-of-prizes.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/components/remaining-number-of-prizes/remaining-number-of-prizes.config.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/components/button/start-button.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/components/puzzle-slider/puzzle-slider.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/components/loading/loading.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/components/web/activity/views-box.vue",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/components/button/button.scss",
+		"/D/xampp/htdocs/vue_dev/activity/src/components/web/activity/configs.vue.mine",
+		"/D/xampp/htdocs/vue_dev/activity/src/templates/components/puzzle-slider/puzzle-slider.scss",
+		"/C/Users/Administrator/Desktop/纳什硬币.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\workspace\\yoln_server",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"product_id",
+			"openVip",
+			"tipModal",
+			"openVipModal",
+			"1.5s",
+			"3",
+			"3s",
+			".8s",
+			"px2rem(-250px)",
+			"play",
+			"cookie",
+			"resetCodeMsg",
+			"sendVipMsg",
+			"resetCodeMsg",
+			"timer_id",
+			"codeMsg",
+			"sendVipMsg",
+			"resetCodeMsg",
+			"9",
+			"(3)",
+			"(15)",
+			"showLoading",
+			"sendLoginCode",
+			"openVipModal.form",
+			"loginModal.form",
+			"loginModal",
+			"api",
+			"right",
+			" 0",
+			"1",
+			"9s",
+			"300ms",
+			"0",
+			"1s",
+			"300ms",
+			"1.3",
+			"img :src=\"",
+			"forback",
+			"down",
+			"time",
+			"delay",
+			"100",
+			"50",
+			"0% {",
+			"0%",
+			"50",
+			"1s",
+			"10px",
+			"@include translate3d(0, 5%, 0);",
+			"@include translate3d(0, 0, 0);",
+			"bounce",
+			" delay iteration-count direction fill-mode",
+			"div",
+			"src=",
+			" alt=\"\"",
+			"henan114",
+			"this.colors",
+			"selectActivityById",
+			"init",
+			"that",
+			"Data.",
+			"data.",
+			"data",
+			"Data",
+			"data",
+			"data.",
+			"data",
+			"sortsList",
+			"start",
+			"dates",
+			"getTemplateInfo",
+			"currentView",
+			"that",
+			"setPrizeDate",
+			"prize-config",
+			"currentView",
+			"}\n",
+			"currentView",
+			" this.configData.",
+			"param.jspath",
+			"jspa",
+			"params",
+			"configData",
+			"getTemplateInfo",
+			"selectModelsByMid",
+			"date.Format(\"yyyy-MM-dd\")",
+			"date.Format",
+			"M月",
+			"odate.Format(\"yyyy-MM-dd\")",
+			"cdate.Format(\"M月dd日\")",
+			"cdate.Format(\"yyyy-MM-dd\")",
+			"score",
+			"timer",
+			"openColor",
+			"Sketch",
+			"presetColors",
+			"Sketch",
+			"currSelectColor",
+			"colseColor",
+			"EventListener",
+			"Modal",
+			"hello",
+			"openColorModal",
+			"currSelectColor",
+			"colseColor",
+			"isSelectColor",
+			"selectColor",
+			"colseColor",
+			"currSelectColor",
+			"openColorModal",
+			"showForm",
+			"isSelectColor",
+			"openColorModal",
+			"openColor",
+			"isSelectColor",
+			"Sketch",
+			".hex",
+			"},",
+			"colors",
+			"Photoshop",
+			"span",
+			"counttime",
+			"val",
+			"condition",
+			"levels",
+			"images",
+			"imgData",
+			"_9pngcopy2"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<PopulationCount>1</PopulationCount>",
+			"<PopulationCount>0</PopulationCount>",
+			" ",
+			"",
+			"information",
+			"transition-",
+			"animation",
+			"action",
+			"actian",
+			"ia-",
+			"$siah",
+			"ia-",
+			"</ia",
+			"<ia",
+			"$ia",
+			"</ia",
+			"<ia",
+			"siah",
+			"#",
+			"saveStorage",
+			"笔记",
+			"不限",
+			"'",
+			"<script src=\"js/html5.js\"></script>",
+			"一",
+			"",
+			"。',",
+			":'",
+			"发表由",
+			"<?php echo get_template_directory_uri(); ?>/images/",
+			"style=\"border:1px solid #f4f4f4;border-top:1px solid black;border-bottom:1px solid black\"",
+			"margin-bottom:10px",
+			"'",
+			"rchives",
+			"h3",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "webpack.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1141,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								597,
+								597
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										686,
+										687
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										478,
+										479
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"encoding_helper_encoding": "cp936",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/workspace_eclipse/wmpo/WebContent/index.jsp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2641,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2641,
+								2641
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2636,
+										2640
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										950,
+										954
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"encoding_helper_encoding": "UTF-8",
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Java/Java Server Pages (JSP).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 576.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/workspace_eclipse/wmpo/WebContent/vip.jsp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2698,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								2698
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2693,
+										2697
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1009,
+										1013
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"encoding_helper_encoding": "UTF-8",
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Java/Java Server Pages (JSP).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/workspace_eclipse/aus_v2.0/WebContent/login.jsp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3091,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								324,
+								485
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"encoding_helper_encoding": "UTF-8",
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Java/Java Server Pages (JSP).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1675,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								187,
+								187
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										153,
+										157
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										153,
+										157
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"encoding_helper_encoding": "UTF-8",
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "views/Home.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3998,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3998,
+								3998
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"encoding_helper_encoding": "UTF-8",
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2808.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "views/Vip.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7165,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1021,
+								1021
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"encoding_helper_encoding": "UTF-8",
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "components/loading.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6702,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2004,
+								2004
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"encoding_helper_encoding": "UTF-8",
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "api/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 866,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								259,
+								269
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										269,
+										270
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/single_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										258,
+										259
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"encoding_helper_encoding": "UTF-8",
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "vip.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								82,
+								82
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										81,
+										82
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										69,
+										70
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"encoding_helper_encoding": "cp936",
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "components/modal.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4753,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3890,
+								3890
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										3890,
+										3891
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										3885,
+										3886
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"encoding_helper_encoding": "cp936",
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/D/workspace_eclipse/wmpo/WebContent/css/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11169,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9276,
+								9276
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										9276,
+										9277
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										9271,
+										9272
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"encoding_helper_encoding": "cp936",
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2766.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.coffeecompile_output":
+	{
+		"height": 142.0
+	},
+	"output.exec":
+	{
+		"height": 145.0
+	},
+	"project": "沃音乐h5.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"upload",
+				"repastApp\\ThinkPHP\\Extend\\Engine\\Sae\\DefaultApp\\Lib\\ORG\\UploadFile.class.php"
+			],
+			[
+				"on",
+				"repastApp\\ThinkPHP\\Extend\\Engine\\Sae\\Lib\\Extend\\Library\\ORG\\Net\\UploadFile_sae.class.php"
+			],
+			[
+				"page.js",
+				"GR\\WebRoot\\js\\source\\page.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 504.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 312.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

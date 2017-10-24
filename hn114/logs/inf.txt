@@ -1,0 +1,12 @@
+
+url:
+ http://ip:port/hn114/
+
+  获取地市列表接口（18地市列表）
+   uri:  wo/getarea , http get
+
+   获取商家分类接口
+   uri:  wo/getShopTypeList , http get
+   
+搜索商家
+  uri:  wo/searchShopInfo , http post , 参数 : {shopType:'02030000',areaId:'root-32-7-3', ...} 对应接口文档字段

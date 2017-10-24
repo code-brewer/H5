@@ -1,0 +1,74 @@
+<template name="JcModule">
+	<view class="template2">
+		<view class="formGroup">
+		<picker range="{{propertyMessage.provinceArr}}" range-key="provinceNameZhs" value="{{propertyMessage.province}}" bindchange="propertyProvincechange">
+			<view class="li no-icon select">
+				<text>房屋所在省</text>
+				<text class="{{themeColor}}">{{propertyMessage.province}}</text>
+			</view>
+		</picker>
+		<picker range="{{propertyMessage.cityArr}}" range-key="cityNameZhs" value="{{propertyMessage.city}}" bindchange="propertyCitychange">
+			<view class="li no-icon select">
+				<text>房屋所在市</text>
+				<text class="{{themeColor}}">{{propertyMessage.city}}</text>
+			</view>
+		</picker>
+		<picker range="{{propertyMessage.areaArr}}" range-key="areaNameZhs" value="{{propertyMessage.area}}" bindchange="propertyTownchange">
+			<view class="li no-icon select">
+				<text>房屋所在区</text>
+				<text class="{{themeColor}}">{{propertyMessage.area}}</text>
+			</view>
+		</picker>
+			<view class="li no-icon input">
+				<text>房屋具体地址</text>
+				<input type="text" placeholder="须至门牌号如2000弄XX号XX室" class="{{themeColor}}" placeholder-class="{{themeColor}}" bindinput="propertyAddressInput"/>
+			</view>
+			<view class="li no-icon input">
+				<text>房屋邮政编码</text>
+				<input type="number" bindinput="propertyCodeInput" maxlength="6" placeholder="请输入邮政编码" class="{{themeColor}}" placeholder-class="{{themeColor}}"/>
+			</view>
+			<view class="formGroup1">
+				<view class="item">
+					<text>1.被保险人住所的建筑年限不满20年</text>
+					<view class="check">
+				<view class="{{propertyMessage.detail[0]?'active ' + themeColor:''}}" data-index="0" bindtap="changeDetail">是</view>
+				<view class="{{!propertyMessage.detail[0]?'active ' + themeColor:''}}" data-index="0" bindtap="changeDetail">否</view>
+			</view>
+				</view>
+				<view class="item">
+					<text>2.被保险人住所的建筑结构须为混凝土或钢筋混凝土</text>
+					<view class="check">
+				<view class="{{propertyMessage.detail[1]?'active ' + themeColor:''}}" data-index="1" bindtap="changeDetail">是</view>
+				<view class="{{!propertyMessage.detail[1]?'active ' + themeColor:''}}" data-index="1" bindtap="changeDetail">否</view>
+			</view>
+				</view>
+				<view class="item">
+					<text>3.被保险人住所及家庭财产的使用权限以居住为目的</text>
+					<view class="check">
+				<view class="{{propertyMessage.detail[2]?'active ' + themeColor:''}}" data-index="2" bindtap="changeDetail">是</view>
+				<view class="{{!propertyMessage.detail[2]?'active ' + themeColor:''}}" data-index="2" bindtap="changeDetail">否</view>
+			</view>
+				</view>
+				<view class="item">
+					<text>4.被保险人住所没有蒙受任何现时申请投保产品涵盖保障范围内的损失</text>
+					<view class="check">
+				<view class="{{propertyMessage.detail[3]?'active ' + themeColor:''}}" data-index="3" bindtap="changeDetail">是</view>
+				<view class="{{!propertyMessage.detail[3]?'active ' + themeColor:''}}" data-index="3" bindtap="changeDetail">否</view>
+			</view>
+				</view>
+				<view class="item">
+					<text>本人了解并确认投保人及被保险房屋与上述告知事项相符且符合保险公司告知的所有承保条件</text>
+					<view class="check">
+				<view class="{{propertyMessage.detail[4]?'active ' + themeColor:''}}" data-index="4" bindtap="changeDetail">是</view>
+				<view class="{{!propertyMessage.detail[4]?'active ' + themeColor:''}}" data-index="4" bindtap="changeDetail">否</view>
+			</view>
+				</view>
+			</view>
+			<view class="li no-icon input last">
+				<text>备注说明</text>
+				<input type="number" placeholder="如有特殊情况，请备注说明" class="{{themeColor}}" placeholder-class="{{themeColor}}" bindinput="propertyRemarkInput"/>
+			</view>
+		</view>
+	</view>
+	
+</template>

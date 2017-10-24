@@ -1,0 +1,294 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pu",
+				"puppy"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"im",
+				"image"
+			],
+			[
+				"back",
+				"background-image"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 167.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"vue",
+				"Convert Case: Upper Case"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/alx/Desktop/lottery-master/package.json",
+		"/Users/alx/Desktop/lottery-master/config.js",
+		"/Users/alx/Desktop/lottery-master/app/package.json",
+		"/Users/alx/Desktop/lottery-master/webpack.config.js",
+		"/Users/alx/Desktop/Zhihu-Daily-Vue.js-master/config/index.js",
+		"/Users/alx/Desktop/Zhihu-Daily-Vue.js-master/package.json",
+		"/Users/alx/Desktop/node_12306-master/main.js",
+		"/Users/alx/Desktop/node_12306-master/train.json",
+		"/Users/alx/Desktop/node_12306-master/station.json",
+		"/Users/alx/Desktop/node_12306-master/package.json",
+		"/Users/alx/Desktop/main.js",
+		"/Users/alx/Desktop/2",
+		"/Users/alx/Desktop/1",
+		"/Users/alx/Desktop/PopularKing/src/utils/serverapi.js",
+		"/Users/alx/Desktop/wmpo.war",
+		"/Users/alx/Documents/apache-tomcat-7.0.72/bin/catalina.bat",
+		"/Users/alx/Documents/浏览器关闭事件.html",
+		"/Users/alx/Downloads/untitled.html",
+		"/Users/alx/Desktop/vue-demo/index.html",
+		"/Users/alx/Desktop/1k.html",
+		"/Users/alx/Desktop/nds/口袋妖怪黑（日）.nds",
+		"/Users/alx/Desktop/1K.html",
+		"/Users/alx/Desktop/1K.vue",
+		"/Users/alx/Desktop/未命名文件夹/pages/index/index.wxml",
+		"/Users/alx/Desktop/未命名文件夹/pages/index/index.js",
+		"/Users/alx/Workspaces/MyEclipse 2015/shopguide/WebRoot/pages/wo.html",
+		"/Users/alx/Workspaces/MyEclipse 2015/shopguide/WebRoot/web/views/login.html",
+		"/Users/alx/Downloads/html5-canvas-rain-drop/js/rainyday.js",
+		"/Users/alx/Downloads/html5-canvas-rain-drop/bower.json",
+		"/Users/alx/Downloads/webgl-water/lightgl.js",
+		"/Users/alx/Downloads/weapp-webdemo-master/split/report.js",
+		"/Users/alx/Downloads/weapp-webdemo-master/split/define.js",
+		"/Users/alx/Downloads/weapp-webdemo-master/new-split/wx.js",
+		"/Users/alx/Downloads/weapp-webdemo-master/package.json",
+		"/Users/alx/Downloads/html5-canvas-rain-drop/Gruntfile.js",
+		"/Users/alx/Desktop/vue-demo/src/main.js",
+		"/Users/alx/Desktop/vue-demo/webpack.config.js",
+		"/Users/alx/Desktop/微信小程序-vue2/template/package.json",
+		"/Users/alx/Desktop/vue2/package.json",
+		"/Users/alx/Desktop/vue2/build/dev-server.js",
+		"/Users/alx/Desktop/node_modules/vue-cli/package.json",
+		"/Users/alx/Desktop/package.json",
+		"/Users/alx/Desktop/untitled.vue",
+		"/Users/alx/Desktop/moreX.java",
+		"/Users/alx/Desktop/PrimitiveTypeTest.java",
+		"/Users/alx/Desktop/Puppy.java",
+		"/Users/alx/Downloads/微信h5游戏平台/index.html",
+		"/Users/alx/Desktop/myPrize.vue",
+		"/Users/alx/Desktop/app.vue",
+		"/Users/alx/Workspaces/MyEclipse 2015/wmpo/WebContent/l.jsp",
+		"/Users/alx/Documents/svn_address/login.vue",
+		"/Users/alx/Downloads/Documents/12122.html",
+		"/Users/alx/Downloads/161209-03.torrent",
+		"/Users/alx/Desktop/11.vue",
+		"/Users/alx/Workspaces/MyEclipse 2015/H5/wmpo/ChinaWoMusick/webpack.config.js",
+		"/Users/alx/Workspaces/MyEclipse 2015/aus/WebContent/activity/PopularKing_SPF/webpack.base.config.js",
+		"/Users/alx/Library/Caches/Cornerstone/Store/http%3A%2F%2Ftangwf%40192.168.0.201%2Fproduct%2Fprojects/0000007129/wmpo/2.0-code/wmpo/WebContent/h.jsp",
+		"/Users/alx/Library/Caches/Cornerstone/Store/http%3A%2F%2Ftangwf%40192.168.0.201%2Fproduct%2Fprojects/0000009275/wmpo/2.0-code/wmpo/WebContent/k.jsp",
+		"/Users/alx/Library/Caches/Cornerstone/Store/http%3A%2F%2Ftangwf%40192.168.0.201%2Fproduct%2Fprojects/0000009182/html5/2.0-code/wmpo/ChinaWoMusick/webpack.config.js",
+		"/Users/alx/Workspaces/MyEclipse 2015/aus/WebContent/activity/package.json",
+		"/Users/alx/Workspaces/MyEclipse 2015/aus/WebContent/activity/PopularKing/webpack.base.config.js",
+		"/Users/alx/Workspaces/MyEclipse 2015/H5/package.json",
+		"/Users/alx/Workspaces/MyEclipse 2015/wmpo/WebContent/vip.jsp",
+		"/Users/alx/Workspaces/MyEclipse 2015/wmpo/WebContent/k/dist/app.js",
+		"/Users/alx/Downloads/wmpo.sql",
+		"/Users/alx/Documents/svn_address/aus/WebContent/activity/PopularKing_SPF/src/Game.vue",
+		"/Users/alx/Documents/微活动模板one/aus/WebContent/activity/PopularKing/src/Game.vue",
+		"/Users/alx/Workspaces/MyEclipse 2015/ams/doc/db.sql",
+		"/Users/alx/Documents/微活动模板one/aus/WebContent/activity/MideaSP/src/Ranking.vue",
+		"/Users/alx/Downloads/Data-detail.vue",
+		"/Users/alx/Documents/svn_address/Data-detail.vue",
+		"/Users/alx/Documents/workspace/ams/WebContent/src/views/Data-detail.vue",
+		"/Users/alx/Documents/微活动模板one/ams/WebContent/src/views/Data-detail.vue",
+		"/Users/alx/Documents/svn_address/Game1.vue",
+		"/Users/alx/Workspaces/MyEclipse 2015/ams/WebContent/src/templates/PopularKing/Activity-edit.vue",
+		"/Users/alx/Workspaces/MyEclipse 2015/ams/WebContent/package.json",
+		"/Users/alx/Documents/微活动模板one/ams/resources/db.properties",
+		"/Users/alx/Downloads/sign_page.css",
+		"/Users/alx/Downloads/myprize.jsp",
+		"/Users/alx/Documents/圆形散开.html",
+		"/Users/alx/Documents/apdb.sql",
+		"/private/var/folders/8w/6f839km90vb5sh8clg6vp6bc0000gn/T/U启动U盘/web前端工程plus/MyProject/womusic/untitled.html",
+		"/Volumes/U启动U盘/web前端工程plus/MyProject/导购平台后台管理及前台/shopguide/WebRoot/js/app.js",
+		"/Users/alx/Documents/微活动模板one/aus/WebContent/activity/MideaSP/src/Home.vue",
+		"/private/var/folders/8w/6f839km90vb5sh8clg6vp6bc0000gn/T/U启动U盘/web前端工程plus/MyProject/导购平台后台管理及前台/shopguide/WebRoot/web/views/dateManage.html",
+		"/Users/alx/Desktop/未命名文件夹/ keyboard shortcuts/Mac OSX 快捷键&命令行_files/osd.js",
+		"/Users/alx/Documents/微活动模板one/aus/WebContent/activity/src/css/base.css",
+		"/Users/alx/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/alx/Documents/workspace/aus/WebContent/activity/PopularKing/webpack.base.config.js",
+		"/Users/alx/Documents/workspace/aus/WebContent/activity/PopularKing/src/index.js",
+		"/Users/alx/Documents/workspace/ams/WebContent/src/views/Data-win1.vue",
+		"/Users/alx/Downloads/归档 2/untitled.html",
+		"/Users/alx/Downloads/归档 2/sign_page.html",
+		"/Users/alx/Downloads/归档 2/untitled.vue",
+		"/Users/alx/Downloads/idea/prize_page.html",
+		"/Users/alx/Downloads/归档/sign_page.html",
+		"/Users/alx/Desktop/归档/sign_page.css",
+		"/Users/alx/Desktop/归档/sign_page.html",
+		"/private/var/folders/8w/6f839km90vb5sh8clg6vp6bc0000gn/T/U启动U盘/web前端工程plus/MyProject/woMusic/woMusic/sign_page.css",
+		"/Users/alx/Documents/aus/WebContent/activity/PopularKing/src/css/style.css",
+		"/Volumes/MyEclipse 2015/Crack/myeclipse2015_keygen/crack.bat",
+		"/Users/alx/Documents/workspace/ams/WebContent/src/templates/node_modules/vue-datepicker/package.json",
+		"/Users/alx/Downloads/activity.jsp",
+		"/Users/alx/Documents/workspace/ams/WebContent/package.json",
+		"/Users/alx/Workspaces/MyEclipse 2015/wxpublic/WebRoot/js/controller.js",
+		"/Users/alx/Workspaces/MyEclipse 2015/wxpublic/WebRoot/index.jsp",
+		"/Users/alx/Workspaces/MyEclipse 2015/wxpublic/WebRoot/web/index.jsp",
+		"/Users/alx/Workspaces/MyEclipse 2015/wxpublic/WebRoot/image/banner.jpg",
+		"/Users/alx/Documents/workspace/aus/WebContent/activity/package.json",
+		"/Users/alx/Documents/workspace/ams/WebContent/index.jsp"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "home.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 260.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

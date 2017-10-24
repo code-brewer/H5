@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"></meta>
+  <meta name="description" content="it is content here..."></meta>
+  <meta name="author" content="ssd"></meta>
+  <meta name="viewport" content="width=640, minimum-scale = 0.5, maximum-scale = 0.5, user-scalable=no">
+  <title>数钱</title>
+  <link rel="stylesheet" href="./src/css/base.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <script type="text/javascript" src="./src/js/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="./src/js/jquery.cookie.js"></script>
+  <script type="text/javascript" src="./src/js/createjs-2013.12.12.min.js"></script>
+  <script type="text/javascript" src="./src/js/wbfJB.js"></script>
+  <script type="text/javascript" src="./src/js/md5.js"></script>
+  <script type="text/javascript" src="./src/js/base64.js"></script>
+  <script type="text/javascript">
+  // alert(location.href);
+    // if(navigator.userAgent.toLocaleUpperCase().match(/WOW_CAS/i) != "WOW_CAS"){
+      
+    // }
+    var iswowcas = navigator.userAgent.toLocaleUpperCase().match(/WOW_CAS/i) != "WOW_CAS";
+    // var serverPath = "http://112.96.28.36:8006";
+    var serverPath = "https://8.gd10010.cn";
+    var basePath = location.href.split('CM.html')[0];
+    var activityBasePath = basePath;
+    var activityinfostr = {"aid":"512","appid":"wxa758261ffd0d4fb2","appsecret":"100d0736e53c48cbe616934aa950518d","audited":"1","color":"red","ctime":"2016-07-29 09:35:04","endtime":"2016-09-29 23:59:00","extbody":"{\"backgrounds\":{\"home\":\"http://211.147.242.132:9008/fsd/ap/20160627/88_8ca40d85_0205_47ac_ac73_cffc90cd28d2.jpg\",\"other\":\"http://211.147.242.132:9008/fsd/ap/20160627/88_8ba2048b_b6aa_464b_abca_45ef47367fba.jpg\",\"rule\":\"http://211.147.242.132:9008/fsd/ap/20160627/88_6e940e84_776b_4458_a798_653e26cef1db.jpg\"},\"claimscheck\":\"1\",\"logo\":\"http://211.147.242.132:9008/fsd/ap/20160627/88_6c13d89e_4dc4_49ec_aebb_6ee438d8edce.png\",\"partictypes\":{\"phone\":false,\"special\":false,\"weixin\":true},\"ruleContent\":\"<p>1、参与对象：沃百富会员</p><p>2、游戏规则：每天每个用户不限数钱机会，手指向上滑动开始数钱游戏，在规定时间内达到13000的积分，即可顺利通关，通关后将获得2点沃百富会员积分，积分可在会员商城兑换精美礼品。</p><p>3、顺利通关的用户，积分将自动下发到个人会员中心</p><p>4、活动最终解释权归沃百富app所有</p>\",\"time\":25,\"timeext\":5}","headjs":"src/js/jquery-2.1.1.min.js,src/js/jquery.cookie.js,src/js/createjs-2013.12.12.min.js","isprize":"0","logourl":"logo链接","mid":"3","path":"SliderMoney","starttime":"2016-09-26 00:00:00","status":"0","title":"数钱数到手抽筋","types":"数钱","useracct":"test2","utime":"2016-09-26 10:30:08"};
+    var phoneWidth = parseInt(window.screen.width);
+    var phoneScale = phoneWidth / 640;
+    var ua = navigator.userAgent;
+    if (/Android (\d+\.\d+)/.test(ua)) {
+      var version = parseFloat(RegExp.$1);
+      if (version > 2.3) {
+        document.write('<meta name="viewport" content="width=640, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+      } else {
+        document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+      }
+    } else {
+
+      document.write('<meta name="viewport"content="width=640, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', user-scalable=no">');
+       
+    }
+    var SSD_DEBUG = true;
+  </script>
+  <script>
+   // function init(){
+   //  var lo = getArgsFromUrl("loginok");
+   //  var m = getArgsFromUrl("mbl_no");
+   //  if(typeof(m) == "undefined"){
+   //    if(typeof(lo) != "undefined" && typeof(window.mbl_no) == "undefined"){
+   //      g
+   //    }else if(typeof(window.mbl_no) != "undefined"){
+   //      delete window.mbl_no;
+   //    }
+   //  }else{
+   //    window.mbl_no = m;
+   //  }
+   // }
+   function share(surl){
+    var title ='玩游戏赢积分';
+    var content='玩游戏赢积分，联通沃百富送您28888体验金。';
+    var url=serverPath+surl;
+    var picUrl=basePath+"src/img/shareicon.jpg";
+    wbfJB.shareToAll(title, content, url, picUrl)
+  }
+  function gologin(){
+    // var url=serverPath+"/mkm/third/login?url="+encodeURIComponent(basePath+"wbf.html?a=1");
+    // wbfJB.loadUrl(5,url);
+    
+    if(typeof(window.auttok) == "undefined"){
+      var at = getArgsFromUrl("auth_token");
+      window.auttok = at;
+    }
+    var url=serverPath+"/mkm/third/login?url="+encodeURIComponent(basePath+"CM.html"+"?loginok=1&auth_token="+window.auttok)+"&auth_token="+window.auttok;
+    // alert(url);
+    window.location.href = url;
+  }
+  // function gointegral(){
+  //   var url=serverPath+"/wc/memCenter_page";
+  //   wbfJB.loadUrl(5,url);
+  // }
+  // function gonewactivity(){
+  //   var url=serverPath+"/mhtml/#/markets";
+  //   wbfJB.loadUrl(5,url);
+  // }
+  function checkLogin(){
+    // return getArgsFromUrl("mbl_no").length>0;
+    return typeof(window.mbl_no) != "undefined";
+  }
+  function getArgsFromUrl(sArgName) {
+    var sHref = window.location.search;
+    var args = sHref.split("?");
+    var retval = "";
+    if(args[0] == sHref)
+    {
+      return retval;
+    }
+    var str = args[1];
+    args = str.split("&");
+    for(var i = 0; i < args.length; i++ )
+    {
+      str = args[i];
+      var arg = str.split("=");
+      if(arg.length <= 1) continue;
+      if(arg[0] == sArgName) retval = arg[1];
+    }
+    return retval;
+  　　}
+</script>
+</head>
+
+<body>
+	<div id="iframe"></div>
+</body>
+<script> 
+  var a = document.createElement('script');
+  document.body.appendChild(a);
+  a.type = "text/javascript";
+  if(true){
+    a.src = './build/build.js';
+  }else{
+    a.src = './build/build.min.js';
+  }
+</script>
+</html>

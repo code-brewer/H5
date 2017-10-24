@@ -1,0 +1,56 @@
+<!-- 引用温馨提示模版 -->
+<import src="../form/tips.wxml" />
+<template is="tips" data="{{tipsText:tipsText}}" wx:if="{{tips}}"/>
+<view class="container">
+	<!-- 轮播图开始 -->
+	<view class="banner clearfix" style="width: {{(bannerList.length * 100) + '%'}}; left: {{bannerOffset + '%'}}">
+		<view wx:for="{{bannerList}}" bindtap="buyDetail" data-code="{{item.code}}" data-type="banner" style="width: {{(100 / bannerList.length) + '%'}}">
+			<image src="{{item.path}}" mode="widthFix"></image>
+		</view>
+	</view>
+	<!-- /轮播图 -->
+	<!-- 标签页 -->
+	<view class="tab clearfix" wx:if="{{showList.length}}">
+		<view class="{{current === 'ly'? 'active green' : ''}}" wx:if="{{showly}}" data-current="ly" bindtap="changeTab" style="width: {{tabWidth}}">{{products.tabText.ly || "旅行险"}}</view>
+		<view class="{{current === 'yw'? 'active pink' : ''}}" wx:if="{{showyw}}" data-current="yw" bindtap="changeTab" style="width: {{tabWidth}}">{{products.tabText.yw || "意外险"}}</view>
+		<view class="{{current === 'jc'? 'active yellow' : ''}}" wx:if="{{showjc}}" data-current="jc" bindtap="changeTab" style="width: {{tabWidth}}">{{products.tabText.jc || "家财险"}}</view>
+	</view>
+	<!-- /标签页 -->
+	<!-- 产品列表 -->
+	<view class="pro" wx:for="{{showList}}">
+		<image src="{{item.SmallPic}}" mode="widthFix" bindtap="buyDetail" data-code="{{item.URL}}" data-type="list"></image>
+		<view class="con" style="min-height: 105px;">
+			<view class="text1">
+				<text class="{{themeColor}}">{{item.Name}}</text>
+			</view>
+			<view class="text2">
+				<text>{{item.Discription}}</text>
+			</view>
+			<view style="position: relative;">
+				<view class="price {{themeColor}}">￥{{item.MinPrice}}<text>起</text></view>
+				<text class="buy-btn" bindtap="buyDetail" data-code="{{item.URL}}">了解详情</text>
+			</view>
+		</view>
+	</view>
+	<!-- /产品列表 -->
+	<!-- 安联微信号介绍 -->
+	<view class="two-code" wx:if="{{showList.length}}">
+  		<text>在线快速理赔、保单验真、查询服务请关注\n安联官方微信服务号：allianz_cn</text>
+  	</view>
+  	<!-- /安联微信号介绍 -->
+  	<!-- 尾部 -->
+  	<view class="footer" wx:if="{{showList.length}}">
+	  	<text>©安联财险 2017.版权所有\n{{showAgencyCode ? (params.agencyCode || products.defaultAgencyCode || '') : ''}}</text>
+	  	<view class="m" bindlongtap="longtap"></view>
+	</view>
+	<!-- /尾部 -->
+	<!-- 导航栏 -->
+	<view class="nav" wx:if="{{showList.length}}">
+        <view class="index active">首页</view>
+        <view class="own" bindtap="linkOwn">我的</view>
+    </view>
+    <!-- /导航栏 -->
+    <!-- loading组件 -->
+    <loading hidden="{{isLoading}}">{{loadText}}</loading>
+    <!-- /loading组件 -->
+</view>

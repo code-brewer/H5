@@ -1,0 +1,42 @@
+.game-result {
+  margin: 0px 1.66667rem;
+  text-align: center;
+  color: white; }
+  .game-result p {
+    margin: 0; }
+  .game-result .msg {
+    font-size: 2.08333rem;
+    margin: 2.5rem 0px; }
+  .game-result .success {
+    font-size: 4.16667rem;
+    color: #ffb81d; }
+  .game-result .wap-get-score {
+    font-size: 1.25rem; }
+    .game-result .wap-get-score span {
+      color: #ffb81d; }
+  .game-result div.wap-get-score-only p {
+    display: block;
+    margin: auto;
+    font-size: 4.16667rem; }
+    .game-result div.wap-get-score-only p:first-child {
+      font-size: 2.08333rem; }
+    .game-result div.wap-get-score-only p span {
+      color: #ffb81d; }
+  .game-result .count {
+    font-size: 1.33333rem; }
+    .game-result .count span {
+      color: #ffb81d; }
+  .game-result .wap-links {
+    margin-top: 2.08333rem; }
+    .game-result .wap-links a {
+      padding: 0.625rem 1.25rem; }
+  .game-result .wap-btns {
+    margin-top: 2.91667rem;
+    display: flex;
+    justify-content: space-between; }
+    .game-result .wap-btns .wap-button {
+      display: inline-block;
+      text-decoration: none;
+      width: 46%; }
+
+/*# sourceMappingURL=game-result.css.map */

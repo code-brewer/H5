@@ -1,0 +1,245 @@
+@import '../../../../css/px2rem.scss';
+@import '../../../../css/bootstrap/_mixins.scss';
+.wap-button-view {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  padding: 0 40px;
+  top: px2rem(630px);
+}
+.wap-button {
+    background: #ffb81d;
+    height: px2rem(82px);
+    line-height: px2rem(82px);
+    width: auto;
+    font-size: px2rem(32px);
+    text-align: center;
+    color: #262222;
+    -webkit-border-radius: px2rem(41px);
+    -moz-border-radius: px2rem(41px);
+    border-radius: px2rem(41px);
+    a {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+    }
+    &.disabled {
+        opacity: 0.5;
+        pointer-events: none !important;
+    }
+}
+.app-view {
+    background-repeat: no-repeat;
+}
+.app-view.view-home {
+    background: #333 url('http://211.147.242.132:9008/fsd/ap/20160725/88_ac4c3d72_5153_4012_b4b9_1c1e0159eeb2.png')0 0 no-repeat;
+    background-size: px2rem(640px);
+    width: px2rem(640px);
+    height: px2rem(1096px);
+    padding: 0 px2rem(77px);
+    .wap-static-banner {
+        width: 100%;
+        width: px2rem(485px);
+        height: px2rem(304px);
+        // position: absolute;
+        margin-top: px2rem(160px);
+        position: relative;
+        background: url('http://www.soyu.cn/fsd/ap/20160906/88_96861f01_410c_4d4d_9ac2_17d6036fc847.png') 0 0 no-repeat;
+        background-size: 100%;
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+    .wap-activity-box {
+        height: px2rem(62px);
+        width: px2rem(62px);
+        right: px2rem(50px);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .wap-remaining-number-of-prizes {
+        // position: absolute;
+        top: px2rem(482px);
+        width: 100%;
+        padding: 0 px2rem(82px);
+        left: 0;
+        margin-top: px2rem(120px);
+        text-align: right;
+        color: #fff;
+        display: inline-block;
+        font-size: px2rem(32px);
+        position: absolute;
+        text-align: center;
+        span {
+            color: #ffb81d;
+            text-decoration: underline;
+        }
+    }
+    .wap-number-of-participants {
+        top: px2rem(390px);
+        width: 100%;
+        padding: 0 px2rem(82px);
+        left: 0;
+        margin-top: px2rem(120px);
+        text-align: right;
+        color: #fff;
+        display: inline-block;
+        font-size: px2rem(32px);
+        position: absolute;
+        text-align: center;
+        span {
+            color: #ffb81d;
+            text-decoration: underline;
+        }
+    }
+    .wap-button {
+        position: relative;
+        width: 100%;
+        margin-top: px2rem(160px);
+    }
+    .wap-rule-link {
+        position: absolute;
+        left: 0;
+        bottom: px2rem(10px);
+        text-align: center;
+        margin-bottom: px2rem(20px);
+        width: 100%;
+        a {
+            color: #e6e6e6;
+            font-size: px2rem(28px);
+        }
+    }
+}
+.app-view.view-activity {
+    background: #333 url('http://www.soyu.cn/fsd/ap/20160819/88_8c7ceb3b_4750_40f3_ad52_06c77e1fe9a0.png') 0 0 no-repeat;
+    background-size: px2rem(640px);
+    width: px2rem(640px);
+    height: px2rem(1008px);
+    > .wap-timer {
+        background: url('http://www.soyu.cn/fsd/ap/20160819/88_81fc11bf_313e_4be9_bd43_f36e80487d1d.png') 0 0 no-repeat;
+        background-size: 100%;
+        width: px2rem(596px);
+        height: px2rem(141px);
+        margin: px2rem(30px) auto auto;
+        padding: px2rem(16px) px2rem(58px) px2rem(40px);
+        .wap-timer-number {
+            width: 100%;
+            height: 100%;
+            p {
+                display: inline-block;
+                margin: 0;
+                width: px2rem(117px);
+                margin-right: px2rem(62px);
+                color: #fff;
+                text-align: center;
+                float: left;
+                font-size: 2.5rem;
+                line-height: px2rem(85px);
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+.app-view.view-success {
+    background: #333 url('http://www.soyu.cn/fsd/ap/20160819/88_8c7ceb3b_4750_40f3_ad52_06c77e1fe9a0.png') 0 0 no-repeat;
+    background-size: px2rem(640px);
+    width: px2rem(640px);
+    height: px2rem(1008px);
+    padding: 0 px2rem(40px);
+
+}
+.app-view.view-prizes {
+    .content {
+        text-align: center;
+        padding: 0 20px;
+        .prize-title {
+            padding: px2rem(70px) px2rem(10px) px2rem(60px);
+            p {
+                color: #fff;
+                font-size: px2rem(50px);
+            }
+            .prize-code {
+                color: #ffb81d;
+                font-size: px2rem(40px);
+                margin-top: px2rem(60px);
+            }
+        }
+        .rows {
+            background-color: #fff;
+            width: 100%;
+            margin-top: 10px;
+            p {
+                color: #000;
+                line-height: 30px;
+                text-align: left;
+                font-size: px2rem(26px);
+                padding: 0 10px;
+                margin: 0;
+                span {
+                    color: #ffb81d;
+                }
+            }
+        }
+        .cashed {
+            position: relative;
+            overflow: hidden;
+            &::after {
+                content: " ";
+                display: block;
+                width: 100px;
+                height: 100px;
+                border-radius: 50px;
+                position: absolute;
+                top: -56px;
+                right: -35px;
+                z-index: 0;
+                background-color: #ff806b;
+            }
+            &::before {
+                content: "已兑奖";
+                display: block;
+                position: absolute;
+                top: 0;
+                right: 5px;
+                z-index: 1;
+                color: white;
+                line-height: 2;
+            }
+        }
+        .cash {
+            position: relative;
+            overflow: hidden;
+            .prize-name{
+                color: #aace39;
+                span{
+                    color: #aace39;
+                }
+            }
+            &::after {
+                content: " ";
+                display: block;
+                width: 100px;
+                height: 100px;
+                border-radius: 50px;
+                position: absolute;
+                top: -56px;
+                right: -35px;
+                z-index: 0;
+                background-color: #aace39;
+            }
+            &::before {
+                content: "未兑奖";
+                display: block;
+                position: absolute;
+                top: 0;
+                right: 5px;
+                z-index: 1;
+                color: white;
+                line-height: 2;
+            }
+        }
+    }
+}

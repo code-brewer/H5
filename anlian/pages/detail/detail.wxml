@@ -1,0 +1,184 @@
+<!-- 引用温馨提示模版 -->
+<import src="../form/tips.wxml" />
+<template is="tips" data="{{tipsText:tipsText}}" wx:if="{{tips}}"/>	
+<view class="container">
+	<!-- 产品信息 -->
+	<view class="header">
+		<image src="{{product.SmallPic}}" mode="widthFix"></image>
+		<view class="con">
+			<text class="title">{{product.Name}}</text>
+			<view class="li border">
+				<text class="label">承保年龄：</text><text class="text">{{product.FitAge}}</text>
+			</view>
+			<view class="li">
+				<text class="label">保障期限：</text><text class="text">{{product.FitDate}}</text>
+			</view>
+			<view class="li">
+				<text class="label">备<text style="padding-left: 24px;">注：</text></text><text class="text">{{product.Remark}}</text>
+			</view>
+			<view class="bottom">
+				<view class="price {{themeColor}}">￥{{product.MinPrice}}<text>起</text></view>
+  				<text class="{{'buy-btn ' + themeColor}}" bindtap="buyServer">立即购买</text>
+			</view>
+		</view>
+	</view>
+	<!-- /产品信息 -->
+	<!-- 保费试算 -->
+	<view class="section">
+		<view class="title" bindtap="spreadOut" data-index="0">
+			<text class="label">保费试算：</text>
+			<text class="{{themeColor}}">￥{{bfss.price}}</text>
+			<image style="width:15px; height:15px" src="{{spreadOutObj[0].img}}" class="ui-arrow"/>
+		</view>
+		<view class="ui-d-detail" wx:if="{{spreadOutObj[0].show}}">
+			<picker range="{{product.Plans}}" value="{{bfss.planName}}" range-key="PlanName" bindchange="changePlan">
+				<view class="li select">
+					<image class="beforeImg" src="{{beforeImg}}"></image>
+					<text style="vertical-align: middle;">保险计划</text>
+					<text class="{{themeColor}}">{{bfss.planName}}</text>
+				</view>
+			</picker>
+			<picker range="{{bfss.PeriodArr}}" value="{{bfss.Period}}" bindchange="changePeriod" disabled="{{bfss.isYearDisabled}}" wx:if="{{!bfss.isAge}}">
+				<view class="li select">
+					<image class="beforeImg" src="{{beforeImg}}"></image>
+					<text style="vertical-align: middle;">保险期间</text>
+					<text class="{{themeColor}}" style="{{bfss.isDisabled ? 'color: #666' : ''}}">{{bfss.Period}}</text>
+				</view>
+			</picker>
+			<picker range="{{bfss.AgeGroupArr}}" value="{{bfss.AgeGroup}}" bindchange="changeAge" wx:if="{{bfss.isAge}}">
+				<view class="li select">
+					<image class="beforeImg" src="{{beforeImg}}"></image>
+					<text style="vertical-align: middle;">年龄范围</text>
+					<text class="{{themeColor}}">{{bfss.AgeGroup}}</text>
+				</view>
+			</picker>
+			<picker mode="date" value="{{bfss.startdate}}" disabled="{{false}}" end="2020-01-01" bindchange="startDate">
+				<view class="li select">
+					<image class="beforeImg" src="http://www.allianz.cn/images/wxApplet/start.png"></image>
+					<text style="vertical-align: middle;">起保时间</text>
+					<text class="{{themeColor}}">{{bfss.startdate + ' 00时'}}</text>
+				</view>
+			</picker>
+			<picker mode="date" value="{{bfss.enddate}}" disabled="{{bfss.isDisabled}}" bindchange="endDate">
+				<view class="li select last">
+					<image class="beforeImg" src="http://www.allianz.cn/images/wxApplet/end.png"></image>
+					<text>终保时间</text>
+					<text class="{{themeColor}}" style="{{bfss.isDisabled ? 'color: #666' : ''}}">{{bfss.enddate + ' 24时'}}</text>
+				</view>
+			</picker>
+		</view>
+	</view>
+	<!-- /保费试算 -->
+	<!-- 保费说明 -->
+	<view class="section">
+		<view class="title" bindtap="spreadOut" data-index="1">
+			<text class="label">保费说明：</text>
+			<image style="width:15px;height:15px"
+			src="{{spreadOutObj[1].img}}" class="ui-arrow"/>
+		</view>
+		<view class="con bfsm" wx:if="{{spreadOutObj[1].show}}">
+			<view class="table" wx:for="{{product.bfsm}}" wx:for-index="k" wx:for-item="v">
+				<!-- <block> -->
+					<view class="th">
+						<text class="text" style="width: {{index === 0 ? '30%' : 'auto' }}" wx:for="{{v.title}}">{{item}}</text>
+					</view>
+					<view class="tr" wx:for="{{v.list}}">
+						<text class="{{index === 0 ? 'text textFirst' : 'text'}}" wx:for="{{item}}" wx:for-item="vv">{{vv}}</text>
+					</view>
+				<!-- </block> -->
+			</view>
+		</view>
+	</view>
+	<!-- /保费说明 -->
+	<!-- 保障范围 -->
+	<view class="section bzRange">
+		<view class="title" bindtap="spreadOut" data-index="2">
+			<text class="label">保障范围：</text>
+			<image style="width:15px;height:15px"
+			src="{{spreadOutObj[2].img}}" class="ui-arrow"/>
+		</view>
+		<view class="con" wx:if="{{spreadOutObj[2].show}}">
+			<view class="table">
+				<view class="th">
+					<text class="text" style="width: {{index === 0 ? '40%' : 'auto'}}" wx:for="{{product.PolicyRange.title}}">{{item}}</text>
+				</view>
+				<view class="tr" wx:for="{{product.PolicyRange.content}}" wx:key="*this">
+					<text class="text" wx:for="{{product.PolicyRange.content[index]}}" style="width: {{index === 0 ? '40%' : 'auto'}}" >{{item}}</text>
+				</view>
+			</view>
+		</view>
+	</view>
+	<!-- /保障范围 -->
+	<!-- 投保须知 -->
+	<view class="section">
+		<view class="title" bindtap="spreadOut" data-index="3">
+			<text class="label">投保须知：</text>
+			<image style="width:15px;height:15px"
+			src="{{spreadOutObj[3].img}}" class="ui-arrow"/>
+		</view>
+		<view class="ui-d-detail" wx:if="{{spreadOutObj[3].show}}">
+			<view class="tbxz">
+				<view wx:key="{{code}}" wx:for="{{product.Notice}}">
+					<text>{{(index + 1) + '. ' + item}}</text>
+				</view>
+			</view>
+	    </view>
+	</view>
+	<!-- /投保须知 -->
+	<!-- 产品卖点 -->
+	<view class="pro">
+		<view class="tab clearfix">
+			<text wx:for="{{product.Character}}" class="{{Character.current === index ? 'active ' + themeColor : ''}}" style="width: {{Character.width}}" data-current="{{index}}" bindtap="changeTab">{{item.title}}</text>
+		</view>
+
+		<view class="tese" wx:if="{{Character.current === 'tese'}}">
+			<image style="width:100%;height:90px" mode="widthFix" src="{{product.Character.tese.banner}}"></image>
+			<view class="li" wx:for="{{product.Character.tese.list}}">
+				<image class="tImg" src="{{item.img}}"></image>
+				<text class="{{'text ' + themeColor}}">{{item.text}}</text>
+			</view>
+		</view>
+
+		<view class="lipei" wx:if="{{Character.current === 'lipei'}}">
+			<image style="width:100%;height:150px" mode="widthFix" src="{{product.Character.lipei.img1}}"></image>
+			<view>
+				<image style="width:100%;height:70px;margin:10px 0;" mode="widthFix" src="{{product.Character.lipei.img2}}"></image>
+			</view>
+		</view>
+
+		<view class="jiuyuan" wx:if="{{Character.current === 'jiuyuan'}}">
+			<image src="../images/rescue.jpg" mode="widthFix"></image>
+	  		<view class="title clearfix"><view class="{{'longstring ' + themeColor}}"></view><text class="{{'top ' + themeColor}}">{{product.Character.jiuyuan.subtitle1}}</text></view>
+	  		<view>
+				<view class="section" wx:for="{{product.Character.jiuyuan.list1}}">
+		  			<view class="table">
+		  				<image style="width:40px;height:40px;vertical-align:middle" src="{{item.img}}"></image>
+		  				<text class="text">
+		  					<text wx:for="{{item.textList}}" wx:for-item="subItem">{{subItem.a}}<text class="{{themeColor}}">{{subItem.b}}</text></text>
+		  				</text>
+		  			</view>
+		  		</view>
+	  		</view>
+	  		<view class="title clearfix"><view class="{{'longstring ' + themeColor}}"></view><text class="{{'top ' + themeColor}}">{{product.Character.jiuyuan.subtitle2}}</text></view>
+	  		<view class="section" style="padding-left: 0;" wx:for="{{product.Character.jiuyuan.list2}}">
+	  			<view class="table">
+	  				<text class="{{'index ' + themeColor}}" style="padding-right: 10px;">{{((index+1) > 9 ? '' : '0') + (index+1)}}</text><text class="text">{{item}}</text>
+	  			</view>
+	  		</view>
+	  	</view>
+	</view>
+	<!-- 产品卖点 -->
+	<button class="{{'button ' + themeColor}}" style="font-size: 16px;" bindtap="buyServer">立即购买</button>
+	<!-- 保险条款 -->
+	<view class="clause">
+		<text style="margin-bottom: 5px;">投保前请仔细阅读保险条款：</text>
+		<text wx:for="{{product.article}}" style="display: block" bindtap="term" data-key="{{index}}">{{item}}</text>
+	</view>
+	<!-- /保险条款 -->
+	<loading hidden="{{isLoading}}">{{loadText}}</loading>
+</view>
+<!-- 尾部 -->
+<view class="footer">
+  	<text>©安联财险 2017.版权所有</text>
+</view>
+<!-- /尾部 -->

@@ -1,0 +1,424 @@
+page {
+	min-height: 100%;
+	font-size: 14px;
+	background: #e9ebf0;
+}
+.orange {
+	color: #ff8200;
+}
+.pink {
+	color: #f57eb6
+;
+}
+.yellow {
+	color: #f8b300;
+}
+.green {
+	color: #64a70b;
+}
+.container {
+	padding: 10px;
+}
+.title {
+	position: relative;
+	display: block;
+	padding-left: 10px;
+	line-height: 40px;
+	font-family: 微软雅黑;
+	font-size: 16px;
+    font-weight: normal;
+    color: #6f6f6f;
+}
+.formGroup {
+	margin-top: -1px;
+	margin-bottom: 10px;
+	border: 1px solid #d6d6d6;
+	color: #333;
+	background: white;
+}
+.formGroup .li {
+	position: relative;
+	height: 40px;
+	padding: 0 20px 0 10px;
+	line-height: 40px;
+	border-bottom: 1px solid #d6d6d6;
+}
+.formGroup .select:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	width: 6px;
+	height: 6px;
+	border: solid #d6d6d6;
+	border-width: 1px 1px 0 0;
+	transform: translate(0, -50%) rotate(45deg);
+}
+.formGroup .last {
+	border: 0;
+}
+.formGroup .select text:first-child {
+	position: relative;
+	padding-left: 30px;
+}
+.formGroup .select text:last-child {
+	position: absolute;
+	top: 0;
+	right: 20px;
+	max-width: 173px;
+	margin-left: 105px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.formGroup .no-icon text:first-child {
+	padding-left: 0;
+}
+.formGroup .pink {
+	color: #f57eb6
+;
+}
+.formGroup .orange {
+	color: #ff8200;
+}
+.formGroup .green {
+	color: #64a70b;
+}
+.formGroup .yellow {
+	color: #f8b300;
+}
+.formGroup .yzCode {
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: -15px;
+	border-radius: 5px;
+	font-size: 12px;
+	text-align: center;
+	color: white;
+}
+.formGroup .yzCode.pink {
+	background: #f57eb6
+;
+}
+.formGroup .yzCode.orange {
+	background: #ff8200;
+}
+.formGroup .yzCode.green {
+	background: #64a70b;
+}
+.formGroup .yzCode.yellow {
+	background: #f8b300;
+}
+.formGroup .input {
+	padding: 0 20px 0 110px;
+}
+.formGroup .input text {
+	position: absolute;
+	top: 0;
+	left: 10px;
+	line-height: 40px;
+}
+.formGroup input {
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+}
+.formGroup .formGroup1 {
+	border: 0;
+}
+.formGroup .check {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.formGroup .check view {
+	display: inline-block;
+	width: 40px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	color: #333;
+	font-size: 14px;
+	border: 1px solid #d6d6d6;
+	background: white;
+}
+.formGroup .check view:first-child {
+	border-right: 0;
+	border-radius: 5px 0 0 5px;
+}
+.formGroup .check view:last-child {
+	border-left: 0;
+	border-radius: 0 5px 5px 0;
+}
+.big-icon {
+	width: 23px;
+	height: 23px;
+	padding-top: 8px;
+}
+.fr {
+	float: right;
+}
+.fl {
+	float: left;
+}
+.revamp {
+	font-size: 16px;
+}
+.overflow {
+	overflow: hidden;
+}
+.line {
+	border-bottom: 1px solid #d6d6d6;
+}
+.formGroup .check .active {
+	color: white;
+}
+.formGroup .check .active.orange {
+	border-color: #ff8200;
+	background: #ff8200;
+}
+.formGroup .check .active.pink {
+	border-color: #f57eb6
+;
+	background: #f57eb6
+;
+}
+.formGroup .check .active.green {
+	border-color: #64a70b;
+	background: #64a70b;
+}
+.formGroup .check .active.yellow {
+	border-color: #f8b300;
+	background: #f8b300;
+}
+/*===== template1 =====*/
+.formGroup1 {
+	margin-bottom: 10px;
+	border: 1px solid #d6d6d6;
+	border-radius: 5px;
+	background: white;
+}
+.formGroup1 .item {
+	position: relative;
+	padding: 15px 10px;
+	padding-right: 100px;
+	border-bottom: 1px solid #d6d6d6;
+}
+.formGroup1 .last {
+	border: 0;
+}
+.formGroup1 text {
+	font-size: 14px;
+	color: #333;
+	line-height: 1.34;
+}
+.formGroup1 .check {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.formGroup1 .check view {
+	display: inline-block;
+	width: 40px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	color: #333;
+	font-size: 14px;
+	border: 1px solid #d6d6d6;
+	background: white;
+}
+.formGroup1 .check view:first-child {
+	border-right: 0;
+	border-radius: 5px 0 0 5px;
+}
+.formGroup1 .check view:last-child {
+	border-left: 0;
+	border-radius: 0 5px 5px 0;
+}
+.formGroup1 .check .active {
+	color: white;
+}
+.formGroup1 .check .active.orange {
+	border-color: #ff8200;
+	background: #ff8200;
+}
+.formGroup1 .check .active.pink {
+	border-color: #f57eb6
+;
+	background: #f57eb6
+;
+}
+.formGroup1 .check .active.green {
+	border-color: #64a70b;
+	background: #64a70b;
+}
+.formGroup1 .check .active.yellow {
+	border-color: #f8b300;
+	background: #f8b300;
+}
+/*===== message1-message2 =====*/
+.message-text:before {
+	content: "";
+	display: table;
+	clear: both;
+}
+.message-text .text {
+	display: block;
+	text-align: right;
+	padding: 10px 30px 10px 0;
+	color: #666;
+	font-size: 14px;
+}
+.message-text .text .pink {
+	color: #f57eb6
+;
+}
+.message input {
+	text-align: right;
+}
+.message .check {
+	top: 0;
+}
+.message .formGroup .small {
+	position: relative;
+	margin-left: -10px;
+	font-size: 12px;
+	color: #999;
+	font-style: italic;
+	white-space: nowrap;
+}
+.message .checkbox checkbox {
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	transform: translate(0, -50%);
+}
+.btn {
+	width: 100px;
+    height: 30px;
+    font-size: 14px;
+    color: #ff2121;
+    background: white;
+}
+.btn text {
+	display: inline-block;
+	line-height: 33px;
+	padding-left: 5px;
+	vertical-align: top;
+}
+.btn.add_btn {
+	color: white;
+}
+.btn.add_btn.orange {
+	background: #fe8100;
+}
+.btn.add_btn.pink {
+	background: #f57eb6;
+}
+.btn.add_btn.green {
+	background: #64a70c;
+}
+.btn.add_btn.yellow {
+	background: #f8b300;
+}
+.btn image {
+	width: 15px;
+	height: 22px;
+	padding-top: 2px;
+	vertical-align: top;
+}
+.mg-bottom {
+	margin-bottom: 10px;
+}
+.w {
+	width: 100%;
+}
+.button {
+	color: white;
+}
+.button.orange {
+	background: #ff8200;
+}
+.button.yellow {
+	background: #f8b300;
+}
+.button.pink {
+	background: #f57eb6;
+}
+.button.green {
+	background: #64a70b;
+}
+
+.mask {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	background: rgba(0, 0, 0, .6);
+}
+.open-code-img {
+	position: fixed;
+	width: 100%;
+	top: 100px;
+	left: 0;
+	padding: 0 10px;
+	font-size: 14px;
+	z-index: 101;
+	box-sizing: border-box;
+}
+.open-code-img .row {
+	position: relative;
+	height: 40px;
+	padding: 0 100px 0 105px;
+	line-height: 40px;
+	background: white;
+}
+.open-code-img .row text {
+	position: absolute;
+	top: 0;
+	left: 30px;
+}
+.open-code-img .icon {
+	position: absolute;
+	top: 50%;
+	left: 5px;
+	width: 20px;
+	height: 20px;
+	margin-top: -10px;
+}
+.open-code-img input {
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+}
+.open-code-img .img {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	width: 100px;
+	height: 30px;
+	margin-top: -15px;
+}
+.open-code-img .btn {
+	display: block;
+	width: 120px;
+	height: 40px;
+	margin: 30px auto 0;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+	border: 0;
+	border-radius: 5px;
+	background: #f26a50;
+}

@@ -1,0 +1,27 @@
+[{
+    "templateName": "c6",
+    "type": "贺年",
+    "count": "4",
+    "srcs": [{
+        "src": "templates/c6/action.js",
+        "id": "js"
+    }, {
+        "src": "templates/c6/images/newyear1.png",
+        "id": "newyear1"
+    }, {
+        "src": "templates/c6/images/newyear2.png",
+        "id": "newyear2"
+    }, {
+        "src": "templates/c6/images/newyear3.png",
+        "id": "newyear3"
+    }, {
+        "src": "templates/c6/images/newyear4.png",
+        "id": "newyear4"
+    }, {
+        "src": "templates/c6/images/Bitmap6.jpg",
+        "id": "Bitmap6"
+    }, {
+        "src": "templates/c6/images/Bitmap7.png",
+        "id": "Bitmap7"
+    }]
+}]

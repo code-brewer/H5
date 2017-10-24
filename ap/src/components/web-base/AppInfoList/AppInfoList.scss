@@ -1,0 +1,29 @@
+ .app-infolist__container {
+   font-size: 14px;
+   .app-infolist__title {
+     display: inline-block;
+     margin-right: 5px;
+     font-weight: bold;
+   }
+   .app-infolist__value {
+     display: inline-block;
+     margin-right: 5px;
+   }
+   .form-control {
+     display: inline-block;
+     width: 120px;
+   }
+   .app-infolist__item {
+     margin-top: 10px;
+   }
+   ol {
+     padding-left: 15px;
+   }
+   .app-infolist__delete {
+	   cursor: pointer;
+
+	   &:hover {
+		   color: #f00;
+	   }
+   }
+ }

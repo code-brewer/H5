@@ -1,0 +1,20 @@
+@import '../../../css/px2rem.scss';
+
+.confirm-btn__container {
+	position: relative;
+}
+
+.confirm-btn {
+	display: block;
+	margin: 0 auto;
+	width: px2rem(294px);
+	height: px2rem(110px);
+	background-repeat: no-repeat;
+	background-image: url(./images/confirm-btn.png);
+	background-size: contain;
+	background-color: transparent;
+	background-position: center;
+	border: 0;	
+	text-indent: -9999em;
+	outline: none;
+}

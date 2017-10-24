@@ -1,0 +1,186 @@
+@import '../../../../css/px2rem.scss';
+@import '../../../../css/bootstrap/_mixins.scss';
+.wap-button {
+    background: #ffd521;
+    height: px2rem(82px);
+    line-height: px2rem(82px);
+    width: auto;
+    font-size: px2rem(32px);
+    text-align: center;
+    color: #925900;
+    -webkit-border-radius: px2rem(41px);
+    -moz-border-radius: px2rem(41px);
+    border-radius: px2rem(41px);
+    a {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+    }
+    &.disabled {
+        opacity: 0.5;
+        pointer-events: none !important;
+    }
+}
+.game-btn-select {
+    position: relative;
+    background-color: rgba(255, 184, 29, 0);
+    background-image: url("../images/selected.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    line-height: px2rem(90px);
+    width: px2rem(235px);
+    height: px2rem(90px);
+    font-size: px2rem(34px);
+    text-align: center;
+    color: #000000;
+    margin: px2rem(63px) auto 0;
+}
+.game-btn {
+    position: relative;
+    background-color: rgba(255, 184, 29, 0);
+    background-image: url("../images/btn.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    line-height: px2rem(90px);
+    width: px2rem(235px);
+    height: px2rem(90px);
+    font-size: px2rem(34px);
+    text-align: center;
+    color: #000000;
+    margin: px2rem(63px) auto 0;
+}
+.quest-bg {
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    padding: 0 px2rem(80px);
+    background-image: url("../images/game-bg.jpg");
+    background-repeat: no-repeat;
+}
+.app-view.view-home {
+    // padding-left: px2rem(100px);
+    // padding-right: px2rem(100px);
+    background-image: url("../images/bg.jpg");
+    .wap-button-view {
+        top: px2rem(730px);
+        left: 50%;
+        position: absolute;
+        .wap-button {
+            transform: translateX(-50%);
+            border-radius: px2rem(41px);
+            background-color: rgba(255, 204, 0, 1);
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-size: auto 100%;
+            line-height: px2rem(74px);
+            width: px2rem(235px);
+            height: px2rem(74px);
+            font-size: px2rem(36px);
+            text-align: center;
+            color: #935a01;
+            margin: px2rem(60px) auto 0;
+            a {
+                display: block;
+                color: #935a01;
+                text-decoration: none;
+            }
+            &.disabled {
+                opacity: 0.5;
+                // background: #ccc !important;
+                // color: #333 !important;
+                pointer-events: none !important;
+            }
+        }
+    }
+    .wap-activity-box {
+        height: px2rem(62px);
+        width: px2rem(62px);
+        right: px2rem(34px);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .wap-static-banner {
+        position: absolute;
+        top: px2rem(100px);
+        height: 100%;
+        width: 69%;
+        margin-left: 15.5%;
+        left: 0;
+        background-repeat: no-repeat;
+        background-image: url("../images/banner.png");
+        background-size: 100%;
+    }
+    .wap-remaining-number-of-prizes {
+        position: absolute;
+        left: 0;
+        top: px2rem(575px);
+        width: 100%;
+        text-align: center;
+        color: #ffffff;
+        display: inline-block;
+        font-size: px2rem(30px);
+        position: relative;
+        .count {
+            font-size: px2rem(30px);
+            color: #f1cd26;
+            text-decoration: none;
+        }
+    }
+    .wap-number-of-participants {
+        position: absolute;
+        left: 0;
+        top: px2rem(660px);
+        width: 100%;
+        text-align: center;
+        color: #ffffff;
+        display: inline-block;
+        font-size: px2rem(30px);
+        .count {
+            font-size: px2rem(30px);
+            color: #f1cd26;
+            text-decoration: none;
+        }
+    }
+    .wap-rule-link {
+        position: absolute;
+        bottom: px2rem(40px);
+		 width: 100%;
+        left: 0;
+        text-align: center; 
+        a {
+            color: #ffd521;
+            font-size: px2rem(30px);
+            text-decoration: underline;
+            font-weight: bold;
+        }
+    }
+    .wap-rank-link {
+        position: absolute;
+        bottom: px2rem(30px);
+        width: 100%;
+        left: 0;
+        text-align: center;
+        a {
+            color: #ffd521;
+            font-size: px2rem(30px);
+            text-decoration: underline;
+            font-weight: bold;
+        }
+    }
+    .wap-logo {
+        left: px2rem(50px);
+        width: px2rem(188px);
+        .logo {
+            background-repeat: no-repeat;
+            background-image: url("../images/logo.png");
+            background-size: 100%;
+        }
+    }
+}
+.app-view {
+    height: 100%;
+    background-color: rgb(251, 229, 192);
+    background-size: px2rem(640px);
+    background: url("../images/common-bg.jpg")0 0 no-repeat;
+    .game-result {}
+}

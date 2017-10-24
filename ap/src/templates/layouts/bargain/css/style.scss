@@ -1,0 +1,165 @@
+@import '../../../../css/px2rem.scss';
+@import '../../../../css/bootstrap/_mixins.scss';
+.wap-button {
+    border-radius: px2rem(41px);
+    position: relative;
+    background-color: rgba(255, 85, 0, 1); //          background-image: url("http://www.soyu.cn/fsd/ap/20160929/88_82f7dd6a_c248_4c2a_a6c5_8458cc90ca51.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: auto 100%;
+    line-height: px2rem(66px);
+    width: px2rem(230px);
+    height: px2rem(66px);
+    font-size: px2rem(36px);
+    text-align: center;
+    color: #fff;
+    margin: px2rem(86px) auto 0;
+    a {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+    }
+    &.disabled {
+        opacity: 0.5;
+        // background: #ccc !important;
+        // color: #333 !important;
+        pointer-events: none !important;
+    }
+}
+.bargain-bg {
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+}
+.app-view.view-home {
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    p {
+        margin: 0;
+    }
+    .wap-button-view {
+        top: px2rem(730px);
+        left: 50%;
+        position: absolute;
+        .wap-button {
+            transform: translateX(-50%);
+            border-radius: px2rem(41px);
+            position: relative;
+            background-color: rgba(255, 85, 0, 1);          
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-size: auto 100%;
+            line-height: px2rem(66px);
+            width: px2rem(230px);
+            height: px2rem(66px);
+            font-size: px2rem(36px);
+            text-align: center;
+            color: #fff;
+            a {
+                display: block;
+                color: inherit;
+                text-decoration: none;
+            }
+            &.disabled {
+                opacity: 0.5;
+                // background: #ccc !important;
+                // color: #333 !important;
+                pointer-events: none !important;
+            }
+        }
+    }
+    .wap-activity-box {
+        height: px2rem(62px);
+        width: px2rem(62px);
+        right: px2rem(35px);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .wap-static-banner {
+        position: absolute;
+        top: px2rem(150px);
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-image: url("../images/banner.png");
+        background-size: 100%;
+    }
+    .wap-activity-date {
+        position: absolute;
+        left: 0;
+        top: px2rem(560px);
+        width: 100%;
+        text-align: center;
+        color: #533e00;
+        display: inline-block;
+        font-size: px2rem(30px);
+        position: relative;
+    }
+    .wap-remaining-number-of-prizes {
+        position: absolute;
+        left: 0;
+        top: px2rem(580px);
+        width: 100%;
+        text-align: center;
+        color: #533e00;
+        display: inline-block;
+        font-size: px2rem(30px);
+        position: relative;
+        .count {
+            font-size: px2rem(40px);
+            color: #990709;
+            text-decoration: underline;
+        }
+    }
+    .wap-number-of-participants {
+        position: absolute;
+        left: 0;
+        top: px2rem(700px);
+        width: 100%;
+        text-align: center;
+        color: #533e00;
+        font-size: px2rem(30px);
+        .count {
+            font-size: px2rem(40px);
+            color: #990709;
+            text-decoration: underline;
+        }
+    }
+    .wap-rule-link {
+        position: absolute;
+        bottom: px2rem(30px);
+        width: 100%;
+        left: 0;
+        text-align: center;
+        a {
+            color: #533e00;
+            font-size: px2rem(28px);
+            text-decoration: underline;
+            font-weight: bold;
+        }
+    }
+    .wap-logo {
+        left: px2rem(50px);
+        .logo {
+            background-repeat: no-repeat;
+            background-image: url("../images/logo.png");
+            background-size: 100%;
+        }
+    }
+}
+.app-view {
+    height: 100%;
+    background-color: rgb(251, 229, 192);
+    background-size: px2rem(640px);
+    background: url("../images/common-bg.jpg")0 0 no-repeat;
+}
+.app-view.view-home div.wap-rule-link {
+  width: 100%;
+  left: 0;
+  margin-left: 0;
+}
+.app-view.view-home div.modal-panel {
+  text-shadow: none;
+}

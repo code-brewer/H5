@@ -1,0 +1,128 @@
+.wap-button {
+  border-radius: 1.70833rem;
+  position: relative;
+  background-color: #ff5500;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: auto 100%;
+  line-height: 2.75rem;
+  width: 9.58333rem;
+  height: 2.75rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #fff;
+  margin: 3.58333rem auto 0; }
+  .wap-button a {
+    display: block;
+    color: inherit;
+    text-decoration: none; }
+  .wap-button.disabled {
+    opacity: 0.5;
+    pointer-events: none !important; }
+
+.bargain-bg {
+  height: 100%;
+  width: 100%;
+  background-size: 100%;
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat; }
+
+.app-view.view-home {
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat; }
+  .app-view.view-home p {
+    margin: 0; }
+  .app-view.view-home .wap-button-view .wap-button {
+    border-radius: 1.70833rem;
+    position: relative;
+    background-color: #ff5500;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: auto 100%;
+    line-height: 2.75rem;
+    width: 9.58333rem;
+    height: 2.75rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+    margin: 3.58333rem auto 0; }
+    .app-view.view-home .wap-button-view .wap-button a {
+      display: block;
+      color: inherit;
+      text-decoration: none; }
+    .app-view.view-home .wap-button-view .wap-button.disabled {
+      opacity: 0.5;
+      pointer-events: none !important; }
+  .app-view.view-home .wap-activity-box {
+    height: 2.58333rem;
+    width: 2.58333rem;
+    right: 1.45833rem;
+    background-repeat: no-repeat;
+    background-size: 100%; }
+  .app-view.view-home .wap-static-banner {
+    margin: 6.25rem 0 10.41667rem;
+    position: relative;
+    height: 7.29167rem;
+    background-repeat: no-repeat;
+    background-image: url("../images/banner.png");
+    background-size: 100%; }
+  .app-view.view-home .wap-activity-date {
+    width: 100%;
+    text-align: center;
+    color: #533e00;
+    display: inline-block;
+    font-size: 1.25rem;
+    position: relative; }
+  .app-view.view-home .wap-remaining-number-of-prizes {
+    width: 100%;
+    text-align: center;
+    color: #533e00;
+    display: inline-block;
+    font-size: 1.25rem;
+    position: relative; }
+    .app-view.view-home .wap-remaining-number-of-prizes .count {
+      font-size: 1.66667rem;
+      color: #990709;
+      text-decoration: underline; }
+  .app-view.view-home .wap-number-of-participants {
+    width: 100%;
+    text-align: center;
+    color: #533e00;
+    display: inline-block;
+    font-size: 1.25rem; }
+    .app-view.view-home .wap-number-of-participants .count {
+      font-size: 1.66667rem;
+      color: #990709;
+      text-decoration: underline; }
+  .app-view.view-home .wap-rule-link {
+    position: absolute;
+    bottom: 0.83333rem;
+    left: 50%;
+    margin-left: -2rem; }
+    .app-view.view-home .wap-rule-link a {
+      color: #533e00;
+      font-size: 1.16667rem;
+      text-decoration: underline;
+      font-weight: bold; }
+  .app-view.view-home .wap-logo {
+    left: 2.08333rem; }
+    .app-view.view-home .wap-logo .logo {
+      background-repeat: no-repeat;
+      background-image: url("../images/logo.png");
+      background-size: 100%; }
+
+.app-view {
+  height: 100%;
+  background-color: #fbe5c0;
+  background-size: 26.66667rem;
+  background: url("../images/common-bg.jpg") 0 0 no-repeat; }
+
+.app-view.view-home div.wap-rule-link {
+  width: 100%;
+  left: 0;
+  margin-left: 0; }
+
+.app-view.view-home div.modal-panel {
+  text-shadow: none; }
+
+/*# sourceMappingURL=style.css.map */

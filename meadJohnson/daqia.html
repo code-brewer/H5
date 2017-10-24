@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html
+<head>
+
+ <meta charset="utf-8">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" /> -->
+        <meta name="apple-mobile-web-app-capable" content="yes" /><!-- 删除苹果默认的工具栏和菜单栏 -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" /><!-- 设置苹果工具栏颜色 -->
+        <meta name="format-detection" content="telphone=no, email=no" /><!-- 忽略页面中的数字识别为电话，忽略email识别 -->
+        <!-- 启用360浏览器的极速模式(webkit) -->
+        <meta name="renderer" content="webkit">
+        <!-- 避免IE使用兼容模式 -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- uc强制竖屏 -->
+        <meta name="screen-orientation" content="portrait">
+        <!-- QQ强制竖屏 -->
+        <meta name="x5-orientation" content="portrait">
+        <!-- UC强制全屏 -->
+        <meta name="full-screen" content="yes">
+        <!-- QQ强制全屏 -->
+        <meta name="x5-fullscreen" content="true">
+        <!-- UC应用模式 -->
+        <meta name="browsermode" content="application">
+        <!-- QQ应用模式 -->
+        <meta name="x5-page-mode" content="app">
+        <!-- windows phone 点击无高光 -->
+        <meta name="msapplication-tap-highlight" content="no">
+</head>
+<link rel="stylesheet" type="text/css" href="css/global.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<script type="text/javascript">
+        var phoneWidth = parseInt(window.screen.width);
+        var phoneScale = phoneWidth / 640;
+        var ua = navigator.userAgent;
+        if (/Android (\d+\.\d+)/.test(ua)) {
+            var version = parseFloat(RegExp.$1);
+            if (version > 2.3) {
+                document.write('<meta name="viewport" content="width=640, minimum-scale = ' + phoneScale + ', maximum-scale = ' + phoneScale + ', target-densitydpi=device-dpi">');
+            } else {
+                document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+            }
+        } else {
+            document.write('<meta name="viewport" content="width=640, user-scalable=no, maximum-scale=1">');
+        }
+      </script>
+
+
+<body >
+<section class="title">
+  <a class="l-jiantou" href="#"></a>
+  <h1 class="logo">妈咪打卡</h1>
+  <a class="share" href="#"></a>
+</section>
+<section class="shop-banner">
+<a href="#">
+<img src="images/daqia-1.jpg" class="">
+</a>
+</section>
+
+<section class="daqia-btn">
+        <a class="shop-btn-l" href="#">
+              <div class="shop-btn-L"> <h5 class="l-btn">我的贝壳币</h5> <h5 class="num">999个</h5></div>
+        </a>
+        <a class="shop-btn-r" href="#">
+               <h5>你离好礼只有100个贝壳币的距离</h5>
+        </a>
+</section>
+
+<ul class="daqia-list">
+    <li>
+           <a href="daqia2.html">
+             <img src="images/daqia-2.jpg">      
+           </a> 
+    </li>
+    <li>
+           <a href="daqia2.html">
+             <img src="images/daqia-3.jpg">      
+           </a> 
+    </li>
+  
+    <li>
+           <a href="daqia2.html">
+             <img src="images/daqia-6.jpg">      
+           </a> 
+    </li>
+    <li>
+           <a href="daqia2.html">
+             <img src="images/daqia-7.jpg">      
+           </a> 
+    </li>
+    
+    
+</ul>
+
+</body>
+</html>

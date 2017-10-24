@@ -1,0 +1,398 @@
+@charset "UTF-8";
+.positive {
+  color: #ffb81d !important; }
+
+.positive-bg {
+  background: #ffb81d !important; }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y; }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%; }
+
+body {
+  background: #323232;
+  font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 640px;
+  width: 100%;
+  margin: auto;
+  overflow-y: auto;
+  overflow-x: hidden; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal; }
+
+p {
+  line-height: 44px;
+  margin: 0 0 10px 0; }
+
+.button {
+  text-align: center;
+  padding: 0 110px;
+  line-height: 85px;
+  color: #262222;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 32px;
+  outline: none;
+  user-select: none; }
+  .button.button-positive {
+    background: #ffb81d; }
+    .button.button-positive:active, .button.button-positive.activated {
+      background: #fbac00;
+      -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+      -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+      box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
+
+.buttonbg {
+  background: url("../img/btn.png"); }
+
+.padding {
+  padding: 20px 40px; }
+
+div.bar-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 98px;
+  color: #fff;
+  background: #323232;
+  display: flex;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+  div.bar-header .title {
+    font-size: 32px;
+    line-height: 98px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 0;
+    overflow: hidden;
+    margin: 0 10px;
+    min-width: 30px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+
+div.app-view {
+  position: relative; }
+  div.app-view > img.bg {
+    width: 100%;
+    height: 100%;
+    display: block; }
+  div.app-view > img.logo {
+    position: absolute;
+    left: 20px;
+    top: 20px; }
+  div.app-view > img.share {
+    position: absolute;
+    right: 20px;
+    top: 20px; }
+  div.app-view > img.sharetip {
+    position: absolute;
+    right: 40px;
+    top: 0px; }
+  div.app-view .sharebg {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    position: absolute; }
+  div.app-view .inputbg {
+    background: url("../img/input.png");
+    background-size: 100% 100%; }
+  div.app-view > .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    overflow-x: hidden; }
+    div.app-view > .content .rankingdbg {
+      background: url("../img/rankingdialog.png") 50% 0 no-repeat;
+      width: 100%;
+      height: 100%;
+      margin-top: 85px;
+      overflow: hidden; }
+
+.has-header {
+  top: 98px !important; }
+
+.has-footer {
+  bottom: 98px !important; }
+
+.slide-transition {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+.slide-enter {
+  -webkit-transform: translate3d(100%, 0, 0);
+  -moz-transform: translate3d(100%, 0, 0);
+  -ms-transform: translate3d(100%, 0, 0);
+  -o-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0); }
+
+.slide-leave {
+  -webkit-transform: translate3d(-100%, 0, 0);
+  -moz-transform: translate3d(-100%, 0, 0);
+  -ms-transform: translate3d(-100%, 0, 0);
+  -o-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0); }
+
+.fade-transition {
+  -webkit-transition: opacity 0.3 linear;
+  -moz-transition: opacity 0.3 linear;
+  -ms-transition: opacity 0.3 linear;
+  -o-transition: opacity 0.3 linear;
+  transition: opacity 0.3 linear; }
+
+.fade-enter, .fade-leave {
+  opacity: 0; }
+
+div.buttons {
+  overflow: hidden;
+  margin-top: 175px; }
+  div.buttons .button {
+    width: 260px;
+    padding: 0; }
+    div.buttons .button:first-child {
+      float: left; }
+    div.buttons .button:last-child {
+      float: right; }
+
+.app-view.open {
+  overflow: hidden; }
+
+.app-view.rule-page p {
+  color: #e6e6e6; }
+  .app-view.rule-page p > span {
+    color: #ffb81d; }
+.app-view.rule-page img {
+  display: block;
+  max-width: 100%; }
+
+.app-view.game-page {
+  text-align: center; }
+  .app-view.game-page div.intro {
+    text-align: center; }
+    .app-view.game-page div.intro h3,
+    .app-view.game-page div.intro h4 {
+      color: #fff;
+      font-family: 黑体; }
+  .app-view.game-page div.gameover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 13;
+    background: rgba(0, 0, 0, 0.4);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    -webkit-transition: .2s opacity linear;
+    transition: .2s opacity linear; }
+    .app-view.game-page div.gameover > div {
+      background: url("../img/dlgbg"); }
+
+.app-view.pass-page {
+  text-align: center;
+  color: #e6e6e6; }
+  .app-view.pass-page img.text-img {
+    display: block;
+    margin: auto;
+    margin-top: 135px; }
+  .app-view.pass-page h1 {
+    font-size: 48px;
+    margin: 20px auto 40px; }
+  .app-view.pass-page div.links {
+    margin-top: 77px;
+    margin-bottom: 23px; }
+    .app-view.pass-page div.links .link {
+      color: #e6e6e6;
+      margin: 0 20px; }
+
+.app-view.ranking-page {
+  text-align: center;
+  color: #e6e6e6; }
+  .app-view.ranking-page img.text-img {
+    display: block;
+    margin: auto;
+    margin-top: 135px; }
+  .app-view.ranking-page h1 {
+    font-size: 48px;
+    margin: 20px auto 40px; }
+  .app-view.ranking-page div.links {
+    margin-top: 77px;
+    margin-bottom: 23px; }
+    .app-view.ranking-page div.links .link {
+      color: #e6e6e6;
+      margin: 0 20px; }
+  .app-view.ranking-page .content {
+    padding: 40px 13px;
+    text-align: center; }
+    .app-view.ranking-page .content .rankingdbg .tab-head {
+      width: 80%;
+      margin-left: 8%;
+      overflow: scroll;
+      margin-top: 18px; }
+      .app-view.ranking-page .content .rankingdbg .tab-head ul {
+        color: #f3711c;
+        display: inline-block;
+        margin: 0 0 0 0;
+        padding: 0;
+        font-size: 32px;
+        white-space: nowrap; }
+        .app-view.ranking-page .content .rankingdbg .tab-head ul li {
+          list-style: none;
+          display: inline-block;
+          letter-spacing: -8px; }
+          .app-view.ranking-page .content .rankingdbg .tab-head ul li::after {
+            content: '|'; }
+          .app-view.ranking-page .content .rankingdbg .tab-head ul li:last-child::after {
+            content: ''; }
+          .app-view.ranking-page .content .rankingdbg .tab-head ul li p {
+            border-radius: 16px;
+            font-size: 24px;
+            font-weight: bolder;
+            letter-spacing: 3px;
+            margin: 0 0 0 8px;
+            width: 110px;
+            text-align: center;
+            height: 38px;
+            line-height: 38px;
+            display: inline-block; }
+    .app-view.ranking-page .content .rankingdbg .sorthead {
+      font-size: 34px;
+      font-weight: bold;
+      color: #183856;
+      margin-top: 44px; }
+    .app-view.ranking-page .content .rankingdbg .sorts {
+      padding: 10px 20px;
+      margin-top: 0px;
+      margin-left: 40px;
+      margin-right: 50px;
+      color: #f3711c;
+      height: 400px;
+      overflow: auto; }
+      .app-view.ranking-page .content .rankingdbg .sorts .sortitem {
+        border-bottom: 1px solid;
+        padding-top: 18px;
+        padding-bottom: 2px; }
+      .app-view.ranking-page .content .rankingdbg .sorts div .sorticon {
+        width: 60px;
+        height: 60px;
+        display: inline-block; }
+      .app-view.ranking-page .content .rankingdbg .sorts div .sortnick {
+        width: 250px;
+        display: inline-block;
+        text-align: left;
+        font-size: 25px;
+        padding-left: 10px; }
+        .app-view.ranking-page .content .rankingdbg .sorts div .sortnick p {
+          line-height: 25px; }
+      .app-view.ranking-page .content .rankingdbg .sorts div .sortrank {
+        width: 125px;
+        font-size: 34px;
+        line-height: 60px;
+        vertical-align: top;
+        font-weight: bold;
+        display: inline-block; }
+    .app-view.ranking-page .content .rankingdbg .awardtip {
+      color: #ff0000;
+      font-size: 30px;
+      font-weight: bold;
+      margin: 0;
+      margin-top: 15px; }
+    .app-view.ranking-page .content .ranking-title {
+      background: url("../img/rankingtitle.png") no-repeat center center;
+      position: absolute;
+      top: 64px;
+      width: 100%;
+      line-height: 95px;
+      font-size: 38px;
+      font-weight: bold;
+      text-shadow: 0 0 5px #ae3901;
+      color: #ffffff; }
+
+.award-page .sorthead {
+  width: 80%;
+  margin: 0 auto; }
+
+.prize-rule {
+  color: #fff; }
+  .prize-rule h3, .prize-rule h4 {
+    font-weight: 600; }
+  .prize-rule p {
+    font-size: 26px;
+    line-height: 30px; }
+
+.attention-page {
+  text-align: center;
+  color: #fff; }
+  .attention-page h2 {
+    margin-top: 100px; }
+  .attention-page .img {
+    text-align: center;
+    margin-top: 150px; }
+    .attention-page .img img {
+      display: inline; }

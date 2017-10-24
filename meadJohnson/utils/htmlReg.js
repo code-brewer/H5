@@ -1,0 +1,1 @@
+export default new RegExp(/(newhome|audit|myConchCoin|myOrder|ConchCoinEditForm|personalCenter|ConchCoinCheckForm|recommend|teamsDetails|teamsRecord|teamsIndex|teamsForm|teamsShare|orderDetail|personCen|Conchwelfare|Duijiangwelfare|Welfaretex|goodsDetail|Welfarechou|presentForm|setUp)/ig)

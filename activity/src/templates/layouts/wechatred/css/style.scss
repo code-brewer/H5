@@ -1,0 +1,140 @@
+@import '../../../../css/px2rem.scss';
+@import '../../../../css/bootstrap/_mixins.scss';
+.wap-button {
+    position: relative;
+    background-color: rgba(255, 85, 0, 1); //          background-image: url("http://www.soyu.cn/fsd/ap/20160929/88_82f7dd6a_c248_4c2a_a6c5_8458cc90ca51.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: auto 100%;
+    line-height: px2rem(66px);
+    width: px2rem(230px);
+    height: px2rem(66px);
+    font-size: px2rem(36px);
+    text-align: center;
+    color: #fff;
+    margin: px2rem(86px) auto 0;
+    a {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+    }
+    &.disabled {
+        opacity: 0.5;
+        // background: #ccc !important;
+        // color: #333 !important;
+        pointer-events: none !important;
+    }
+}
+.wechatred-bg {
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-image: url("../images/game-bg.jpg");
+    background-repeat: no-repeat;
+}
+.app-view.view-home {
+    background-image: url("../images/bg.jpg");
+    p {
+        margin: 0;
+    }
+    .wap-button-view {
+        position: absolute;
+        top: px2rem(750px);
+        left: 50%;
+        .wap-button {
+            transform: translateX(-50%);
+            background-color: rgba(0,0,0,0);
+            background-image: url("../images/btn.png");
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-size: auto 100%;
+            line-height: px2rem(75px);
+            width: px2rem(266px);
+            height: px2rem(75px);
+            font-size: px2rem(36px);
+            text-align: center;
+            color: #1c1513;
+            top: px2rem(800px) auto 0;
+            a {
+                display: block;
+                color: inherit;
+                text-decoration: none;
+            }
+            &.disabled {
+                opacity: 0.5;
+                // background: #ccc !important;
+                // color: #333 !important;
+                pointer-events: none !important;
+            }
+        }
+    }
+    .wap-static-banner {
+        top: px2rem(20px);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-image: url("../images/banner.png");
+        background-size: 100%;
+    }
+     .wap-remaining-number-of-prizes {
+        width: 100%;
+         top: px2rem(580px);
+         left: 0;
+        text-align: center;
+        color: #ffffff;
+        display: inline-block;
+        font-size: px2rem(30px);
+        position: absolute;
+        text-shadow: 1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e,1px 1px #11324e;
+        .count {
+            font-size: px2rem(30px);
+            color: #f1cd26;
+            text-decoration: none;
+        }
+    }
+    .wap-number-of-participants {
+        position: absolute;
+        top: px2rem(650px);
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        font-size: px2rem(30px);
+        .count {
+            font-size: px2rem(40px);
+            color: #f1cd26;
+            text-decoration: none;
+        }
+    }
+    .wap-rule-link {
+        position: absolute;
+        bottom: px2rem(20px);
+        width: 100%;
+        //left: 50%;
+        //margin-left: px2rem(-48px);
+        a {
+            color: #fff;
+            font-size: px2rem(30px);
+            text-decoration: none;
+            font-weight: bold;
+        }
+    }
+    .wap-logo {
+        left: px2rem(50px);
+        width: px2rem(188px);
+        .logo {
+            background-repeat: no-repeat;
+            background-image: url("../images/logo.png");
+            background-size: 100%;
+        }
+    }
+}
+.app-view {
+    height: 100%;
+    background-color: rgb(251, 229, 192);
+    background-size: px2rem(640px);
+    background: url("../images/common-bg.jpg")0 0 no-repeat;
+}
+.app-view.view-home div.modal-panel {
+  text-shadow: none;
+}

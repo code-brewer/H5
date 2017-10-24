@@ -1,0 +1,207 @@
+.wap-button-view {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  padding: 0 40px;
+  top: 26.25rem; }
+
+.wap-button {
+  background: #ffb81d;
+  height: 3.41667rem;
+  line-height: 3.41667rem;
+  width: auto;
+  font-size: 1.33333rem;
+  text-align: center;
+  color: #262222;
+  -webkit-border-radius: 1.70833rem;
+  -moz-border-radius: 1.70833rem;
+  border-radius: 1.70833rem; }
+  .wap-button a {
+    display: block;
+    color: inherit;
+    text-decoration: none; }
+  .wap-button.disabled {
+    opacity: 0.5;
+    pointer-events: none !important; }
+
+.app-view {
+  background-repeat: no-repeat; }
+
+.app-view.view-home {
+  background: #333 url("http://211.147.242.132:9008/fsd/ap/20160725/88_ac4c3d72_5153_4012_b4b9_1c1e0159eeb2.png") 0 0 no-repeat;
+  background-size: 26.66667rem;
+  width: 26.66667rem;
+  height: 45.66667rem;
+  padding: 0 3.20833rem; }
+  .app-view.view-home .wap-static-banner {
+    width: 100%;
+    width: 20.20833rem;
+    height: 12.66667rem;
+    margin-top: 6.66667rem;
+    position: relative;
+    background: url("http://www.soyu.cn/fsd/ap/20160906/88_96861f01_410c_4d4d_9ac2_17d6036fc847.png") 0 0 no-repeat;
+    background-size: 100%; }
+    .app-view.view-home .wap-static-banner img {
+      display: block;
+      width: 100%; }
+  .app-view.view-home .wap-activity-box {
+    height: 2.58333rem;
+    width: 2.58333rem;
+    right: 2.08333rem;
+    background-repeat: no-repeat;
+    background-size: 100%; }
+  .app-view.view-home .wap-remaining-number-of-prizes {
+    top: 20.08333rem;
+    width: 100%;
+    padding: 0 3.41667rem;
+    left: 0;
+    margin-top: 5rem;
+    text-align: right;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.33333rem;
+    position: absolute;
+    text-align: center; }
+    .app-view.view-home .wap-remaining-number-of-prizes span {
+      color: #ffb81d;
+      text-decoration: underline; }
+  .app-view.view-home .wap-number-of-participants {
+    top: 16.25rem;
+    width: 100%;
+    padding: 0 3.41667rem;
+    left: 0;
+    margin-top: 5rem;
+    text-align: right;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.33333rem;
+    position: absolute;
+    text-align: center; }
+    .app-view.view-home .wap-number-of-participants span {
+      color: #ffb81d;
+      text-decoration: underline; }
+  .app-view.view-home .wap-button {
+    position: relative;
+    width: 100%;
+    margin-top: 6.66667rem; }
+  .app-view.view-home .wap-rule-link {
+    position: absolute;
+    left: 0;
+    bottom: 0.41667rem;
+    text-align: center;
+    margin-bottom: 0.83333rem;
+    width: 100%; }
+    .app-view.view-home .wap-rule-link a {
+      color: #e6e6e6;
+      font-size: 1.16667rem; }
+
+.app-view.view-activity {
+  background: #333 url("http://www.soyu.cn/fsd/ap/20160819/88_8c7ceb3b_4750_40f3_ad52_06c77e1fe9a0.png") 0 0 no-repeat;
+  background-size: 26.66667rem;
+  width: 26.66667rem;
+  height: 42rem; }
+  .app-view.view-activity > .wap-timer {
+    background: url("http://www.soyu.cn/fsd/ap/20160819/88_81fc11bf_313e_4be9_bd43_f36e80487d1d.png") 0 0 no-repeat;
+    background-size: 100%;
+    width: 24.83333rem;
+    height: 5.875rem;
+    margin: 1.25rem auto auto;
+    padding: 0.66667rem 2.41667rem 1.66667rem; }
+    .app-view.view-activity > .wap-timer .wap-timer-number {
+      width: 100%;
+      height: 100%; }
+      .app-view.view-activity > .wap-timer .wap-timer-number p {
+        display: inline-block;
+        margin: 0;
+        width: 4.875rem;
+        margin-right: 2.58333rem;
+        color: #fff;
+        text-align: center;
+        float: left;
+        font-size: 2.5rem;
+        line-height: 3.54167rem; }
+        .app-view.view-activity > .wap-timer .wap-timer-number p:last-child {
+          margin-right: 0; }
+
+.app-view.view-success {
+  background: #333 url("http://www.soyu.cn/fsd/ap/20160819/88_8c7ceb3b_4750_40f3_ad52_06c77e1fe9a0.png") 0 0 no-repeat;
+  background-size: 26.66667rem;
+  width: 26.66667rem;
+  height: 42rem;
+  padding: 0 1.66667rem; }
+
+.app-view.view-prizes .content {
+  text-align: center;
+  padding: 0 20px; }
+  .app-view.view-prizes .content .prize-title {
+    padding: 2.91667rem 0.41667rem 2.5rem; }
+    .app-view.view-prizes .content .prize-title p {
+      color: #fff;
+      font-size: 2.08333rem; }
+    .app-view.view-prizes .content .prize-title .prize-code {
+      color: #ffb81d;
+      font-size: 1.66667rem;
+      margin-top: 2.5rem; }
+  .app-view.view-prizes .content .rows {
+    background-color: #fff;
+    width: 100%;
+    margin-top: 10px; }
+    .app-view.view-prizes .content .rows p {
+      color: #000;
+      line-height: 30px;
+      text-align: left;
+      font-size: 1.08333rem;
+      padding: 0 10px;
+      margin: 0; }
+      .app-view.view-prizes .content .rows p span {
+        color: #ffb81d; }
+  .app-view.view-prizes .content .cashed {
+    position: relative;
+    overflow: hidden; }
+    .app-view.view-prizes .content .cashed::after {
+      content: " ";
+      display: block;
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      position: absolute;
+      top: -56px;
+      right: -35px;
+      z-index: 0;
+      background-color: #ff806b; }
+    .app-view.view-prizes .content .cashed::before {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 5px;
+      z-index: 1;
+      color: white;
+      line-height: 2; }
+  .app-view.view-prizes .content .cash {
+    position: relative;
+    overflow: hidden; }
+    .app-view.view-prizes .content .cash .prize-name {
+      color: #aace39; }
+      .app-view.view-prizes .content .cash .prize-name span {
+        color: #aace39; }
+    .app-view.view-prizes .content .cash::after {
+      content: " ";
+      display: block;
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      position: absolute;
+      top: -56px;
+      right: -35px;
+      z-index: 0;
+      background-color: #aace39; }
+    .app-view.view-prizes .content .cash::before {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 5px;
+      z-index: 1;
+      color: white;
+      line-height: 2; }
+
+/*# sourceMappingURL=style.css.map */

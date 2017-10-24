@@ -1,0 +1,33 @@
+
+
+.upload-image__wrapper {
+	position: relative;
+	margin: 0 auto;
+	width: 600px;
+
+	&.md-center {
+		.upload_box {
+			margin: 0;
+		}
+		.status_bar {
+			.btns {
+				left: 50%!important;
+				margin-left: -141px;
+				.webuploader_pick {
+					margin-right: 41px;
+				}
+			}
+		}
+		.upload_preview {
+			text-align: center!important;
+		}
+	}
+
+	.btn-reset {
+		position: absolute;
+		z-index: 10;
+		top: 6px;
+		left: 50%;
+		margin-left: 160px;
+	}
+}

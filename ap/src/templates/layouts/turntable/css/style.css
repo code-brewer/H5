@@ -1,0 +1,99 @@
+.wap-body {
+  background: #c1e8e8; }
+
+.app-wrap {
+  height: 100%; }
+
+.app-view {
+  width: 26.66667rem;
+  height: 42.75rem;
+  background-image: url("http://www.soyu.cn/fsd/ap/20161116/88_98ec4def_ec5a_424f_b942_c7657c81a402.png"); }
+  .app-view p {
+    font-size: 1.16667rem; }
+
+.wap-button {
+  display: inline-block;
+  background: #ffc000;
+  text-align: center;
+  color: #5d371f;
+  -webkit-border-radius: 1.66667rem;
+  -moz-border-radius: 1.66667rem;
+  border-radius: 1.66667rem;
+  font-size: 1.66667rem; }
+  .wap-button a {
+    color: #5d371f;
+    font-size: 1.66667rem;
+    text-decoration: none; }
+
+.wap-rule-modal {
+  text-align: left; }
+
+.app-view {
+  width: 26.66667rem;
+  height: 42.75rem; }
+
+.app-view.view-home {
+  background: url("http://www.soyu.cn/fsd/ap/20161116/88_23241dc5_07cf_40c3_ad01_aa000cfea1a5.png");
+  background-size: 100%;
+  text-align: center; }
+  .app-view.view-home .wap-remaining-number-of-prizes {
+    position: absolute;
+    top: 28.125rem;
+    width: 100%;
+    text-align: center;
+    color: #00717d; }
+    .app-view.view-home .wap-remaining-number-of-prizes .count {
+      font-size: 1.25rem;
+      color: #ff6600; }
+  .app-view.view-home .wap-number-of-participants {
+    position: absolute;
+    top: 31.25rem;
+    color: #00717d;
+    width: 100%;
+    text-align: center; }
+    .app-view.view-home .wap-number-of-participants .count {
+      font-size: 1.25rem;
+      color: #ff6600; }
+  .app-view.view-home .wap-button-view {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 34.58333rem; }
+    .app-view.view-home .wap-button-view .wap-button {
+      padding: 0.83333rem 3.33333rem; }
+  .app-view.view-home .wap-rule-link {
+    position: absolute;
+    bottom: 0.20833rem;
+    text-align: center;
+    margin-bottom: 0.83333rem;
+    width: 100%; }
+    .app-view.view-home .wap-rule-link a {
+      color: #ff6600;
+      font-size: 1.16667rem; }
+
+.app-view.view-activity {
+  text-align: center; }
+  .app-view.view-activity .wap-number-of-draws {
+    margin-top: 2.70833rem;
+    margin-bottom: 1.25rem; }
+    .app-view.view-activity .wap-number-of-draws p {
+      font-size: px2erm(30px); }
+      .app-view.view-activity .wap-number-of-draws p span {
+        font-size: 2rem; }
+  .app-view.view-activity .wap-winning-box {
+    font-size: 1rem;
+    margin-top: 2rem; }
+    .app-view.view-activity .wap-winning-box .title-icon {
+      background: url("http://www.soyu.cn/fsd/ap/20161118/88_063a4ed0_3371_4e7e_97ec_268aa7868e49.png") 0 0 no-repeat;
+      background-size: 100%;
+      width: 8.70833rem;
+      height: 2.66667rem;
+      margin: auto auto 0.83333rem; }
+    .app-view.view-activity .wap-winning-box .winning-item {
+      margin-bottom: 0.41667rem; }
+
+.game-result .wap-get-score-only {
+  padding-top: 6.25rem; }
+
+/*# sourceMappingURL=style.css.map */

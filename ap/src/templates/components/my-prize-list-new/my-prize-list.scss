@@ -1,0 +1,176 @@
+@import '../../../css/px2rem.scss';
+.view-prizes {
+    .content {
+        text-align: center;
+        padding: 0 20px;
+        height: 100%;
+        overflow: auto;
+        .prize-title {
+            padding: px2rem(30px) px2rem(10px) px2rem(30px);
+            p {
+                color: #fff;
+                font-size: px2rem(50px);
+            }
+            .prize-code {
+                color: #ffb81d;
+                font-size: px2rem(40px);
+                margin-top: px2rem(30px);
+            }
+        }
+        .rows {
+                background-color: #231815;
+                width: 100%;
+                margin-top: 10px;
+                border-radius: 10px;
+                border: 6px solid #32a17c;
+                color: #fff;
+                padding: 20px;
+                position:relative;
+            p {
+                color: #fff;
+                line-height: 30px;
+                text-align: left;
+                font-size: px2rem(26px);
+                padding: 0 10px;
+                margin: 0;
+                span {
+                    color: #fff;
+                }
+            }
+            .type{
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+        }
+        .type .cashed {
+            position: relative;
+            overflow: hidden;
+            color: green;
+            // &::after {
+            //     content: " ";
+            //     display: block;
+            //     width: 100px;
+            //     height: 100px;
+            //     border-radius: 50px;
+            //     position: absolute;
+            //     top: -56px;
+            //     right: -35px;
+            //     z-index: 0;
+            //     background-color: #ff806b;
+            // }
+            // &::before {
+            //     content: "已兑奖";
+            //     display: block;
+            //     position: absolute;
+            //     top: 0;
+            //     right: 5px;
+            //     z-index: 1;
+            //     color: green;
+            //     line-height: 2;
+            // }
+        }
+        .type .cash {
+            position: relative;
+            overflow: hidden;
+            color: red;
+            .prize-name{
+                color: #aace39;
+                span{
+                    color: #aace39;
+                }
+            }
+            // &::after {
+            //     content: " ";
+            //     display: block;
+            //     width: 100px;
+            //     height: 100px;
+            //     border-radius: 50px;
+            //     position: absolute;
+            //     top: -56px;
+            //     right: -35px;
+            //     z-index: 0;
+            //     background-color: #aace39;
+            // }
+            // &::before {
+            //     content: "未兑奖";
+            //     display: block;
+            //     position: absolute;
+            //     top: 0;
+            //     right: 5px;
+            //     z-index: 1;
+            //     color: red;
+            //     line-height: 2;
+            // }
+        }
+    }
+    // .my-prize-btn {
+    //     position: relative;
+    //     margin-top: px2rem(30px);
+    //     width: px2rem(314px);
+    //     height: px2rem(111px);
+    //     left: 50%;
+    //     margin-left: px2rem(-157px);
+    //     text-align: center; 
+    //     a {
+            
+    //         font-size: px2rem(30px);
+    //         text-decoration: none;
+    //         font-weight: bold;
+    //     }
+    //     .prize-btn{
+    //         width: px2rem(220px);
+    //         height: px2rem(80px);
+    //         line-height: px2rem(80px);
+    //         padding: 0;
+    //     }
+
+    // }
+
+    .nr {
+        font-size: 14px;
+        width: 70%;
+        display: inline-block;
+        text-align: left;
+        padding-left: 40px;
+        position: relative;
+        .check-box {
+            margin-bottom: 30px;
+        }
+        .components-wrap {
+            position: absolute;
+            left: 130px;
+            width: 220px;
+            z-index: 9;
+        }
+        .col {
+            height: 40px;
+            padding: 10px;
+            span {
+                color: #000;
+                text-decoration: inherit;
+                float: left;
+            }
+            i {
+                height: 20px;
+                display: inline-block;
+                width: 40px;
+                vertical-align: middle;
+                margin-left: 26px;
+            }
+        }
+    }
+    .menu{
+        width: 100%;
+        .menu-item{
+            width: 48%;
+            color: #fff;
+            line-height: 40px;
+            display: inline-block;
+            text-align: center;
+        }
+        .orange{
+            color: #F5A623;
+        }
+    }
+}

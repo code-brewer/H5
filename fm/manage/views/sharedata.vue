@@ -1,0 +1,96 @@
+<template>
+    <div class="content-title">活动管理 &gt 签到活动</div>
+    <div class="padding">
+        <div class="actinput" style="">
+            <div class="topic-left" style="margin-right:30px;">活动主题:{{activityTopic}}
+            </div>
+            <div class="topic-left">统计开始时间:
+                <datepicker v-ref:dp :value.sync="starttime" :disabled-days-of-Week="disabled" :format="format.toString()" placeholder="年-月-日" width="200px;height:28px;"></datepicker>
+                统计结束时间:
+                <datepicker v-ref:dp :value.sync="endtime" :disabled-days-of-Week="disabled" :format="format.toString()" placeholder="年-月-日" width="200px;height:28px;"></datepicker>
+            </div>
+            <div class="topic-left">
+                <a @click="sharecheck" class="check">查询</a>
+                <a @click="sharedao" class="dao">导出</a>
+            </div>
+        </div>
+            <table class="AcountTable" style="margin-top:20px">
+                <tbody>
+                <tr style="background-color:#2f3c4c;">
+                        <th class="rightTd" style="width:5%;" >序号</th>
+                        <th class="rightTd" style="width:8%;">统计时间</th>
+                        <th class="rightTd" style="width:10%;">分享页PV</th>
+                        <th class="rightTd" style="width:10%;">分享页UV</th>
+                        <th class="rightTd" style="width:10%;">我也要玩按钮点击数</th>
+                        <!-- <th class="rightTd" style="width:10%;">通过分享页下载饭盟数</th> -->
+                    </tr>
+                    <tr v-for="list in lists" v-show="lists.length!==0">
+                        <td class="rightTd" style="width:5%;" >{{$index + 1}}</td>
+                        <td class="rightTd" style="width:8%;">{{list.cdate}}</td>
+                        <td class="rightTd" style="width:10%;">{{list.sharepv}}</td>
+                        <td class="rightTd" style="width:10%;">{{list.shareuv}}</td>
+                        <td class="rightTd" style="width:10%;">{{list.buttoncnt}}</td>
+                        <!-- <td class="rightTd" style="width:10%;">0</td> -->
+                       
+                    </tr>
+                    <tr v-show="lists.length==0">
+                        <td colspan="5" style="text-align:center">暂无数据</td>
+                    </tr>
+                </tbody>
+            </table>
+       
+    </div>
+</template>
+<script>
+import Datepicker from '../components/Datepicker.vue'
+import Vue from 'vue'
+import api from '../api/index.js'
+export default {
+    components: {
+        Datepicker
+    },
+    data() {
+        return {
+            format: ['yyyy-MM-dd'],
+            starttime: '',
+            endtime: '',
+            lists:[],
+            activityTopic:'活动主题AAA',
+        }
+    },
+    methods:{
+        sharecheck(){
+            console.log("aaaa")
+            api.getShareData(this, {starttime:this.starttime,endtime:this.endtime}, (back) => {
+                if (back.resCode === '0') {
+                    this.lists = back.repBody
+                }
+            })
+        },
+        sharedao(){
+            var that = this;
+            window.location.href = basePath + 'fmActivityCtrl/getShareDataExcel?starttime='+that.starttime+'&endtime='+that.endtime
+        }
+    },
+    ready(){
+        this.sharecheck();
+        this.activityTopic = sessionStorage.getItem('activityname');
+    }
+    
+}
+
+</script>
+<style lang="scss" scoped>
+.actinput {
+    .topic-left {
+        display: inline-block;
+        height: 100%;
+        color: #2f3c4c;
+    }
+    .topic {
+        height: 30px;
+        line-height: 30px;
+        width: 200px;
+    }
+}
+</style>

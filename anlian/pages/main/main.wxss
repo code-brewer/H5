@@ -1,0 +1,159 @@
+page {
+	min-height: 100%;
+	padding-bottom: 180px;
+	background: #e9ebf0;
+}
+.container {
+	width: 100%;
+	overflow: hidden;
+}
+.banner {
+	position: relative;
+	transition: all .2s linear;
+}
+.banner view {
+	float: left;
+}
+.banner view image {
+	display: block;
+	width: 100%;
+}
+/* 选项卡 */
+.tab {
+	margin-top: 5px;
+	border-bottom: 1px solid #d6d6d6;
+}
+.tab view {
+	float: left;
+	text-align: center;
+	line-height: 45px;
+	box-sizing: border-box;
+	font-size: 16px;
+	border-left: 1px solid #d6d6d6;
+	background: white;
+}
+.tab view:first-child {
+	border-left: 0;
+}
+.tab view.orange {
+	color: #ff8200;
+}
+.tab view.yellow {
+	color: #f8b300;
+}
+.tab view.pink {
+	color: #f57eb6
+;
+}
+.tab view.green {
+	color: #64a70b;
+}
+
+.pro {
+	position: relative;
+	margin: 5px 0;
+	padding: 10px 10px 10px 125px;
+	border: solid #d6d6d6;
+	border-width: 1px 0;
+	background: white;
+}
+.pro image {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 105px;
+	height: 105px;
+}
+.pro .con .text1 {
+	padding-bottom: 5px;
+	font-size: 16px;
+	line-height: 20px;
+	border-bottom: 1px dashed #d6d6d6;
+}
+.pro .con .text1 .orange {
+	color: #ff8200;
+}
+.pro .con .text1 .yellow {
+	color: #f8b300;
+}
+.pro .con .text1 .pink {
+	color: #f57eb6
+;
+}
+.pro .con .text1 .green {
+	color: #64a70b;
+}
+.pro .con .text2 {
+	height: 30px;
+	padding: 7px 0 10px 0;
+	color: #8c989c;
+	vertical-align: middle;
+	font-size: 14px;
+	line-height: 18px;
+	border-bottom: 1px dashed #d6d6d6;
+}
+/*.pro .con .text2:before {
+	content: "";
+	display: inline-block;
+	width: 0;
+	height: 100%;
+	vertical-align: middle;
+}*/
+.pro .con .text2 text {
+	display: inline-block;
+	vertical-align: middle;
+}
+.pro .con .price {
+	padding-top: 6px;
+	color: #fc4e36;
+	text-align: right;
+}
+.pro .con .price.orange {
+	color: #ff8200;
+}
+.pro .con .price.yellow {
+	color: #f8b300;
+}
+.pro .con .price.pink {
+	color: #f57eb6
+;
+}
+.pro .con .price.green {
+	color: #64a70b;
+}
+.pro .con .price text {
+	font-size: 12px;
+	color: #666;
+	margin-left: 6px;
+}
+.pro .con .buy-btn {
+	position: absolute;
+	left: 0;
+	top: 6px;
+	padding: 3px 5px;
+	color: #8c989c;
+	font-size: 12px;
+	border: 1px solid #d8dade;
+	border-radius: 5px;
+}
+
+.two-code {
+	position: absolute;
+	left: 0;
+	bottom: 100px;
+	width: 100%;
+	padding: 20px 0;
+	color: #8c989c;
+	font-size: 14px;
+	line-height: 1.5;
+	text-align: center;
+	box-sizing: border-box;
+}
+.two-code image {
+	display: block;
+	margin: 6px auto;
+	width: 100%;
+}
+.footer {
+	bottom: 50px;
+}

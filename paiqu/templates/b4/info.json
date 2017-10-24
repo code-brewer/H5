@@ -1,0 +1,27 @@
+[{
+    "templateName": "b4",
+    "type": "搞怪",
+    "count": "2",
+    "srcs": [{
+        "src": "templates/b4/action.js",
+        "id": "js"
+    }, {
+        "src": "templates/b4/images/ha1.png",
+        "id": "ha1"
+    }, {
+        "src": "templates/b4/images/ha2.png",
+        "id": "ha2"
+    }, {
+        "src": "templates/b4/images/Bitmap1.png",
+        "id": "Bitmap1"
+    }, {
+        "src": "templates/b4/images/Bitmap2.png",
+        "id": "Bitmap2"
+    }, {
+        "src": "templates/b4/images/Bitmap3.png",
+        "id": "Bitmap3"
+    }, {
+        "src": "templates/b4/images/Bitmap4.png",
+        "id": "Bitmap4"
+    }]
+}]

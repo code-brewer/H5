@@ -1,0 +1,117 @@
+$brand-primary: #419ce9;
+$primary-gray: #39f;
+$primary-light: #b3d8f6;
+
+* {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+.clearfix {
+	*zoom: 1
+}
+.clearfix:after {
+	content: '';
+	display: table;
+	clear: both;
+	height: 0;
+}
+
+.docs-header {
+	padding: 24px 15px;
+    margin-bottom: 15px;
+    color: $primary-light;
+    text-align: left;
+    background-color: $brand-primary;
+    h1 {
+    	color: #fff;
+    }
+}
+
+.highlight {
+    padding: 9px 14px;
+    margin-bottom: 14px;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+    border-radius: 4px;
+    pre {
+	    padding: 0;
+	    margin-top: 0;
+	    margin-bottom: 0;
+	    word-break: normal;
+	    white-space: nowrap;
+	    background-color: transparent;
+	    border: 0;
+	    code {
+    	    font-size: inherit;
+    		color: #333;
+	    }
+	    code:first-child {
+		    display: inline-block;
+		    padding-right: 45px;
+		}
+	}
+}
+
+.docs-sidebar {
+	background: white;
+	.nav {
+		> li {
+			> a {
+				display: block;
+			    padding: 4px 20px;
+			    font-size: 16px;
+			    font-weight: 500;
+			    color: #333;
+			    transition: all .1s linear;
+			}
+
+			&.active > a {
+			    padding-left: 18px;
+			    font-weight: 700;
+			    color: $brand-primary;
+			    background-color: #f2f2f2;
+			    border-left: 2px solid $brand-primary;
+			}
+			&:hover > a {
+			    padding-left: 19px;
+			    color: $brand-primary;
+			    text-decoration: none;
+			    background-color: transparent;
+			    border-left: 1px solid $brand-primary;
+			}
+
+			.nav > li {
+				> a {
+				    padding-top: 1px;
+				    padding-bottom: 1px;
+				    padding-left: 30px;
+				    font-size: 14px;
+				    font-weight: 400;
+				}
+				&:hover > a{
+					padding-left: 29px;
+				}
+
+				.nav > li {
+					> a {
+					    padding-left: 42px;
+					    color: #bbb;
+					}
+					&:hover > a{
+						padding-left: 41px;
+					}
+				}
+			}
+
+		    
+		}
+	}
+}
+pre {
+	text-align: left;
+}
+
+.border-right {
+	border-right: 1px solid #d6d6d6;
+}

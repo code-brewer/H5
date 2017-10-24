@@ -1,0 +1,720 @@
+.positive {
+  color: #ffb81d !important; }
+
+.positive-bg {
+  background: #ffb81d !important; }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y; }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%; }
+
+body {
+  background: #ddd5b0;
+  font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 640px;
+  width: 100%;
+  margin: auto;
+  overflow-y: auto;
+  overflow-x: hidden; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  margin: 0; }
+
+p {
+  line-height: 44px;
+  margin: 0 0 10px 0; }
+
+.btn {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff8143+21,ff0302+100 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff8143+21,ff0302+100 */
+  background-color: #d9d1a6;
+  /* Old browsers */
+  border-radius: 6px;
+  color: #310a0c;
+  text-decoration: none; }
+  .btn.btn-home {
+    display: inline-block;
+    width: 350px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 36px; }
+  .btn.btn-once, .btn.btn-share {
+    display: inline-block;
+    width: 270px;
+    height: 65px;
+    line-height: 65px;
+    font-size: 30px; }
+  .btn.btn-once {
+    margin-right: 10px; }
+  .btn.btn-share {
+    margin-left: 10px; }
+  .btn.btn-share.btn-unaward, .btn.btn-once.btn-rank-once {
+    width: 220px; }
+  .btn.btn-share.btn-unaward {
+    background: #beb7b7;
+    color: #000;
+    text-shadow: none; }
+  .btn.btn-award, .btn.btn-sure {
+    display: inline-block;
+    width: 360px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 36px; }
+
+.padding {
+  padding: 20px 30px; }
+
+div.bar-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 98px;
+  color: #fff;
+  background: #323232;
+  display: flex;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+  div.bar-header .title {
+    font-size: 32px;
+    line-height: 98px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 0;
+    overflow: hidden;
+    margin: 0 10px;
+    min-width: 30px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+
+div.app-view {
+  position: relative; }
+  div.app-view > img.bg {
+    width: 100%;
+    display: block; }
+  div.app-view > img.logo {
+    width: 120px;
+    position: absolute;
+    left: 30px;
+    top: 30px; }
+  div.app-view > .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+
+.has-header {
+  top: 98px !important; }
+
+.has-footer {
+  bottom: 98px !important; }
+
+.slide-transition {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+.slide-enter {
+  -webkit-transform: translate3d(100%, 0, 0);
+  -moz-transform: translate3d(100%, 0, 0);
+  -ms-transform: translate3d(100%, 0, 0);
+  -o-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0); }
+
+.slide-leave {
+  -webkit-transform: translate3d(-100%, 0, 0);
+  -moz-transform: translate3d(-100%, 0, 0);
+  -ms-transform: translate3d(-100%, 0, 0);
+  -o-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0); }
+
+.fade-transition {
+  -webkit-transition: opacity 0.3 linear;
+  -moz-transition: opacity 0.3 linear;
+  -ms-transition: opacity 0.3 linear;
+  -o-transition: opacity 0.3 linear;
+  transition: opacity 0.3 linear; }
+
+.fade-enter,
+.fade-leave {
+  opacity: 0; }
+
+div.buttons {
+  overflow: hidden;
+  margin-top: 175px; }
+  div.buttons .button {
+    width: 260px;
+    padding: 0; }
+    div.buttons .button:first-child {
+      margin-right: 20px; }
+
+.loading-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 13;
+  background: rgba(0, 0, 0, 0.4);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  -webkit-transition: .2s opacity linear;
+  transition: .2s opacity linear; }
+  .loading-container.active {
+    opacity: 1; }
+  .loading-container.visible {
+    visibility: visible; }
+  .loading-container .loading {
+    padding: 40px 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px; }
+  .loading-container .spinner {
+    margin-bottom: 20px; }
+    .loading-container .spinner svg {
+      height: 108px;
+      width: 108px; }
+  .loading-container .xs {
+    font-size: 26px; }
+
+.app-view.open {
+  overflow: hidden; }
+
+.app-view.rule-page p {
+  color: #310a0c;
+  font-size: 24px;
+  line-height: 35px; }
+  .app-view.rule-page p > span {
+    color: #ffb81d; }
+.app-view.rule-page img {
+  display: block;
+  max-width: 100%; }
+
+.app-view.view-home .content {
+  margin-top: 750px;
+  text-align: center; }
+  .app-view.view-home .content .time {
+    margin-top: 30px;
+    text-align: center;
+    color: #310a0c;
+    font-size: 32px; }
+  .app-view.view-home .content .rule {
+    text-align: center;
+    display: block;
+    color: #310a0c;
+    font-size: 30px;
+    margin-top: 15px;
+    text-decoration: underline;
+    font-weight: bold; }
+.app-view.view-home .modal.fade {
+  position: absolute; }
+  .app-view.view-home .modal.fade img {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -32%; }
+  .app-view.view-home .modal.fade .close {
+    background: url("../images/icon-close.png") 0 0 no-repeat;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    position: absolute;
+    top: 70px;
+    right: 12%; }
+  .app-view.view-home .modal.fade .ad-text {
+    display: none; }
+.app-view.view-home .already-content {
+  position: absolute;
+  top: 540px;
+  left: 40px;
+  text-align: center; }
+  .app-view.view-home .already-content .score-info {
+    width: 480px;
+    height: 210px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.2); }
+    .app-view.view-home .already-content .score-info .score {
+      padding-top: 50px;
+      padding-bottom: 20px; }
+      .app-view.view-home .already-content .score-info .score span {
+        font-size: 50px;
+        color: #310a0c;
+        font-weight: 700; }
+    .app-view.view-home .already-content .score-info p {
+      color: #fff; }
+  .app-view.view-home .already-content .btn-wrap {
+    margin-top: 50px; }
+  .app-view.view-home .already-content .rule {
+    font-size: 30px;
+    color: #310a0c;
+    margin-top: 50px;
+    display: inline-block;
+    font-weight: bold; }
+
+.app-view.game-page {
+  text-align: center; }
+  .app-view.game-page .time {
+    margin: 65px 0 0; }
+    .app-view.game-page .time ul {
+      background: url("../images/time-bg.png") 0 0 no-repeat;
+      width: 285px;
+      height: 95px;
+      margin: auto;
+      text-align: center;
+      padding: 15px; }
+      .app-view.game-page .time ul li {
+        display: inline-block;
+        color: #fff;
+        font-size: 50px; }
+  .app-view.game-page div.board-wrap {
+    width: 600px;
+    margin: 10px auto;
+    background: #fff;
+    padding: 10px;
+    margin-top: 30px;
+    z-index: 1;
+    position: relative; }
+    .app-view.game-page div.board-wrap > p {
+      font-size: 24px;
+      color: #000; }
+      .app-view.game-page div.board-wrap > p > span {
+        font-size: 32px;
+        color: #ffb81d;
+        font-weight: bold; }
+    .app-view.game-page div.board-wrap div.board {
+      width: 100%;
+      border: 1px solid #acacac;
+      padding-bottom: 100%;
+      position: relative; }
+      .app-view.game-page div.board-wrap div.board a {
+        background-color: #609732;
+        color: white;
+        padding: 5px;
+        display: inline-block;
+        vertical-align: top;
+        *vertical-align: auto;
+        *zoom: 1;
+        *display: inline;
+        margin-top: 10px;
+        text-decoration: none;
+        border: 2px solid #8abd5f;
+        border-bottom-color: #3e7213;
+        border-right-color: #3e7213; }
+      .app-view.game-page div.board-wrap div.board div.s {
+        height: 0;
+        overflow: hidden;
+        position: absolute; }
+        .app-view.game-page div.board-wrap div.board div.s.s {
+          -moz-transition: top 0.3s ease-out, left 0.3s ease-out;
+          -o-transition: top 0.3s ease-out, left 0.3s ease-out;
+          -webkit-transition: top 0.3s ease-out, left 0.3s ease-out;
+          transition: top 0.3s ease-out, left 0.3s ease-out; }
+          .app-view.game-page div.board-wrap div.board div.s.s:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            border: 1px solid white;
+            border-top-color: gray;
+            border-left-color: gray; }
+          .app-view.game-page div.board-wrap div.board div.s.s .count {
+            width: 30px;
+            position: absolute;
+            font-size: 26px;
+            color: #ffb81d;
+            bottom: 5px;
+            height: 30px;
+            line-height: 30px;
+            background: #fff;
+            border-radius: 50px; }
+        .app-view.game-page div.board-wrap div.board div.s .i {
+          content: '';
+          position: absolute;
+          height: 0;
+          background-repeat: no-repeat;
+          background-position: center center;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          -webkit-background-size: cover;
+          background-size: cover; }
+      .app-view.game-page div.board-wrap div.board.solved {
+        background-repeat: no-repeat;
+        background-position: center center;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover; }
+        .app-view.game-page div.board-wrap div.board.solved div {
+          display: none; }
+      .app-view.game-page div.board-wrap div.board .start {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        text-align: center; }
+        .app-view.game-page div.board-wrap div.board .start .overlay {
+          position: absolute;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          right: 0; }
+        .app-view.game-page div.board-wrap div.board .start .overlay {
+          z-index: 1;
+          opacity: .5;
+          background: #000; }
+        .app-view.game-page div.board-wrap div.board .start img {
+          z-index: 0;
+          position: relative;
+          width: 100%;
+          height: 100%; }
+        .app-view.game-page div.board-wrap div.board .start .play {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 246px;
+          height: 246px;
+          margin-top: -123px;
+          margin-left: -123px;
+          background: url("../images/icon-play.png") center center no-repeat;
+          background-size: 100%;
+          z-index: 5; }
+        .app-view.game-page div.board-wrap div.board .start .text {
+          font-size: 100px;
+          color: #fff;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          margin-left: -100px;
+          margin-top: -100px;
+          z-index: 3;
+          border: 5px solid #fff;
+          height: 200px;
+          line-height: 195px;
+          width: 200px;
+          border-radius: 100px;
+          -webkit-border-radius: 100px;
+          -o-border-radius: 100px; }
+  .app-view.game-page div.intro {
+    text-align: center; }
+    .app-view.game-page div.intro h3 {
+      color: #310a0c;
+      font-size: 53px; }
+    .app-view.game-page div.intro h4 {
+      color: #310a0c;
+      font-size: 35px; }
+
+.app-view.pass-page {
+  text-align: center;
+  color: #e6e6e6; }
+  .app-view.pass-page .text-img {
+    font-size: 80px;
+    line-height: 120px;
+    color: #310a0c;
+    margin-top: 120px; }
+    .app-view.pass-page .text-img p {
+      line-height: 120px; }
+  .app-view.pass-page img.pass-all {
+    margin-top: 250px; }
+  .app-view.pass-page h1 {
+    font-size: 38px;
+    margin: 20px auto 40px;
+    color: #310a0c; }
+  .app-view.pass-page div.links {
+    margin-top: 80px;
+    margin-bottom: 23px;
+    font-size: 32px; }
+    .app-view.pass-page div.links .link {
+      color: #310a0c;
+      margin: 0 20px; }
+  .app-view.pass-page .num {
+    display: inline-block;
+    width: 100px;
+    vertical-align: top; }
+  .app-view.pass-page .fail-text {
+    margin-top: 40px; }
+  .app-view.pass-page .btn-wrap {
+    margin-top: 50px; }
+    .app-view.pass-page .btn-wrap .component-share-btn {
+      display: inline-block; }
+
+.app-view.ranking-page {
+  text-align: center;
+  color: #e6e6e6; }
+  .app-view.ranking-page .app-cont {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    color: #310a0c;
+    border-radius: 6px;
+    font-size: 26px;
+    min-height: 880px;
+    text-align: center; }
+    .app-view.ranking-page .app-cont .rank-title {
+      font-size: 60px; }
+    .app-view.ranking-page .app-cont .point {
+      width: 100%;
+      color: #310a0c;
+      font-size: 38px;
+      margin-top: 15px; }
+      .app-view.ranking-page .app-cont .point span {
+        color: #ffb81d;
+        margin-right: 10px; }
+      .app-view.ranking-page .app-cont .point strong {
+        color: #ffb81d; }
+    .app-view.ranking-page .app-cont .tab-head {
+      padding: 0 15px;
+      margin-top: 18px;
+      text-align: center;
+      font-size: 26px; }
+      .app-view.ranking-page .app-cont .tab-head div.scroller {
+        overflow: scroll;
+        width: 49%;
+        display: inline-block; }
+      .app-view.ranking-page .app-cont .tab-head .total {
+        display: inline-block;
+        width: 20%;
+        vertical-align: middle;
+        text-align: right;
+        margin-top: -25px;
+        color: #eb9e6b;
+        font-weight: 700; }
+      .app-view.ranking-page .app-cont .tab-head ul {
+        color: #eb9e6b;
+        display: inline-block;
+        margin: 0 0 0 0;
+        padding: 0;
+        font-size: 32px;
+        white-space: nowrap; }
+        .app-view.ranking-page .app-cont .tab-head ul li {
+          list-style: none;
+          display: inline-block;
+          letter-spacing: -8px; }
+          .app-view.ranking-page .app-cont .tab-head ul li::after {
+            content: '|'; }
+          .app-view.ranking-page .app-cont .tab-head ul li:last-child::after {
+            content: ''; }
+          .app-view.ranking-page .app-cont .tab-head ul li p {
+            border-radius: 16px;
+            color: #ff6500;
+            font-size: 26px;
+            font-weight: bolder;
+            letter-spacing: 3px;
+            margin: 0 5px 0 17px;
+            width: 110px;
+            text-align: center;
+            height: 38px;
+            line-height: 38px;
+            display: inline-block; }
+    .app-view.ranking-page .app-cont .sorts {
+      padding: 10px 10px;
+      margin-top: 0px;
+      margin-left: 22px;
+      margin-right: 32px;
+      color: #eb9e6b;
+      height: 410px;
+      overflow: auto;
+      min-height: 400px;
+      font-size: 36px; }
+      .app-view.ranking-page .app-cont .sorts .sortitem {
+        border-bottom: 1px solid #d9d9d9;
+        padding-top: 18px;
+        padding-bottom: 2px;
+        text-align: left; }
+      .app-view.ranking-page .app-cont .sorts div .sorticon {
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        display: inline-block; }
+      .app-view.ranking-page .app-cont .sorts div .sortnick {
+        width: 250px;
+        display: inline-block;
+        text-align: left;
+        font-size: 26px;
+        padding-left: 10px; }
+        .app-view.ranking-page .app-cont .sorts div .sortnick p {
+          line-height: 26px;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          color: #ffb81d; }
+      .app-view.ranking-page .app-cont .sorts div .sortrank {
+        width: 125px;
+        line-height: 60px;
+        vertical-align: top;
+        float: right;
+        text-align: right;
+        font-size: 36px;
+        color: #ffb81d;
+        margin-right: 5px; }
+    .app-view.ranking-page .app-cont .active {
+      color: #ff8400; }
+    .app-view.ranking-page .app-cont .rank_list {
+      width: 90%;
+      text-align: center;
+      list-style: none; }
+    .app-view.ranking-page .app-cont .list_wrap {
+      height: auto;
+      margin: 5px auto;
+      border-bottom: 1px solid #d9d9d9;
+      padding: 2px;
+      position: relative; }
+    .app-view.ranking-page .app-cont .head_img {
+      width: 20%;
+      height: auto; }
+    .app-view.ranking-page .app-cont .user_name {
+      position: absolute;
+      left: 0;
+      top: 8%;
+      width: 90%; }
+    .app-view.ranking-page .app-cont .user_score {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 90%;
+      color: #ffb81d; }
+    .app-view.ranking-page .app-cont .user_rank {
+      position: absolute;
+      right: 0;
+      top: 30%; }
+    .app-view.ranking-page .app-cont .user_rank span {
+      color: #ff5c3c; }
+    .app-view.ranking-page .app-cont .award-text {
+      margin-top: 20px; }
+      .app-view.ranking-page .app-cont .award-text span {
+        font-weight: 600;
+        color: #ffb81d; }
+    .app-view.ranking-page .app-cont .btn-wrap {
+      margin-top: 50px; }
+
+.app-view.award-page .content {
+  text-align: center; }
+  .app-view.award-page .content .phone-wrap {
+    text-align: center; }
+    .app-view.award-page .content .phone-wrap .input-phone-text {
+      margin-top: 180px; }
+    .app-view.award-page .content .phone-wrap .input-phone {
+      width: 560px;
+      height: 85px;
+      border: 1px solid #000;
+      font-size: 36px;
+      text-align: center;
+      margin-top: 15px; }
+    .app-view.award-page .content .phone-wrap .code {
+      margin-top: 20px; }
+      .app-view.award-page .content .phone-wrap .code .input-code {
+        width: 250px;
+        padding: 15px;
+        border: 1px solid #000;
+        font-size: 36px;
+        text-align: center;
+        vertical-align: top;
+        float: left;
+        margin-left: 10px; }
+      .app-view.award-page .content .phone-wrap .code .zcode {
+        margin-top: 10px;
+        float: right;
+        margin-right: 12px; }
+  .app-view.award-page .content .btn-wrap {
+    margin-top: 180px;
+    text-align: center; }
+
+.app-view.success-page .content {
+  text-align: center; }
+  .app-view.success-page .content .success-title {
+    margin-top: 160px; }
+  .app-view.success-page .content .content-wrap {
+    width: 425px;
+    margin: auto;
+    text-align: center; }
+    .app-view.success-page .content .content-wrap .award-text {
+      color: #000;
+      font-size: 30px;
+      line-height: 40px;
+      margin-top: 30px;
+      margin-bottom: 40px; }
+      .app-view.success-page .content .content-wrap .award-text span {
+        color: #ffb81d;
+        font-size: 38px; }
+  .app-view.success-page .content .zcode {
+    margin-top: 50px;
+    text-align: center; }
+  .app-view.success-page .content .btn-wrap {
+    margin-top: 30px; }
+
+.app-view.prize-rule-page .prize-rule {
+  color: #fff;
+  font-size: 26px; }

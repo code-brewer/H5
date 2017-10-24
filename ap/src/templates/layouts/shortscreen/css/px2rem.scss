@@ -1,0 +1,6 @@
+$ratio: 2 !default;
+@function px2rem($px) {
+	$return: #{($px / 12px / $ratio)}rem;
+
+	@return $return;
+}

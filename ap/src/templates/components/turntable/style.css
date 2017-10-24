@@ -1,0 +1,30 @@
+.wap-turntable {
+  background: url("http://157.255.23.23/images/fsd/ap/20170615/88_cfc21ceb_11d3_4048_aeef_fef702ef91fa.png") 0 0 no-repeat;
+  background-size: 100%;
+  width: 21.45833rem;
+  height: 21.45833rem;
+  margin: auto;
+  position: relative; }
+  .wap-turntable .circle-table {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+    .wap-turntable .circle-table .prize-place-item {
+      position: absolute; }
+      .wap-turntable .circle-table .prize-place-item:nth-child(odd) {
+        font-size: 1.16667rem;
+        color: #933b00;
+        margin-top: -0.58333rem; }
+      .wap-turntable .circle-table .prize-place-item:nth-child(even) {
+        font-size: 1.54167rem;
+        color: #ff6600;
+        margin-top: -0.77083rem; }
+      .wap-turntable .circle-table .prize-place-item:nth-child(3) {
+        left: 50%;
+        width: 100%;
+        top: 50%;
+        margin-left: -50%; }
+
+/*# sourceMappingURL=style.css.map */

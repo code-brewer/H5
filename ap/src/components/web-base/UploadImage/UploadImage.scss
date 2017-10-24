@@ -1,0 +1,15 @@
+@import '../../../css/bootstrap/_variables.scss';
+.upload-image__container {
+  padding: 0 10px;
+  .upload-view {
+    position: relative;
+    width: 100%;
+    font-size: 0;
+
+    .btn {
+      display: inline-block;
+      width: 90px;
+      margin-right: 10px;
+    }
+  }
+}

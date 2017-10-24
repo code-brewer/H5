@@ -1,0 +1,76 @@
+<view class="container">
+  <view><image class="full-img" mode="widthFix" src="{{data.img}}"></image></view>
+  <view class="content">
+  	<text>{{data.description}}</text>
+  	<view class="relative">
+  	  <view class="originalCost"><text>原价<text>￥{{data.originalCost}}</text></text></view>
+  	  <view class="saveCost"><text>￥{{data.saveCost}}<text style="font-size: 12px;">起</text></text></view>
+  	  <text class="personNum">已有<text>{{data.personNum}}</text>人购买</text>
+  	</view>
+  </view>
+  <view class="con">
+    <view class="tab clearfix">
+      <view class="{{!active ? 'active' : ''}}" bindtap="tabToggle" data-bool="0">产品详情</view>
+      <view class="{{active ? 'active' : ''}}" bindtap="tabToggle" data-bool="1">购买须知</view>
+    </view>
+    <view class="proDetails" hidden="{{active}}">
+      <view class="content">
+      	<view class="section">
+      		<text class="title">产品信息</text>
+      		<text>出发地：{{data.pro.start}}</text>
+      		<text>目的地：{{data.pro.end}}</text>
+      		<text>类型：{{data.pro.type}}</text>
+      	</view>
+      	<view class="section">
+      		<text class="title">产品特色</text>
+      		<text wx:for="{{data.feature}}" wx:key="*this">{{item}}</text>
+      	</view>
+      	<view class="section">
+      		<text class="title">目的地情报</text>
+      	</view>
+      	<image wx:for="{{data.detailsImg}}" wx:key="*this" mode="widthFix" src="{{item}}"></image>
+	      <!-- <text>保险说明:</text>
+	      <text>1. 本保单承保年龄范围年龄限制在1至80周岁（含1周岁和80周岁）。</text>
+	      <text>2. 根据国务院保险监督管理机构的规定，除航空意外身故责任和和重大自然灾害意外身故责任对应的保险金额外，对于未成年人作为被保险人的人身保险，在被保险人成年之前，各保险合同约定的被保险人死亡给付的保险金额总和、被保险人死亡时各保险公司实际给付的保险金总和按以下限额执行：（一）对于被保险人不满10周岁的，不得超过人民币20万元。（二）对于被保险人已满10周岁但未满18周岁的，不得超过人民币50万元。</text>
+	      <text>3. 71至80周岁的被保险人，其“人身意外身故/伤残”的保险金为上述所载保险金额的一半，保险费维持不变。</text>
+	      <text>4. 若被保险人出险状况可同时适用不同保障项目，则以其中保险金额最高者为有效，被保险人不可同时获得多个保障项目的保险金。</text>
+	      <text>5. 本保障计划必须在被保险人离开境内日常居住地或日常工作地前投保，否则本保险单无效。</text>
+	      <text>6. 本保障计划在同一保险期限内每一被保险人投保以壹份为限，最高给付金额以保险单上载明的保险金额为限。</text>
+	      <text>7. 24小时AA国际救援热线（+8610）51295700。</text>
+	      <text>8.理赔服务电话：4006095509。</text> -->
+	    </view>
+    </view>
+    <view class="buyDetails" hidden="{{!active}}">
+    	<view class="item" bindtap="buyToggle" data-index="0">
+    		<text class="{{buyToggleArr[0] ? 'title' : 'title down'}}">费用说明</text>
+    		<view class="item-con" animation="{{animation[0]}}" hidden="{{buyToggleArr[0]}}">
+    			<text>暂无内容</text>
+    		</view>
+    	</view>
+    	<view class="item" bindtap="buyToggle" data-index="1">
+    		<text class="{{buyToggleArr[1] ? 'title' : 'title down'}}">预订须知</text>
+    		<view class="item-con" animation="{{animation[1]}}" hidden="{{buyToggleArr[1]}}">
+    			<text>暂无内容</text>
+    		</view>
+    	</view>
+    	<view class="item" bindtap="buyToggle" data-index="2">
+    		<text class="{{buyToggleArr[2] ? 'title' : 'title down'}}">退改说明</text>
+    		<view class="item-con" animation="{{animation[2]}}" hidden="{{buyToggleArr[2]}}">
+    			<text>暂无内容</text>
+    		</view>
+    	</view>
+    	<view class="item" bindtap="buyToggle" data-index="3">
+    		<text class="{{buyToggleArr[3] ? 'title' : 'title down'}}">温馨提示</text>
+    		<view class="item-con" animation="{{animation[3]}}" hidden="{{buyToggleArr[3]}}">
+    			<text>暂无内容</text>
+    		</view>
+    	</view>
+    </view>
+  </view>
+  <view class="footer">
+    <view class="price">
+      <text>订单金额：<text>￥{{data.saveCost}}</text></text>
+    </view>
+    <text class="btn" bindtap="submit">立即预订</text>
+  </view>
+</view>

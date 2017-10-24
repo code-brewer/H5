@@ -1,0 +1,63 @@
+@import '../../../css/px2rem.scss';
+.game-result {
+    margin: 0 px2rem(40px);
+    text-align: center;
+    color: white;
+    p {
+        margin: 0;
+    }
+    .msg {
+        font-size: px2rem(50px);
+        margin: px2rem(60px) 0;
+    }
+    .success {
+        font-size: px2rem(100px);
+        color: #ffb81d;
+    }
+    .wap-get-score {
+        font-size: px2rem(30px);
+        span {
+            color: #ffb81d;
+        }
+    }
+    div.wap-get-score-only {
+        p {
+            display: block;
+            margin: auto;
+            font-size: px2rem(100px);
+            &:first-child {
+                font-size: px2rem(50px);
+            }
+            span {
+                color: #ffb81d;
+            }
+        }
+    }
+    .count {
+        font-size: px2rem(32px);
+        span {
+            color: #ffb81d;
+        }
+    }
+    .wap-links {
+        margin-top: px2rem(50px);
+        a {
+            padding: px2rem(15px) px2rem(30px);
+        }
+    }
+    .wap-btns {
+        margin-top: px2rem(70px);
+        display: flex;
+        justify-content: space-between;
+        .wap-button {
+            display: inline-block;
+            text-decoration: none;
+            width: 46%;
+        }
+        .disabled {
+            background-color: #989898;
+            opacity: 1;
+            color:#fff;
+        }
+    }
+}

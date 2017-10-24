@@ -1,0 +1,54 @@
+<template name="PolicyHolder">
+	<view class="message message1">
+		<view class="formGroup">
+			<view class="li input no-icon">
+				<text>姓名</text>
+				<input type="text" bindinput="applicantInput" class="{{themeColor}}" placeholder="请输入姓名" value="{{applicantMessage.applicantName}}" placeholder-class="{{themeColor}}"/>
+			</view>
+			<picker mode="selector" range="{{applicantMessage.cardArr}}" bindchange="applicantCardChange">
+				<view class="li select no-icon">
+					<text>证件类型</text>
+					<text class="{{themeColor}}">{{applicantMessage.card}}</text>
+				</view>
+			</picker>
+			<view class="li input no-icon">
+				<text>证件号码</text>
+				<input type="text" placeholder="请输入证件号码" bindinput="cardNumberInput" value="{{applicantMessage.cardNumber}}" bindblur="aCardNumberBlur" class="{{themeColor}}" placeholder-class="{{themeColor}}"/>
+			</view>
+			<picker mode="date" value="{{applicantMessage.birthday}}" start="1910-01-01" end="2030-12-30" bindchange="birthdayChange">
+				<view class="li select no-icon">
+					<text>出生日期</text>
+					<text class="{{themeColor}}">{{applicantMessage.birthday}}</text>
+				</view>
+			</picker>
+			<view class="li no-icon">
+				<text>性别</text>
+				<view class="check" style="right: 20px;">
+				<view class="{{applicantMessage.clientGender?'active ' + themeColor:''}}" style="{{plan.Sex === 'F' && applicantMessage.same && 'color: white; border: 1px solid #999; border-right: 0; background: #999'}}" data-disabled="{{plan.Sex || ''}}"  bindtap="changeGenderBoy">男</view>
+				<view class="{{!applicantMessage.clientGender?'active ' + themeColor : ''}}" style="{{plan.Sex === 'M' && applicantMessage.same && 'color: white; border: 1px solid #999; border-right: 0; background: #999'}}" data-disabled="{{plan.Sex || ''}}"  bindtap="changeGenderGirl">女</view>
+				</view>
+			</view>
+			<view class="li input no-icon">
+				<text>手机</text>
+				<input type="number" placeholder="请输入手机号码" bindinput="iphoneInput" maxlength="11" value="{{applicantMessage.phone}}" class="{{themeColor}}" placeholder-class="{{themeColor}}"/>
+			</view>
+			<view class="li input no-icon" style="padding: 0 130px 0 80px">
+				<text>验证码</text>
+				<input type="number" placeholder="请输入验证码" bindinput="phoneCodeInput" bindblur="checkCode" maxlength="11" value="{{applicantMessage.phoneCode}}" class="{{themeColor}}" placeholder-class="{{themeColor}}"/>
+				<view class="{{'yzCode ' + themeColor}}" style="{{sendCodeTime == 0 ? '' : 'background-color: #999'}}" bindtap="getPhoneCode">{{sendCodeTime > 0 ? '重新发送('+sendCodeTime+'s)' : '获取手机验证码'}}</view>
+			</view>
+			<view class="li input no-icon">
+				<text>邮箱<text class="small">(用于接收电子保单)</text></text>
+				<input type="text" placeholder="请输入您的邮箱" bindinput="emailInput" value="{{applicantMessage.email}}" class="{{themeColor}}" placeholder-class="{{themeColor}}"/>
+			</view>
+			<view class="li checkbox no-icon">
+				<text>被保险人同投保人</text>
+				<checkbox check bindtap="sameselect" disabled="{{applicantMessage.ownNotAllowed}}" checked="{{applicantMessage.same}}" class="{{themeColor}}"/>
+			</view>
+			<view class="li checkbox last no-icon">
+				<text>已阅读投保须知和条款</text>
+				<checkbox check bindtap="readselect" checked="{{applicantMessage.read}}"/>
+			</view>
+		</view>
+	</view>
+</template>

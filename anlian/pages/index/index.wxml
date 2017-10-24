@@ -1,0 +1,92 @@
+<!-- 引用温馨提示模版 -->
+<import src="../form/tips.wxml" />
+<template is="tips" data="{{tipsText:tipsText}}" wx:if="{{tips}}"/>
+<view class="container">
+    <!-- 产品大图 -->
+    <view class="banner" wx:if="{{product.Name}}" bindtap="buyDetail">
+        <image src="{{product.LargePic}}" mode="widthFix" style="width: 100%;"></image>
+    </view>
+    <!-- /产品大图 -->
+    <!-- 产品信息 -->
+    <view class="pro" wx:if="{{product.Name}}" bindtap="buyDetail">
+        <image src="{{product.SmallPic}}" mode="widthFix"></image>
+        <view class="con">
+            <view class="text1">
+                <text class="{{themeColor}}">{{product.Name}}</text>
+            </view>
+            <view class="text2">
+                <text>{{product.Discription}}</text>
+            </view>
+            <view class="price {{themeColor}}">￥{{product.MinPrice}}
+                <text>起</text>
+            </view>
+            <text class="buy-btn">点击购买</text>
+        </view>
+    </view>
+    <!-- /产品信息 -->
+    <!-- 安联介绍信息 -->
+    <view class="tab clearfix" wx:if="{{tabs.tese}}">
+        <text wx:for="{{tabs}}" class="{{Character.current === index ? 'active ' + themeColor : ''}}" style="width: {{Character.width}}" data-current="{{index}}" bindtap="changeTab">{{item.title}}</text>
+    </view>
+    <view class="tese" wx:if="{{Character.current === 'tese'}}">
+        <image style="width:100%;height:90px" mode="widthFix" src="{{product.Character.tese.banner}}"></image>
+        <view class="li" wx:for="{{product.Character.tese.list}}">
+            <image class="tImg" src="{{item.img}}"></image>
+            <text class="{{'text ' + themeColor}}">{{item.text}}</text>
+        </view>
+    </view>
+    <view class="{{tabs.tese ? 'detail detail1' : 'detail'}}" wx:if="{{product.Name && Character.current === 'anlian'}}">
+        <image src="http://www.allianz.cn/images/wxApplet/allianz_title.png" mode="widthFix" style="width: 100%;"></image>
+        <view class="con">
+            <view class="title">
+                <text class="{{themeColor}}">关于安联</text>
+            </view>
+            <view class="section">
+                <view class="table">
+                    <image src="http://www.allianz.cn/images/wxApplet/allianz_one.png"></image>
+                    <text class="text">创始于<text class="blue">1890年</text>，世界最大的保险集团之一</text>
+                </view>
+            </view>
+            <view class="section">
+                <view class="table">
+                    <image src="http://www.allianz.cn/images/wxApplet/allianz_two.png"></image>
+                    <text class="text">服务于70多个国家的<text class="blue">8,600</text>万客户</text>
+                </view>
+            </view>
+            <view class="section">
+                <view class="table">
+                    <image src="http://www.allianz.cn/images/wxApplet/allianz_four.png"></image>
+                    <text class="text">是泰坦尼克号、911、马航MH370事故的主要承保/再保人</text>
+                </view>
+            </view>
+            <view class="section">
+                <view class="table">
+                    <image src="http://www.allianz.cn/images/wxApplet/allianz_three.png"></image>
+                    <text class="text">2016年《财富世界500强》中名列第<text class="blue">34</text>名</text>
+                </view>
+            </view>
+        </view>
+        
+    </view>
+    <!-- 安联微信号介绍 -->
+    <view class="two-code">
+        <text>在线快速理赔、保单验真、查询服务请关注\n安联官方微信服务号：allianz_cn</text>
+    </view>
+    <!-- 安联微信号介绍 -->
+    <!-- /安联介绍信息 -->
+    <!-- 尾部 -->
+    <view class="footer" wx:if="{{product.Name}}">
+        <text>©安联财险 2017.版权所有\n{{showAgencyCode ? (tempParams.c ? tempParams.c : tempParams.defaultAgencyCode) : ''}}</text>
+        <view class="m" bindlongtap="longtap"></view>
+    </view>
+    <!-- /尾部 -->
+    <!-- 导航栏 -->
+    <view class="nav" wx:if="{{product.Name}}" wx:if="{{product.Name}}">
+        <view class="{{indexActive ? 'index active' : 'index'}}" bindtap="linkMain">首页</view>
+        <view class="own" bindtap="linkOwn">我的</view>
+    </view>
+    <!-- /导航栏 -->
+    <!-- loading组件 -->
+    <loading hidden="{{isLoading}}">{{loadText}}</loading>
+    <!-- loading组件 -->
+</view>

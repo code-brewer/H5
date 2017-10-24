@@ -1,0 +1,17 @@
+@import '../../../css/px2rem.scss';
+.wap-activity-box {
+    max-height: 10rem;
+    width: px2rem(62px);
+    height: px2rem(59px);
+    top: .8rem;
+    right: 1rem;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url("http://157.255.23.23/images/fsd/ap/20170615/88_d57e2dd5_73c9_47a1_95dd_44357fc4d074.png");
+    background-size: 100%;
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+}

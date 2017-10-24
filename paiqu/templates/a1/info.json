@@ -1,0 +1,12 @@
+[{
+    "templateName": "a1",
+    "type": "无节操",
+    "count": "2",
+    "srcs": [{
+        "src": "templates/a1/action.js",
+        "id": "js"
+    }, {
+        "src": "templates/a1/images/bg.jpg",
+        "id": "bg"
+    }]
+}]

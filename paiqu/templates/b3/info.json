@@ -1,0 +1,18 @@
+[{
+    "templateName": "b3",
+    "type": "搞怪",
+    "count": "2",
+    "srcs": [{
+        "src": "templates/b3/action.js",
+        "id": "js"
+    }, {
+        "src": "templates/b3/images/bg2.png",
+        "id": "bg2"
+    }, {
+        "src": "templates/b3/images/bg1.png",
+        "id": "bg1"
+    }, {
+        "src": "templates/b3/images/Bitmap1.png",
+        "id": "Bitmap1"
+    }]
+}]

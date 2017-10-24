@@ -1,0 +1,155 @@
+@import '../../../css/px2rem.scss';
+.wap-puzzle-slider {
+    div.board-wrap {
+        width: px2rem(600px);
+        margin: px2rem(10px) auto;
+        background: #fff;
+        padding: px2rem(10px);
+        margin-top: px2rem(15px);
+        z-index: 1;
+        position: relative;
+        > p {
+            font-size: px2rem(24px);
+            color: #000;
+            margin: 0 0 1rem;
+            text-align: center;
+            > span {
+                font-size: px2rem(32px);
+                // color: $positive;
+                font-weight: bold;
+            }
+        }
+        div.board {
+            width: 100%;
+            border: px2rem(1px) solid #acacac;
+            padding-bottom: 100%;
+            position: relative;
+            a {
+                background-color: #609732;
+                color: white;
+                padding: px2rem(5px);
+                display: inline-block;
+                vertical-align: top;
+                *vertical-align: auto;
+                *zoom: 1;
+                *display: inline;
+                margin-top: px2rem(10px);
+                text-decoration: none;
+                border: px2rem(2px) solid #8abd5f;
+                border-bottom-color: #3e7213;
+                border-right-color: #3e7213;
+            }
+            div.s {
+                height: 0;
+                overflow: hidden;
+                position: absolute;
+                
+                z-index: 9;
+                -moz-transition: top 0.3s ease-out, left 0.3s ease-out;
+                -o-transition: top 0.3s ease-out, left 0.3s ease-out;
+                -webkit-transition: top 0.3s ease-out, left 0.3s ease-out;
+                transition: top 0.3s ease-out, left 0.3s ease-out;
+                &:after {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    -moz-box-sizing: border-box;
+                    -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+                    border: px2rem(1px) solid white;
+                    border-top-color: gray;
+                    border-left-color: gray;
+                }
+                
+                .i {
+                    content: '';
+                    position: absolute;
+                    height: 0;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    -webkit-background-size: cover;
+                    background-size: cover;
+                }
+            }
+            &.solved {
+                background-repeat: no-repeat;
+                background-position: center center;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                -webkit-background-size: cover;
+                background-size: cover;
+                div {
+                    display: none;
+                }
+            }
+            .start {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                top: 0;
+                right: 0;
+                text-align: center;
+                .overlay {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                }
+                .overlay {
+                    z-index: 1;
+                    opacity: .5;
+                    background: #000;
+                }
+                img {
+                    z-index: 0;
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                }
+                .play {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    width: px2rem(246px);
+                    height: px2rem(246px);
+                    margin-top: px2rem(-123px);
+                    margin-left: px2rem(-123px);
+                    background: url('http://157.255.23.23/images/fsd/ap/20170615/88_4e43e020_3aa0_4c53_8ac9_b9c574e6485d.png') center center no-repeat;
+                    background-size: 100%;
+                    z-index: 5;
+                }
+                .text {
+                    font-size: 100px;
+                    color: #fff;
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    margin-left: px2rem(-100px);
+                    margin-top: px2rem(-100px);
+                    z-index: 3;
+                    border: px2rem(5px) solid #fff;
+                    height: px2rem(200px);
+                    line-height: px2rem(195px);
+                    width: px2rem(200px);
+                    border-radius: px2rem(100px);
+                    -webkit-border-radius: px2rem(100px);
+                    -o-border-radius: px2rem(100px);
+                }
+            }
+        }
+    }
+    div.intro {
+        text-align: center;
+        h3,
+        h4 {
+            color: #fff;
+            font-family: 黑体;
+        }
+    }
+}

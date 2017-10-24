@@ -1,0 +1,15 @@
+[{
+    "templateName": "b1",
+    "type": "搞怪",
+    "count": "2",
+    "srcs": [{
+        "src": "templates/b1/action.js",
+        "id": "js"
+    }, {
+        "src": "templates/b1/images/_1.jpg",
+        "id": "_1"
+    }, {
+        "src": "templates/b1/images/_2.jpg",
+        "id": "_2"
+    }]
+}]

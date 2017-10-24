@@ -1,0 +1,16 @@
+<view class="success">
+    <view class="section">
+        <view class="flex-item">尊敬的客户,感谢您选择来自德国,世界500强安联集团财产保险服务.携手安联，畅享全球顶级服务！</view>
+        <view class="flex-item">您的保单号:
+            <text>{{params.policyRef}}</text>
+        </view>
+        <view class="flex-item" wx:if="{{params.type === 'success'}}">电子保单稍后将发送至您的邮箱,请注意查收.</view>
+        <view class="flex-item" wx:if="{{params.type === 'fail'}}">未能成功支付，请到<text bindtap="linkOrder">我的订单页</text>继续支付，或者返回<text bindtap="linkIndex">首页</text></view>
+    </view>
+    <view class="two-code">
+        <text>在线快速理赔、保单验真、查询服务请关注\n安联官方微信服务号：allianz_cn</text>
+    </view>
+    <view class="footer">
+        <text>©安联财险 2017.版权所有</text>
+    </view>
+</view>

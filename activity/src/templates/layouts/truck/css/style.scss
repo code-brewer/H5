@@ -1,0 +1,180 @@
+@import '../../../../css/px2rem.scss';
+@import '../../../../css/bootstrap/_mixins.scss';
+.wap-button {
+    background: #ed6c00;
+    height: px2rem(82px);
+    line-height: px2rem(82px);
+    width: auto;
+    font-size: px2rem(32px);
+    text-align: center;
+    color: #fff;
+    -webkit-border-radius: px2rem(41px);
+    -moz-border-radius: px2rem(41px);
+    border-radius: px2rem(41px);
+    margin: 0 auto;
+    transform: translateX(0);
+    a {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+    }
+    &.disabled {
+        opacity: 0.5;
+        pointer-events: none !important;
+    }
+}
+.game-btn-select {
+    position: relative;
+    background-color: rgba(255, 184, 29, 0);
+    background-image: url("../images/selected.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    line-height: px2rem(90px);
+    width: px2rem(235px);
+    height: px2rem(90px);
+    font-size: px2rem(34px);
+    text-align: center;
+    color: #000000;
+    margin: px2rem(63px) auto 0;
+}
+.game-btn {
+    position: relative;
+    background-color: rgba(255, 184, 29, 0);
+    background-image: url("../images/btn.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    line-height: px2rem(90px);
+    width: px2rem(235px);
+    height: px2rem(90px);
+    font-size: px2rem(34px);
+    text-align: center;
+    color: #000000;
+    margin: px2rem(63px) auto 0;
+}
+.truck-bg {
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    padding: 0 px2rem(96px);
+    background-image: url("../images/game-bg.jpg");
+}
+.app-view.view-home {
+    padding-left: px2rem(100px);
+    padding-right: px2rem(100px);
+    background-image: url("../images/bg.jpg");
+    .wap-button-view {
+position: absolute;
+        top: px2rem(800px);
+        left: 0;
+        right: 0;        
+        .wap-button {
+            background-color: rgba(255, 184, 29, 0);
+            background-image: url("http://www.soyu.cn/fsd/ap/20160929/88_82f7dd6a_c248_4c2a_a6c5_8458cc90ca51.png");
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-size: auto 100%;
+            line-height: px2rem(106px);
+            width: px2rem(275px);
+            font-size: px2rem(40px);
+            text-align: center;
+            color: #000000;
+            a {
+                display: block;
+                color: inherit;
+                text-decoration: none;
+            }
+            &.disabled {
+                opacity: 0.5;
+                // background: #ccc !important;
+                // color: #333 !important;
+                pointer-events: none !important;
+            }
+        }
+    }
+    .wap-activity-box {
+        position: absolute;
+        height: px2rem(62px);
+        width: px2rem(62px);
+        right: px2rem(100px);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .wap-static-banner {
+        position: absolute;
+        top: px2rem(70px);
+        height: 100%;
+        width: 69%;
+        margin-left: 15.5%;
+        left: 0;
+        background-repeat: no-repeat;
+        background-image: url("../images/banner.png");
+        background-size: 100%;
+    }
+    .wap-remaining-number-of-prizes {
+        position: absolute;
+        left: 0;
+        top: px2rem(570px);
+        width: 100%;
+        text-align: center;
+        color: #000000;
+        font-size: px2rem(32px);
+        .count {
+            font-size: px2rem(60px);
+            color: #ed6c00;
+            text-decoration: underline;
+        }
+    }
+    .wap-number-of-participants {
+        position: absolute;
+        left: 0;
+        top: px2rem(650px);
+        width: 100%;
+        text-align: center;
+        color: #000000;
+        font-size: px2rem(32px);
+        .count {
+            font-size: px2rem(60px);
+            color: #ed6c00;
+            text-decoration: underline;
+        }
+    }
+    .wap-rule-link {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: px2rem(20px);        a {
+            color: #000000;
+            font-size: px2rem(30px);
+            text-decoration: underline;
+            font-weight: bold;
+        }
+    }
+    .wap-rank-link {
+        position: absolute;
+        bottom: px2rem(40px);
+        right: px2rem(100px);
+        a {
+            color: #000000;
+            font-size: px2rem(30px);
+            text-decoration: underline;
+            font-weight: bold;
+        }
+    }
+    .wap-logo {
+        left: px2rem(50px);
+        .logo {
+            background-repeat: no-repeat;
+            background-image: url("../images/logo.png");
+            background-size: 100%;
+        }
+    }
+}
+.app-view {
+    height: 100%;
+    background-color: rgb(251, 229, 192);
+    background-size: px2rem(640px);
+    background: url("../images/common-bg.jpg")0 0 no-repeat;
+}
+.app-view.view-home div.modal-panel {
+    text-shadow: none;
+}

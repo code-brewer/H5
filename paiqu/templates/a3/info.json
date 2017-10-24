@@ -1,0 +1,30 @@
+[{
+    "templateName": "a3",
+    "type": "无节操",
+    "count": "6",
+    "srcs": [{
+        "src": "templates/a3/action.js",
+        "id": "js"
+    }, {
+        "src": "templates/a3/images/bg2.jpg",
+        "id": "bg2"
+    }, {
+        "src": "templates/a3/images/bg1.jpg",
+        "id": "bg1"
+    }, {
+        "src": "templates/a3/images/Bitmap1.png",
+        "id": "Bitmap1"
+    }, {
+        "src": "templates/a3/images/Bitmap2.png",
+        "id": "Bitmap2"
+    }, {
+        "src": "templates/a3/images/Bitmap3.png",
+        "id": "Bitmap3"
+    }, {
+        "src": "templates/a3/images/Bitmap4.png",
+        "id": "Bitmap4"
+    }, {
+        "src": "templates/a3/images/Bitmap5.png",
+        "id": "Bitmap5"
+    }]
+}]

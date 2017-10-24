@@ -1,0 +1,23 @@
+@import '../../../../../css/px2rem.scss';
+
+.receive-title__container {
+	position: relative;
+	margin: 0 auto px2rem(20px);
+	width: px2rem(294px);
+	height: px2rem(110px);
+}
+
+.receive-title {
+	display: block;
+	margin: px2rem(200px) auto 0;
+	width: px2rem(294px);
+	height: px2rem(110px);
+	background-repeat: no-repeat;
+	background-image: url(./images/receive-title.png);
+	background-size: contain;
+	background-color: transparent;
+	background-position: center;
+	border: 0;	
+	text-indent: -9999em;
+	outline: none;
+}
